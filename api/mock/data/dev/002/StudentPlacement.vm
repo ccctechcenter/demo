@@ -1,0 +1,27 @@
+[
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Get student placement
+## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+{
+"miscode": "002",
+"californiaCommunityCollegeId": "STU0051",
+"statewideStudentId": "B12345",
+"dataSource": 3,
+"english": 1,
+"slam": 1,
+"stem": 1,
+"isAlgI": false,
+"isAlgII": false,
+"trigonometry": false,
+"preCalculus": false,
+"calculus": false,
+"completedEleventhGrade": true,
+"cumulativeGradePointAverage": 3.4,
+"englishCompletedCourseId": 1,
+"englishCompletedCourseGrade": "A",
+"mathematicsCompletedCourseId": 1,
+"mathematicsCompletedCourseGrade": "A",
+"tstmpERPTransmit": 1553023308853,
+"tstmpSISTransmit": "2019-12-09T15:50:27.129"
+}
+]

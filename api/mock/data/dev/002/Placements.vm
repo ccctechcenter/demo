@@ -1,0 +1,87 @@
+[
+	{
+		"sisPersonId": null,
+		"placementTransaction": {
+			"misCode": "${misCode}",
+			"cccid": "STU0015",
+			"eppn": "student@college.edu",
+			"subjectArea": {
+				"competencyMapDiscipline": "Math",
+				"subjectAreaId": 1,
+				"subjectAreaVersion": 1,
+				"title": "title",
+				"sisTestName": "SISTESTNAME",
+				"optInMultipleMeasures": true,
+				"optInMmap": true,
+				"optInSelfReported": true,
+				"placements": [
+					{
+						"cb21": "A",
+						"courseGroup": "courseGroup",
+						"placementDate": 1000000000,
+						"placementId": "placementId1",
+						"elaIndicator": "English",
+						"isAssigned": true,
+						"assignedDate": 1000000000,
+						"courses": [
+							{
+								"subject": "subject",
+								"number": "number",
+								"sisTestMappingLevel": "1"
+							}
+						],
+						"placementComponentIds": [
+							"placementComponentId1",
+							"placementComponentId2"
+						]
+					}
+				],
+				"placementComponents": [
+					{
+						"type": "Mmap",
+						"cb21": "A",
+						"courseGroup": "courseGroup",
+						"placementComponentDate": 1000000000,
+						"placementComponentId": "placementComponentId1",
+						"elaIndicator": "English",
+						"trigger": "trigger",
+						"courses": [
+							{
+								"subject": "subject",
+								"number": "number",
+								"sisTestMappingLevel": "1"
+							}
+						],
+						"dataSource": "dataSource",
+						"dataSourceType": "SelfReported",
+						"dataSourceDate": 1000000000,
+						"mmapQualifiedCourses": [
+							"course-1",
+							"course-2"
+						],
+						"mmapCb21Code": "A"
+					},
+					{
+						"type": "CCCAssess",
+						"cb21": "A",
+						"courseGroup": "courseGroup",
+						"placementComponentDate": 1000000000,
+						"placementComponentId": "placementComponentId2",
+						"elaIndicator": "English",
+						"trigger": "trigger",
+						"courses": [
+							{
+								"subject": "subject",
+								"number": "number",
+								"sisTestMappingLevel": "1"
+							}
+						],
+						"assessmentAttemptId": "assessmentAttemptId",
+						"assessmentTitle": "assessmentTitle",
+						"completeDate": 1000000000
+					}
+				]
+			}
+		}
+	}
+]

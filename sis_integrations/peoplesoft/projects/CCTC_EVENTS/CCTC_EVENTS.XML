@@ -1,0 +1,947 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2848" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-15.40.04.909611</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>8411</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CCTC_EVENTS</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr>CCTC Data Change Events</szProjectDescr>
+        <szSrcDBName>CS92NEW</szSrcDBName>
+        <szSrcOprId>PWEATHERBY</szSrcOprId>
+        <szSessionId>17230eea-7c09-11ed-8b2b-77233e125b8f</szSessionId>
+        <szRunDtTm>2022-12-14-15.43.20.561081</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16777215</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>0</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease>HRMS and Campus Solutions 9.00.05.050</szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>476</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="476" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center
+Data Change Events Project
+Provides a base class for colleges to extend/implement that allows custom code (maintained by the college) to be exectued when certain data change events are triggered</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nProjectCount>2</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="1712" count="2">
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CCTC_DATAEVENT_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_DATAEVENT_PKG</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_DATAEVENT_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_EventHandlers</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.58.466192</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>156</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CCTC_DATAEVENT_PKG</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CCTC_DATAEVENT_PKG</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr>CCTC: DataEvents Package</szDescr>
+        <lDescrLongLen>686</lDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="686" count="1">
+            <row>
+              <lpszDescrLong>California Community Colleges Tech Center
+Data Events Package
+
+Contains the Data Events that are triggered by the College Adapter upon certain data changes to either built-in data tables or staging tables. Should not be customized by the College. Colleges should utilize the CCTC_COLLEGE_PKG to customize the code executed upon such events</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>CCTC_EventHandlers</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CCTC_DATAEVENT_PKG</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>CCTC_EventHandlers</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-15.43.07.561292</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1915</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CCTC_DATAEVENT_PKG</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>CCTC_EventHandlers</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>1</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>20453</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>740</lEntryNamesLen>
+              <nEntry>15</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>27</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="534" count="1">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>/**
+* Provides a base class for data change events by CCTC as a template
+* for the college to inherit/implement overrides to execute custom
+* code for such events
+*
+* Note: The College must extend this class with the name 'CCTC_COLLEGE_PKG:CCTC_CollegeEventHandlers' for
+* College Adaptor to properly pick it up and execute.
+*
+* @company CCC Tech Center
+* @version CAv4.5.0
+*/
+class CCTC_EventHandlers
+   method CCTC_EventHandlers();
+   
+   method onExampleChanged(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onStandardAppInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onInternationalAppInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onStudentPlacementInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onPromiseGrantAppInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onSharedAppInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onEnrollmentRequestSubmitted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onRequestEnrollmentDropped(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onFinAidUnitsInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onFinAidUnitsRemoved(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onStudentCohortInserted(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onStudentCohortRemoved(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method onStudentOrientationUpdated(&amp;bindVars As array of any) Returns array of array of any;
+end-class;
+
+method CCTC_EventHandlers
+   rem do nothing;
+end-method;
+
+/**
+* This function is provided as an example to show inheritance
+* for the college to implement their trigger
+
+* @param &amp;bindVars[1]: Some Id
+*/
+method onExampleChanged
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 1 Then
+      Error &quot;bindVars should have 1 element when handling the onExampleChanged event&quot;;
+   End-If;
+   
+   Local string &amp;someId = &amp;bindVars [1];
+   If None(&amp;someId) Then
+      Error &quot;someId is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a Standard Application is Inserted
+*
+* This event is triggered just once after both these actions are complete:
+* 1) a record is fully inserted into the PS_CCTC_APPL_STG table. 
+* 2) the associated supplemental questions (if any) are inserted into the PS_CCTC_APPLSQ_STG table
+* e.g. insert into PS_CCTC_APPL_STG completes, insert into PS_CCTC_APPLSQ_STG completes, event is triggered
+*
+* @param &amp;bindVars[1]: Application Id
+*/
+method onStandardAppInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 1 Then
+      Error &quot;bindVars should have 1 element when handling the onStandardAppInserted event&quot;;
+   End-If;
+   
+   Local string &amp;appid = &amp;bindVars [1];
+   If None(&amp;appid) Then
+      Error &quot;appid is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when an International Application is Inserted
+*
+* This event is triggered once after data is inserted into PS_CCTC_INTL_STG
+*
+* @param &amp;bindVars[1]: Application Id
+*/
+method onInternationalAppInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 1 Then
+      Error &quot;bindVars should have 1 element when handling the onInternationalAppInserted event&quot;;
+   End-If;
+   
+   Local string &amp;appid = &amp;bindVars [1];
+   If None(&amp;appid) Then
+      Error &quot;appid is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a Student Placement is Inserted
+*
+*This event is triggered once after data is inserted into PS_CCTC_PLCMT_STG
+*
+* @param &amp;bindVars[1] : CCC ID
+* @param &amp;bindVars[2] : Statewide Student ID
+* @param &amp;bindVars[3] : College ID (misCode)
+*/
+method onStudentPlacementInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 3 Then
+      Error &quot;bindVars should have 3 elements when handling the onStudentPlacementInserted event&quot;;
+   End-If;
+   
+   Local string &amp;cccid = &amp;bindVars [1];
+   If None(&amp;cccid) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   Local string &amp;miscd = &amp;bindVars [3];
+   If None(&amp;miscd) Then
+      Error &quot;miscd is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a CCPromise Grant Application is Inserted
+*
+* This event is triggered once after data is inserted into PS_CCTC_PMGT_STG
+*
+* @param &amp;bindVars[1]: Pmgt Id
+*/
+method onPromiseGrantAppInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 1 Then
+      Error &quot;bindVars should have 1 element when handling the onPromiseGrantAppInserted event&quot;;
+   End-If;
+   
+   Local string &amp;pmgtid = &amp;bindVars [1];
+   If None(&amp;pmgtid) Then
+      Error &quot;pmgtid is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a Shared Application is Inserted
+*
+* This event is triggered once after data is inserted into PS_CCTC_SHARED_STG
+*
+* @param &amp;bindVars[1]: Teaching Mis Code
+* @param &amp;bindVars[2]: Application Id
+*/
+method onSharedAppInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 2 Then
+      Error &quot;bindVars should have 2 elements when handling the onSharedAppInserted event&quot;;
+   End-If;
+   
+   Local string &amp;teachMisCode = &amp;bindVars [1];
+   If None(&amp;teachMisCode) Then
+      Error &quot;teachMisCode is required&quot;;
+   End-If;
+   
+   Local string &amp;appid = &amp;bindVars [2];
+   If None(&amp;appid) Then
+      Error &quot;appid is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when an Enrollment request is Submitted
+*
+* This event is triggered once after data is inserted into PS_ENRL_REQ
+*
+* @param &amp;bindVars[1]: request Id
+*/
+method onEnrollmentRequestSubmitted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 1 Then
+      Error &quot;bindVars should have 1 element when handling the onEnrollmentRequestSubmitted event&quot;;
+   End-If;
+   
+   Local string &amp;reqid = &amp;bindVars [1];
+   If None(&amp;reqid) Then
+      Error &quot;reqid is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when requesting an Enrollment be dropped
+*
+* This event is triggered once after data is updated in PS_ENRL_REQ
+*
+* @param &amp;bindVars[1]: request Id
+*/
+method onRequestEnrollmentDropped
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 1 Then
+      Error &quot;bindVars should have 1 element when handling the onEnrollmentRequestSubmitted event&quot;;
+   End-If;
+   
+   Local string &amp;reqid = &amp;bindVars [1];
+   If None(&amp;reqid) Then
+      Error &quot;reqid is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a financial aid units record is inserted
+*
+* This event is triggered once after data is inserted into PS_CCTC_FA_UNT_STG
+*
+* @param &amp;bindVars[1]: CCC ID
+* @param &amp;bindVars[2]: Term
+* @param &amp;bindVars[3]: College ID (ext mis code)
+* @param &amp;bindVars[4]: c-id
+*/
+method onFinAidUnitsInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 4 Then
+      Error &quot;bindVars should have 4 elements when handling the onFinAidUnitsInserted event&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;mis Code is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;c-id is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a financial aid units record is removed
+*
+* This event is triggered once after data is deleted from PS_CCTC_FA_UNT_STG
+*
+* @param &amp;bindVars[1]: CCC ID
+* @param &amp;bindVars[2]: Term
+* @param &amp;bindVars[3]: College ID (ext mis code)
+* @param &amp;bindVars[4]: c-id
+*/
+method onFinAidUnitsRemoved
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 4 Then
+      Error &quot;bindVars should have 4 elements when handling the onFinAidUnitsRemoved event&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;mis Code is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;c-id is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a student cohort record is added
+*
+* This event is triggered once after data is inserted into PS_CCTC_COHORT_STG
+*
+* @param &amp;bindVars[1]: CCC ID
+* @param &amp;bindVars[2]: Term
+* @param &amp;bindVars[3]: Cohort Code
+*/
+method onStudentCohortInserted
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 3 Then
+      Error &quot;bindVars should have 3 elements when handling the onStudentCohortInserted event&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;Cohort Code is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a student cohort record is removed
+*
+* This event is triggered once after data is deleted from PS_CCTC_COHORT_STG
+*
+* @param &amp;bindVars[1]: CCC ID
+* @param &amp;bindVars[2]: Term
+* @param &amp;bindVars[3]: Cohort Code
+*/
+method onStudentCohortRemoved
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 3 Then
+      Error &quot;bindVars should have 3 elements when handling the onStudentCohortRemoved event&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;Cohort Code is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+
+/**
+* This function provides an stub for the College Adaptor to 
+* execute custom college code when a student's orientation status is updated
+*
+* This event is triggered once after data in PS_STDNT_MATRIC is updated
+*
+* @param &amp;bindVars[1]: emplid
+* @param &amp;bindVars[2]: Term
+* @param &amp;bindVars[3]: institution
+* @param &amp;bindVars[4]: acad_career
+* @param &amp;bindVars[5]: newOrientationStatus
+*/
+method onStudentOrientationUpdated
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 5 Then
+      Error &quot;bindVars should have 5 elements when handling the onStudentOrientationUpdated event&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;emplid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [5]) Then
+      Error &quot;newOrientationStatus is required&quot;;
+   End-If;
+   
+   Return CreateArray(CreateArrayAny(1));
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>t1MAAAQDAgEBAAAAvAIAAAAAAABoJEMAQwBUAEMAXwBEAEEAVABBAEUAVgBFAE4AVABfAFAASwBHAGskQwBDAFQAQwBfAEUAdgBlAG4AdABIAGEAbgBkAGwAZQByAHMADBJPAG4ARQB4AGUAYwB1AHQAZQAAAAAAAAAAAP97BwAAAQABAP8AAAAAAAAAADQyADAAMgAyAC0AMQAyAC0AMQA0AC0AMQA1AC4ANAAzAC4AMAA3AC4ANQA2ADEAMgA5ADIANDIAMAAyADIALQAxADIALQAxADQALQAxADUALgA0ADMALgAwADcALgA1ADYAMQAyADkAMgAUUABXAEUAQQBUAEgARQBSAEIAWQAAAP/lTwAA/wEAAAAk8AL/8AIAAC8AKgAqAAoAKgAgAFAAcgBvAHYAaQBkAGUAcwAgAGEAIABiAGEAcwBlACAAYwBsAGEAcwBzACAAZgBvAHIAIABkAGEAdABhACAAYwBoAGEAbgBnAGUAIABlAHYAZQBuAHQAcwAgAGIAeQAgAEMAQwBUAEMAIABhAHMAIABhACAAdABlAG0AcABsAGEAdABlAAoAKgAgAGYAbwByACAAdABoAGUAIABjAG8AbABsAGUAZwBlACAAdABvACAAaQBuAGgAZQByAGkAdAAvAGkAbQBwAGwAZQBtAGUAbgB0ACAAbwB2AGUAcgByAGkAZABlAHMAIAB0AG8AIABlAHgAZQBjAHUAdABlACAAYwB1AHMAdABvAG0ACgAqACAAYwBvAGQAZQAgAGYAbwByACAAcwB1AGMAaAAgAGUAdgBlAG4AdABzAAoAKgAKACoAIABOAG8AdABlADoAIABUAGgAZQAgAEMAbwBsAGwAZQBnAGUAIABtAHUAcwB0ACAAZQB4AHQAZQBuAGQAIAB0AGgAaQBzACAAYwBsAGEAcwBzACAAdwBpAHQAaAAgAHQAaABlACAAbgBhAG0AZQAgACcAQwBDAFQAQwBfAEMATwBMAEwARQBHAEUAXwBQAEsARwA6AEMAQwBUAEMAXwBDAG8AbABsAGUAZwBlAEUAdgBlAG4AdABIAGEAbgBkAGwAZQByAHMAJwAgAGYAbwByAAoAKgAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAAcAByAG8AcABlAHIAbAB5ACAAcABpAGMAawAg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AG8AdQBsAGQAIABoAGEAdgBlACAAMQAgAGUAbABlAG0AZQBuAHQAIAB3AGgAZQBuACAAaABhAG4AZABsAGkAbgBnACAAdABoAGUAIABvAG4ARQB4AGEAbQBwAGwAZQBDAGgAYQBuAGcAZQBkACAAZQB2AGUAbgB0ABUaFU9EQAxzAHQAcgBpAG4AZwABDiYAcwBvAG0AZQBJAGQABgESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAQAAAAAAAAAAAAAAAAAATRUcCghOAG8AbgBlAAsBDiYAcwBvAG0AZQBJAGQAFB8bFiRzAG8AbQBlAEkAZAAgAGkAcwAgAHIAZQBxAHUAaQByAGUAZAAVGhVPOAoWQwByAGUAYQB0AGUAQQByAHIAYQB5AAsKHEMAcgBlAGEAdABlAEEAcgByAGEAeQBBAG4AeQALUBIAAAABAAAAAAAAAAAAAAAAAAAUFBVkFS1PJB4E/x4EAAAvACoAKgAKACoAIABUAGgAaQBzACAAZgB1AG4AYwB0AGkAbwBuACAAcAByAG8AdgBpAGQAZQBzACAAYQBuACAAcwB0AHUAYgAgAGYAbwByACAAdABoAGUAIABDAG8AbABsAGUAZwBlACAAQQBkAGEAcAB0AG8AcgAgAHQAbwAgAAoAKgAgAGUAeABlAGMAdQB0AGUAIABjAHUAcwB0AG8AbQAgAGMAbwBsAGwAZQBnAGUAIABjAG8AZABlACAAdwBoAGUAbgAgAGEAIABTAHQAYQBuAGQAYQByAGQAIABBAHAAcABsAGkAYwBhAHQAaQBvAG4AIABpAHMAIABJAG4AcwBlAHIAdABlAGQACgAqAAoAKgAgAFQAaABpAHMAIABlAHYAZQBuAHQAIABpAHMAIAB0AHIAaQBnAGcAZQByAGUAZAAgAGoAdQBzAHQAIABvAG4AYwBlACAAYQBmAHQAZQByACAAYgBvAHQAaAAgAHQAaABlAHMAZQAgAGEAYwB0AGkAbwBuAHMAIABhAHIAZQAgAGMAbwBtAHAAbABlAHQAZQA6AAoAKgAgADEAKQAgAGEAIAByAGUAYwBvAHIAZAAgAGkAcwAgAGYAdQBsAGwAeQAgAGkAbgBzAGUAcgB0AGUAZAAgAGkAbgB0AG8AIAB0AGgAZQAgAFAAUwBfAEMAQwBUAEMAXwBBAFAAUABMAF8AUwBUAEcAIAB0AGEAYgBsAGUALgAgAAoAKgAgADIAKQAgAHQAaABlACAAYQBzAHMAbwBjAGkAYQB0AGUAZAAgAHMAdQBwAHAAbABlAG0AZQBuAHQAYQBsACAAcQB1AGUAcwB0AGkAbwBuAHMAIAAoAGkAZgAgAGEAbgB5ACkAIABhAHIAZQAgAGkAbgBzAGUAcgB0AGUAZAAgAGkAbgB0AG8AIAB0AGgAZQAgAFAAUwBfAEMAQwBUAEMAXwBBAFAAUABMAFMAUQBfAFMAVABHACAAdABhAGIAbABlAAoAKgAgAGUALgBnAC4AIABpAG4AcwBlAHIAdAAgAGkAbgB0AG8AIABQAFMAXwBDAEMAVABDAF8AQQBQAFAATABfAFMAVABHACAAYwBvAG0AcABsAGUAdABlAHMALAAgAGkAbgBzAGUAcgB0ACAAaQBuAHQAbwAgAFAAUwBfAEMAQwBUAEMAXwBBAFAAUABMAFMAUQBfAFMAVABHACAAYwBvAG0AcABsAGUAdABlAHMALAAgAGUAdgBlAG4AdAAgAGkAcwAgAHQAcgBpAGcAZwBlAHIAZQBkAAoAKgAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMQBdADoAIABBAHAAcABsAGkAYwBhAHQAaQBvAG4AIABJAGQACgAqAC8AY0EKKm8AbgBTAHQAYQBuAGQAYQByAGQAQQBwAHAASQBuAHMAZQByAHQAZQBkAC1tMiYAYgBpAG4AZABWAGEAcgBzACAAYQBzACAAQQByAHIAYQB5ACAAbwBmACAAQQBuAHkAbSpSAGUAdAB1AHIAbgBzACAAQQByAHIAYQB5ADIAIABvAGYAIABBAG4AeQBPHAESJgBiAGkAbgBkAFYAYQByAHMABQoGTABlAG4AEFASAAAAAQAAAAAAAAAAAAAAAAAAHxsWmGIAaQBuAGQAVgBhAHIAcwAgAHMAaABvAHUAbABkACAAaABhAHYAZQAgADEAIABlAGwAZQBtAGUAbgB0ACAAdwBoAGUAbgAgAGgAYQBuAGQAbABpAG4AZwAgAHQAaABlACAAbwBuAFMAdABhAG4AZABhAHIAZABBAHAAcABJAG4AcwBlAHIAdABlAGQAIABlAHYAZQBuAHQAFRoVT0RADHMAdAByAGkAbgBnAAEMJgBhAHAAcABpAGQABgESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAQAAAAAAAAAAAAAAAAAATRUcCghOAG8AbgBlAAsBDCYAYQBwAHAAaQBkABQfGxYiYQBwAHAAaQBkACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU84ChZDAHIAZQBhAHQAZQBBAHIAcgBhAHkACwocQwByAGUAYQB0AGUAQQByAHIAYQB5AEEAbgB5AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQUFWQVLU8kCgL/CgIAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABzAHQAdQBiACAAZgBvAHIAIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZQB4AGUAYwB1AHQAZQAgAGMAdQBzAHQAbwBtACAAYwBvAGwAbABlAGcAZQAgAGMAbwBkAGUAIAB3AGgAZQBuACAAYQBuACAASQBuAHQAZQByAG4AYQB0AGkAbwBuAGEAbAAgAEEAcABwAGwAaQBjAGEAdABpAG8AbgAgAGkAcwAgAEkAbgBzAGUAcgB0AGUAZAAKACoACgAqACAAVABoAGkAcwAgAGUAdgBlAG4AdAAgAGkAcwAgAHQAcgBpAGcAZwBlAHIAZQBkACAAbwBuAGMAZQAgAGEAZgB0AGUAcgAgAGQAYQB0AGEAIABpAHMAIABpAG4AcwBlAHIAdABlAGQAIABpAG4AdABvACAAUABTAF8AQwBDAFQAQwBfAEkATgBUAEwAXwBTAFQARwAKACoACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAQQBwAHAAbABpAGMAYQB0AGkAbwBuACAASQBkAAoAKgAvAGNBCjRvAG4ASQBuAHQAZQByAG4AYQB0AGkAbwBuAGEAbABBAHAAcABJAG4AcwBlAHIAdABlAGQALW0yJgBiAGkAbgBkAFYAYQByAHMAIABhAHMAIABBAHIAcgBhAHkAIABvAGYAIABBAG4AeQBtKlIAZQB0AHUAcgBuAHMAIABBAHIAcgBhAHkAMgAgAG8AZgAgAEEAbgB5AE8cARImAGIAaQBuAGQAVgBh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cgBlAGEAdABlAEEAcgByAGEAeQBBAG4AeQALUBIAAAABAAAAAAAAAAAAAAAAAAAUFBVkFS1PJP4B//4BAAAvACoAKgAKACoAIABUAGgAaQBzACAAZgB1AG4AYwB0AGkAbwBuACAAcAByAG8AdgBpAGQAZQBzACAAYQBuACAAcwB0AHUAYgAgAGYAbwByACAAdABoAGUAIABDAG8AbABsAGUAZwBlACAAQQBkAGEAcAB0AG8AcgAgAHQAbwAgAAoAKgAgAGUAeABlAGMAdQB0AGUAIABjAHUAcwB0AG8AbQAgAGMAbwBsAGwAZQBnAGUAIABjAG8AZABlACAAdwBoAGUAbgAgAGEAIABDAEMAUAByAG8AbQBpAHMAZQAgAEcAcgBhAG4AdAAgAEEAcABwAGwAaQBjAGEAdABpAG8AbgAgAGkAcwAgAEkAbgBzAGUAcgB0AGUAZAAKACoACgAqACAAVABoAGkAcwAgAGUAdgBlAG4AdAAgAGkAcwAgAHQAcgBpAGcAZwBlAHIAZQBkACAAbwBuAGMAZQAgAGEAZgB0AGUAcgAgAGQAYQB0AGEAIABpAHMAIABpAG4AcwBlAHIAdABlAGQAIABpAG4AdABvACAAUABTAF8AQwBDAFQAQwBfAFAATQBHAFQAXwBTAFQARwAKACoACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAUABtAGcAdAAgAEkAZAAKACoALwBjQQoybwBuAFAAcgBvAG0AaQBzAGUARwByAGEAbgB0AEEAcABwAEkAbgBzAGUAcgB0AGUAZAAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATxwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAEAAAAAAAAAAAAAAAAAAB8bFqBiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAAxACAAZQBsAGUAbQBlAG4AdAAgAHcAaABlAG4AIABoAGEAbgBkAGwAaQBuAGcAIAB0AGgAZQAgAG8AbgBQAHIAbwBtAGkAcwBlAEcAcgBhAG4AdABBAHAAcABJAG4AcwBlAHIAdABlAGQAIABlAHYAZQBuAHQAFRoVT0RADHMAdAByAGkAbgBnAAEOJgBwAG0AZwB0AGkAZAAGARImAGIAaQBuAGQAVgBhAHIAcwBMUBIAAAABAAAAAAAAAAAAAAAAAABNFRwKCE4AbwBuAGUACwEOJgBwAG0AZwB0AGkAZAAUHxsWJHAAbQBnAHQAaQBkACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU84ChZDAHIAZQBhAHQAZQBBAHIAcgBhAHkACwocQwByAGUAYQB0AGUAQQByAHIAYQB5AEEAbgB5AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQUFWQVLU8kUAL/UAIAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABzAHQAdQBiACAAZgBvAHIAIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZQB4AGUAYwB1AHQAZQAgAGMAdQBzAHQAbwBtACAAYwBvAGwAbABlAGcAZQAgAGMAbwBkAGUAIAB3AGgAZQBuACAAYQAgAFMAaABhAHIAZQBkACAAQQBwAHAAbABpAGMAYQB0AGkAbwBuACAAaQBzACAASQBuAHMAZQByAHQAZQBkAAoAKgAKACoAIABUAGgAaQBzACAAZQB2AGUAbgB0ACAAaQBzACAAdAByAGkAZwBnAGUAcgBlAGQAIABvAG4AYwBlACAAYQBmAHQAZQByACAAZABhAHQAYQAgAGkAcwAgAGkAbgBzAGUAcgB0AGUAZAAgAGkAbgB0AG8AIABQAFMAXwBDAEMAVABDAF8AUwBIAEEAUgBFAEQAXwBTAFQARwAKACoACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAVABlAGEAYwBoAGkAbgBnACAATQBpAHMAIABDAG8AZABlAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAyAF0AOgAgAEEAcABwAGwAaQBjAGEAdABpAG8AbgAgAEkAZAAKACoALwBjQQombwBuAFMAaABhAHIAZQBkAEEAcABw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QQByAHIAYQB5AEEAbgB5AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQUFWQVLU8k6AH/6AEAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABzAHQAdQBiACAAZgBvAHIAIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZQB4AGUAYwB1AHQAZQAgAGMAdQBzAHQAbwBtACAAYwBvAGwAbABlAGcAZQAgAGMAbwBkAGUAIAB3AGgAZQBuACAAcgBlAHEAdQBlAHMAdABpAG4AZwAgAGEAbgAgAEUAbgByAG8AbABsAG0AZQBuAHQAIABiAGUAIABkAHIAbwBwAHAAZQBkAAoAKgAKACoAIABUAGgAaQBzACAAZQB2AGUAbgB0ACAAaQBzACAAdAByAGkAZwBnAGUAcgBlAGQAIABvAG4AYwBlACAAYQBmAHQAZQByACAAZABhAHQAYQAgAGkAcwAgAHUAcABkAGEAdABlAGQAIABpAG4AIABQAFMAXwBFAE4AUgBMAF8AUgBFAFEACgAqAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAxAF0AOgAgAHIAZQBxAHUAZQBzAHQAIABJAGQACgAqAC8AY0EKNG8AbgBSAGUAcQB1AGUAcwB0AEUAbgByAG8AbABsAG0AZQBuAHQARAByAG8AcABwAGUAZAAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATxwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAEAAAAAAAAAAAAAAAAAAB8bFqZiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAAxACAAZQBsAGUAbQBlAG4AdAAgAHcAaABlAG4AIABoAGEAbgBkAGwAaQBuAGcAIAB0AGgAZQAgAG8AbgBFAG4AcgBvAGwAbABtAGUAbgB0AFIAZQBxAHUAZQBzAHQAUwB1AGIAbQBpAHQAdABlAGQAIABlAHYAZQBuAHQAFRoVT0RADHMAdAByAGkAbgBnAAEMJgByAGUAcQBpAGQABgESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAQAAAAAAAAAAAAAAAAAATRUcCghOAG8AbgBlAAsBDCYAcgBlAHEAaQBkABQfGxYicgBlAHEAaQBkACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU84ChZDAHIAZQBhAHQAZQBBAHIAcgBhAHkACwocQwByAGUAYQB0AGUAQQByAHIAYQB5AEEAbgB5AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQUFWQVLU8k0AL/0AIAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABzAHQAdQBiACAAZgBvAHIAIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZQB4AGUAYwB1AHQAZQAgAGMAdQBzAHQAbwBtACAAYwBvAGwAbABlAGcAZQAgAGMAbwBkAGUAIAB3AGgAZQBuACAAYQAgAGYAaQBuAGEAbgBjAGkAYQBsACAAYQBpAGQAIAB1AG4AaQB0AHMAIAByAGUAYwBvAHIAZAAgAGkAcwAgAGkAbgBzAGUAcgB0AGUAZAAKACoACgAqACAAVABoAGkAcwAgAGUAdgBlAG4AdAAgAGkAcwAgAHQAcgBpAGcAZwBlAHIAZQBkACAAbwBuAGMAZQAgAGEAZgB0AGUAcgAgAGQAYQB0AGEAIABpAHMAIABpAG4AcwBlAHIAdABlAGQAIABpAG4AdABvACAAUABTAF8AQwBDAFQAQwBfAEYAQQBfAFUATgBUAF8AUwBUAEcACgAqAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAxAF0AOgAgAEMAQwBDACAASQBEAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAyAF0AOgAgAFQAZQByAG0ACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADMAXQA6ACAAQwBvAGwAbABlAGcAZQAgAEkARAAgACgAZQB4AHQAIABtAGkAcwAgAGMAbwBkAGUAKQAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsANABdADoAIABjAC0AaQBkAAoAKgAvAGNBCipvAG4ARgBpAG4AQQBpAGQAVQBuAGkAdABzAEkAbgBzAGUAcgB0AGUAZAAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATxwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAQAAAAAAAAAAAAAAAAAAB8bFppiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAA0ACAAZQBsAGUAbQBlAG4AdABzACAAdwBoAGUAbgAgAGgAYQBuAGQAbABpAG4AZwAgAHQAaABlACAAbwBuAEYAaQBuAEEAaQBkAFUAbgBpAHQAcwBJAG4AcwBlAHIAdABlAGQAIABlAHYAZQBuAHQAFRoVTxwKCE4AbwBuAGUACwESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAQAAAAAAAAAAAAAAAAAATRQfGxYiYwBjAGMAaQBkACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU8cCghOAG8AbgBlAAsBEiYAYgBpAG4AZABWAGEAcgBzAExQEgAAAAIAAAAAAAAAAAAAAAAAAE0UHxsWIHQAZQByAG0AIABpAHMAIAByAGUAcQB1AGkAcgBlAGQAFRoVTxwKCE4AbwBuAGUACwESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAwAAAAAAAAAAAAAAAAAATRQfGxYobQBpAHMAIABDAG8AZABlACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU8cCghOAG8AbgBlAAsBEiYAYgBpAG4AZABWAGEAcgBzAExQEgAAAAQAAAAAAAAAAAAAAAAAAE0UHxsWIGMALQBpAGQAIABpAHMAIAByAGUAcQB1AGkAcgBlAGQAFRoVTzgKFkMAcgBlAGEAdABlAEEAcgByAGEAeQALChxDAHIAZQBhAHQAZQBBAHIAcgBhAHkAQQBuAHkAC1ASAAAAAQAAAAAAAAAAAAAAAAAAFBQVZBUtTyTMAv/MAgAALwAqACoACgAqACAAVABoAGkAcwAgAGYAdQBuAGMAdABpAG8AbgAgAHAAcgBvAHYAaQBkAGUAcwAgAGEAbgAgAHMAdAB1AGIAIABmAG8AcgAgAHQAaABlACAAQwBvAGwAbABlAGcAZQAgAEEAZABhAHAAdABvAHIAIAB0AG8AIAAKACoAIABlAHgAZQBjAHUAdABlACAAYwB1AHMAdABvAG0AIABjAG8AbABsAGUAZwBlACAAYwBvAGQAZQAgAHcAaABlAG4AIABhACAAZgBpAG4AYQBuAGMAaQBhAGwAIABhAGkAZAAgAHUAbgBpAHQAcwAgAHIAZQBjAG8AcgBkACAAaQBzACAAcgBlAG0AbwB2AGUAZAAKACoACgAqACAAVABoAGkAcwAgAGUAdgBlAG4AdAAgAGkAcwAgAHQAcgBpAGcAZwBlAHIAZQBkACAAbwBuAGMAZQAgAGEAZgB0AGUAcgAgAGQAYQB0AGEAIABpAHMAIABkAGUAbABlAHQAZQBkACAAZgByAG8AbQAgAFAAUwBfAEMAQwBUAEMAXwBGAEEAXwBVAE4AVABfAFMAVABHAAoAKgAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMQBdADoAIABDAEMAQwAgAEkARAAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMgBdADoAIABUAGUAcgBtAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAzAF0AOgAgAEMAbwBsAGwAZQBnAGUAIABJAEQAIAAoAGUAeAB0ACAAbQBpAHMAIABjAG8AZABlACkACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADQAXQA6ACAAYwAtAGkAZAAKACoALwBjQQoobwBuAEYAaQBuAEEAaQBkAFUAbgBpAHQAcwBSAGUAbQBvAHYAZQBkAC1tMiYAYgBpAG4AZABWAGEAcgBzACAAYQBzACAAQQByAHIAYQB5ACAAbwBmACAAQQBuAHkAbSpSAGUAdAB1AHIAbgBzACAAQQByAHIAYQB5ADIAIABvAGYAIABBAG4AeQBPHAESJgBiAGkAbgBkAFYAYQByAHMABQoGTABlAG4A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HxsWIHQAZQByAG0AIABpAHMAIAByAGUAcQB1AGkAcgBlAGQAFRoVTxwKCE4AbwBuAGUACwESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAwAAAAAAAAAAAAAAAAAATRQfGxYuQwBvAGgAbwByAHQAIABDAG8AZABlACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU84ChZDAHIAZQBhAHQAZQBBAHIAcgBhAHkACwocQwByAGUAYQB0AGUAQQByAHIAYQB5AEEAbgB5AAtQEgAAAAEAAAAAAAAAAAAAAAAAABQUFWQVLU8kbgL/bgIAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABzAHQAdQBiACAAZgBvAHIAIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZQB4AGUAYwB1AHQAZQAgAGMAdQBzAHQAbwBtACAAYwBvAGwAbABlAGcAZQAgAGMAbwBkAGUAIAB3AGgAZQBuACAAYQAgAHMAdAB1AGQAZQBuAHQAIABjAG8AaABvAHIAdAAgAHIAZQBjAG8AcgBkACAAaQBzACAAcgBlAG0AbwB2AGUAZAAKACoACgAqACAAVABoAGkAcwAgAGUAdgBlAG4AdAAgAGkAcwAgAHQAcgBpAGcAZwBlAHIAZQBkACAAbwBuAGMAZQAgAGEAZgB0AGUAcgAgAGQAYQB0AGEAIABpAHMAIABkAGUAbABlAHQAZQBkACAAZgByAG8AbQAgAFAAUwBfAEMAQwBUAEMAXwBDAE8ASABPAFIAVABfAFMAVABHAAoAKgAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMQBdADoAIABDAEMAQwAgAEkARAAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMgBdADoAIABUAGUAcgBtAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAzAF0AOgAgAEMAbwBoAG8AcgB0ACAAQwBvAGQAZQAKACoALwBjQQosbwBuAFMAdAB1AGQAZQBuAHQAQwBvAGgAbwByAHQAUgBlAG0AbwB2AGUAZAAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATxwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAMAAAAAAAAAAAAAAAAAAB8bFpxiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAAzACAAZQBsAGUAbQBlAG4AdABzACAAdwBoAGUAbgAgAGgAYQBuAGQAbABpAG4AZwAgAHQAaABlACAAbwBuAFMAdAB1AGQAZQBuAHQAQwBvAGgAbwByAHQAUgBlAG0AbwB2AGUAZAAgAGUAdgBlAG4AdAAVGhVPHAoITgBvAG4AZQALARImAGIAaQBuAGQAVgBhAHIAcwBMUBIAAAABAAAAAAAAAAAAAAAAAABNFB8bFiJjAGMAYwBpAGQAIABpAHMAIAByAGUAcQB1AGkAcgBlAGQAFRoVTxwKCE4AbwBuAGUACwESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAgAAAAAAAAAAAAAAAAAATRQfGxYgdABlAHIAbQAgAGkAcwAgAHIAZQBxAHUAaQByAGUAZAAVGhVPHAoITgBvAG4AZQALARImAGIAaQBuAGQAVgBhAHIAcwBMUBIAAAADAAAAAAAAAAAAAAAAAABNFB8bFi5DAG8AaABvAHIAdAAgAEMAbwBkAGUAIABpAHMAIAByAGUAcQB1AGkAcgBlAGQAFRoVTzgKFkMAcgBlAGEAdABlAEEAcgByAGEAeQALChxDAHIAZQBhAHQAZQBBAHIAcgBhAHkAQQBuAHkAC1ASAAAAAQAAAAAAAAAAAAAAAAAAFBQVZBUtT08kEAP/EAMAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABzAHQAdQBiACAAZgBvAHIAIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZQB4AGUAYwB1AHQAZQAgAGMAdQBzAHQAbwBtACAAYwBvAGwAbABlAGcAZQAgAGMAbwBkAGUAIAB3AGgAZQBuACAAYQAgAHMAdAB1AGQAZQBuAHQAJwBzACAAbwByAGkAZQBuAHQAYQB0AGkAbwBuACAAcwB0AGEAdAB1AHMAIABpAHMAIAB1AHAAZABhAHQAZQBkAAoAKgAKACoAIABUAGgAaQBzACAAZQB2AGUAbgB0ACAAaQBzACAAdAByAGkAZwBnAGUAcgBlAGQAIABvAG4AYwBlACAAYQBmAHQAZQByACAAZABhAHQAYQAgAGkAbgAgAFAAUwBfAFMAVABEAE4AVABfAE0AQQBUAFIASQBDACAAaQBzACAAdQBwAGQAYQB0AGUAZAAKACoACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAZQBtAHAAbABpAGQACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADIAXQA6ACAAVABlAHIAbQAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMwBdADoAIABpAG4AcwB0AGkAdAB1AHQAaQBvAG4ACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADQAXQA6ACAAYQBjAGEAZABfAGMAYQByAGUAZQByAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwA1AF0AOgAgAG4AZQB3AE8AcgBpAGUAbgB0AGEAdABpAG8AbgBTAHQAYQB0AHUAcwAKACoALwBjQQo2bwBuAFMAdAB1AGQAZQBuAHQATwByAGkAZQBuAHQAYQB0AGkAbwBuAFUAcABkAGEAdABlAGQALW0yJgBiAGkAbgBkAFYAYQByAHMAIABhAHMAIABBAHIAcgBhAHkAIABvAGYAIABBAG4AeQBtKlIAZQB0AHUAcgBuAHMAIABBAHIAcgBhAHkAMgAgAG8AZgAgAEEAbgB5AE8cARImAGIAaQBuAGQAVgBhAHIAcwAFCgZMAGUAbgAQUBIAAAAFAAAAAAAAAAAAAAAAAAAfGxamYgBpAG4AZABWAGEAcgBzACAAcwBoAG8AdQBsAGQAIABoAGEAdgBlACAANQAgAGUAbABlAG0AZQBuAHQAcwAgAHcAaABlAG4AIABoAGEAbgBkAGwAaQBu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</peoplecode_blob>
+  </instance>

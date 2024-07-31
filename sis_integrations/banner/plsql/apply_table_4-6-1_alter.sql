@@ -1,0 +1,3 @@
+ACCEPT owner CHAR PROMPT 'Adaptor user: ';
+ALTER TABLE "&owner".SZRAPLY ADD (  STUDENT_PARENT VARCHAR2(1 CHAR) );
+/

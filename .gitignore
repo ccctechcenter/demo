@@ -1,0 +1,24 @@
+target/
+newman-run*
+
+adaptor*.log
+spring.log
+hsperfdata_root/
+application-local.properties
+/bin/
+
+# Intellij files
+.idea/
+*.iml
+
+# For eclipse users
+.classpath
+.project
+.settings/
+
+# OS specific
+.DS_Store
+
+charts/
+requirements.lock
+values-dns.yaml

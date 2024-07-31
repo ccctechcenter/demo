@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ccctc</groupId>
+    <artifactId>college-adaptor</artifactId>
+    <version>4.12.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>college-adaptor</name>
+    <description>College Adaptor</description>
+
+    <properties>
+        <!--
+        External libraries
+        -->
+        <groovy.version>2.4.7</groovy.version>
+        <jackson.version>2.9.5</jackson.version>
+        <jsch.version>0.1.53</jsch.version>
+        <lombok.version>1.16.20</lombok.version>
+        <springfox-swagger.version>2.4.0</springfox-swagger.version>
+        <spring-boot-version>2.2.1.RELEASE</spring-boot-version>
+        <spring-cloud-dependencies.version>Greenwich.SR3</spring-cloud-dependencies.version>
+        <spring-webmvc-version>5.2.1.RELEASE</spring-webmvc-version>
+        <log4j2.version>2.17.1</log4j2.version>
+
+        <!--
+        External plugins
+        -->
+        <spring-boot-maven-plugin-version>2.2.1.RELEASE</spring-boot-maven-plugin-version>
+        <dockerfile-maven-plugin-version>1.3.4</dockerfile-maven-plugin-version>
+        <git-commit-id-plugin-version>2.2.2</git-commit-id-plugin-version>
+
+        <!--
+        Misc properties
+        -->
+        <banner-version>v${project.version}</banner-version>
+        <banner-title>${project.groupId}.${project.artifactId}</banner-title>
+        <docker.image.prefix>ccctechcenter</docker.image.prefix>
+        <java.version>1.8</java.version>
+        <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
+        <miscode>001</miscode>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.builtBy>${user.name}</project.builtBy>
+        <project.finalName>${project.groupId}.${project.artifactId}-${project.version}</project.finalName>
+        <project.timestamp>${maven.build.timestamp}</project.timestamp>
+
+    </properties>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring-webmvc-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-core</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.apache.logging.log4j</groupId>
+                    <artifactId>log4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j2.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.hibernate</groupId>
+                    <artifactId>hibernate-validator</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
+        <!-- using @ConfigurationProperties -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.groovy</groupId>
+            <artifactId>groovy-all</artifactId>
+            <version>${groovy.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.gpars</groupId>
+            <artifactId>gpars</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+        <dependency><!--Jasypt support in spring properties -->
+            <groupId>com.github.ulisesbocchio</groupId>
+            <artifactId>jasypt-spring-boot-starter</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency><!--Swagger Ui Integration -->
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox-swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- updated jackson version w/ Java 8 date/time support -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-parameter-names</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jdk8</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <!-- Test Dependencies -->
+        <dependency>
+            <groupId>com.github.stephenc.jcip</groupId>
+            <artifactId>jcip-annotations</artifactId>
+            <version>1.0-1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-spring</artifactId>
+            <version>1.3-groovy-2.4</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-core</artifactId>
+            <version>1.3-groovy-2.4</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Optional dependencies for using Spock -->
+        <dependency> <!-- enables mocking of classes (in addition to interfaces) -->
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>3.3.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency> <!-- enables mocking of classes without default constructor (together with CGLIB) -->
+            <groupId>org.objenesis</groupId>
+            <artifactId>objenesis</artifactId>
+            <version>3.1</version>
+        </dependency>
+        <dependency> <!-- Hamcrest matchers -->
+            <groupId>org.hamcrest</groupId>
+            <artifactId>hamcrest-core</artifactId>
+            <version>2.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.skyscreamer</groupId>
+            <artifactId>jsonassert</artifactId>
+            <version>1.5.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.ojdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>19.3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>11.2.0.jre8</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>${jsch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <!--
+        Caffeine Cache
+        -->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+        <!--
+        Apache Velocity
+        -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-tools</artifactId>
+            <version>2.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.moxy -->
+        <dependency>
+            <groupId>org.eclipse.persistence</groupId>
+            <artifactId>org.eclipse.persistence.moxy</artifactId>
+            <version>2.6.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Colleague DMI Client -->
+        <dependency>
+            <groupId>org.ccctechcenter</groupId>
+            <artifactId>colleague-dmi-client</artifactId>
+            <version>1.2.1</version>
+        </dependency>
+
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!--
+            spring parent defines versions used above as part of spring boot version release
+            -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring-boot-version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud-dependencies.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/deploy-env</directory>
+                <filtering>true</filtering>
+                <targetPath>${project.build.directory}/deploy-env</targetPath>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/test/resources</directory>
+            </testResource>
+        </testResources>
+        <plugins>
+            <!-- Add groovy scripts to our build, however, they are excluded later from the jar file as they
+                 are called dynamically. -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>groovy-scripts</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- JAXB xjc plugin that invokes the xjc compiler to compile XML schema into Java classes.-->
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.13.3</version>
+                <configuration>
+                    <verbose>true</verbose>
+                    <schemaDirectory>${project.basedir}/src/main/resources/xsd/pesc</schemaDirectory>
+                    <generateDirectory>${project.build.directory}/generated-sources/jaxb/xsd/pesc</generateDirectory>
+                    <noFileHeader>true</noFileHeader>
+                    <episode>false</episode>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>generate</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>2.7</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.shared</groupId>
+                        <artifactId>maven-filtering</artifactId>
+                        <version>1.3</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <useBuildFilters>true</useBuildFilters>
+                    <delimiters>
+                        <delimiter>${*}</delimiter>
+                        <delimiter>@</delimiter>
+                    </delimiters>
+                </configuration>
+            </plugin>
+            <!-- generate git properties file -->
+            <plugin>
+                <groupId>pl.project13.maven</groupId>
+                <artifactId>git-commit-id-plugin</artifactId>
+                <version>${git-commit-id-plugin-version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>revision</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <verbose>true</verbose>
+                    <dateFormat>yyyy-MM-dd'T'HH:mm:ssZ</dateFormat>
+                    <generateGitPropertiesFile>true</generateGitPropertiesFile>
+                    <generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot-maven-plugin-version}</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <compilerId>groovy-eclipse-compiler</compilerId>
+                    <compilerArgument>nowarn</compilerArgument>
+                    <fork>true</fork>
+                    <compilerArguments>
+                        <javaAgentClass>lombok.launch.Agent</javaAgentClass>
+                    </compilerArguments>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-compiler</artifactId>
+                        <version>2.9.2-01</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.codehaus.groovy</groupId>
+                        <artifactId>groovy-eclipse-batch</artifactId>
+                        <version>2.4.3-01</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.projectlombok</groupId>
+                        <artifactId>lombok</artifactId>
+                        <version>${lombok.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <!-- Excluded groovy scripts from jar -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <excludes>
+                        <exclude>api/**</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>${dockerfile-maven-plugin-version}</version>
+                <executions>
+                    <execution>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <repository>${docker.image.prefix}/${project.artifactId}</repository>
+                    <!--
+                    leave blank to tag w/ 'latest'.  To support multiple tags (e.g., '1.0.0' and 'latest') you have
+                    to build the image twice unfortunately.
+                    -->
+                    <!--<tag>${project.version}</tag>-->
+                    <buildArgs>
+                        <miscode>${miscode}</miscode>
+                    </buildArgs>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <useUnlimitedThreads>true</useUnlimitedThreads>
+                    <parallel>classes</parallel>
+                    <!--suppress UnresolvedMavenProperty -->
+                    <argLine>${argLine} -Xmx2048m</argLine>
+                    <useFile>false</useFile>
+                    <includes>
+                        <include>**/*Spec.*</include>
+                        <include>**/*Test.*</include>
+                    </includes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>report</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>report</goal>
+                        </goals>
+                    </execution> <!-- this goal can be minimally fired via "mvn verify", as well as in the install and package lifecycles -->
+                    <execution>
+                        <id>check</id>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                        <configuration>
+                            <excludes>
+                                <exclude>**/com/xap/**/*.class</exclude>
+                                <exclude>**/org/w3/**/*.class</exclude>
+                            </excludes>
+                            <rules>
+                                <!-- All classes must have 80% line and branch coverage -->
+                                <rule>
+                                    <element>CLASS</element>
+                                    <limits>
+                                        <limit>
+                                            <counter>LINE</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.80</minimum>
+                                        </limit>
+                                        <limit>
+                                            <!-- Starting Branch ratio is .40 -->
+                                            <counter>BRANCH</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.40</minimum>
+                                        </limit>
+                                    </limits>
+                                    <!-- the following classes do not meet the minimum 80% coverage for either line or branch. They are configured in one of the lower-coverage buckets below -->
+                                    <excludes>
+                                        <exclude>com.ccctc.adaptor.*</exclude>
+                                        <exclude>com.ccctc.adaptor.config.*</exclude>
+                                        <exclude>com.ccctc.core.coremain.v1_14.*</exclude>
+                                        <exclude>com.ccctc.core.coremain.v1_14.impl.*</exclude>
+                                        <exclude>com.ccctc.message.collegetranscript.v1_6.*</exclude>
+                                        <exclude>com.ccctc.message.collegetranscript.v1_6.impl.*</exclude>
+                                        <exclude>com.ccctc.message.highschooltranscript.v1_5.*</exclude>
+                                        <exclude>com.ccctc.message.highschooltranscript.v1_5.impl.*</exclude>
+                                        <exclude>com.ccctc.sector.academicrecord.v1_9.*</exclude>
+                                        <exclude>com.ccctc.sector.academicrecord.v1_9.impl.*</exclude>
+                                        <exclude>api.colleague.etran.*</exclude>
+                                        <!-- exclude groovy closure classes from coverage (they're still included in their class coverage) -->
+                                        <exclude>**.*_closure*</exclude>
+
+                                        <!-- TODO - add code coverage -->
+                                        <exclude>api.colleague.base.Transcript</exclude>
+                                        <exclude>api.colleague.transcript.**</exclude>
+                                        <exclude>api.mis_111.**</exclude>
+                                        <exclude>api.colleague.util.DmiDataServiceAsync</exclude>
+                                    </excludes>
+                                </rule>
+                                <!-- 40-80% coverage section - needs improvement -->
+                                <rule>
+                                    <element>CLASS</element>
+                                    <limits>
+                                        <limit>
+                                            <counter>LINE</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.40</minimum>
+                                        </limit>
+                                        <limit>
+                                            <counter>BRANCH</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <!--  Reduced to 20 to start -->
+                                            <minimum>0.20</minimum>
+                                        </limit>
+                                    </limits>
+                                    <includes>
+                                    </includes>
+                                    <excludes>
+                                    </excludes>
+                                </rule>
+                                <!-- 10-40% coverage section - poor -->
+                                <rule>
+                                    <element>CLASS</element>
+                                    <limits>
+                                        <limit>
+                                            <counter>LINE</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.10</minimum>
+                                        </limit>
+                                        <limit>
+                                            <counter>BRANCH</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.10</minimum>
+                                        </limit>
+                                    </limits>
+                                    <includes>
+                                    </includes>
+                                    <excludes>
+                                    </excludes>
+                                </rule>
+                                <!-- 0-10% coverage section - bad -->
+                                <rule>
+                                    <element>CLASS</element>
+                                    <limits>
+                                        <limit>
+                                            <counter>LINE</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.0</minimum>
+                                        </limit>
+                                        <limit>
+                                            <counter>BRANCH</counter>
+                                            <value>COVEREDRATIO</value>
+                                            <minimum>0.0</minimum>
+                                        </limit>
+                                    </limits>
+                                    <includes>
+                                        <include>com.ccctc.adaptor.*</include>
+                                        <include>com.ccctc.adaptor.config.*</include>
+                                        <include>com.ccctc.core.coremain.v1_14.*</include>
+                                        <include>com.ccctc.core.coremain.v1_14.impl.*</include>
+                                        <include>com.ccctc.message.collegetranscript.v1_6.*</include>
+                                        <include>com.ccctc.message.collegetranscript.v1_6.impl.*</include>
+                                        <include>com.ccctc.message.highschooltranscript.v1_5.*</include>
+                                        <include>com.ccctc.message.highschooltranscript.v1_5.impl.*</include>
+                                        <include>com.ccctc.sector.academicrecord.v1_9.*</include>
+                                        <include>com.ccctc.sector.academicrecord.v1_9.impl.*</include>
+
+                                        <!-- TODO - add code coverage -->
+                                        <include>api.colleague.base.Transcript</include>
+                                        <include>api.colleague.transcript.**</include>
+                                        <include>api.mis_111.**</include>
+                                        <include>api.colleague.util.DmiDataServiceAsync</include>
+                                    </includes>
+                                </rule>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <repositories>
+        <repository>
+            <id>nexus.ccctechcenter.org</id>
+            <name>ccctech</name>
+            <url>https://nexus.ccctechcenter.org/content/groups/public</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+          <id>github</id>
+          <name>GitHub CCCTechcenter Apache Maven Packages</name>
+          <url>https://maven.pkg.github.com/ccctechcenter/colleague-dmi-client</url>
+          <snapshots><enabled>false</enabled></snapshots> <!-- github does not support snapshots -->
+          <releases><enabled>true</enabled></releases>
+        </repository>
+        <repository>
+            <id>maven-central-groovy</id>
+            <name>mvn-central-groovy</name>
+            <url>https://repo1.maven.org/maven2/org/codehaus/groovy/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <!-- Note that bintray (which was an online public repository for packages/plugins) has been shutdown -->
+            <!-- We don't actually use bintray anymore, but we do still have nested references that require
+                 this 'id' field's value of 'bintray-groovy-maven' for dependency resolution. -->
+            <id>bintray-groovy-maven</id>
+            <name>mvn-central-groovy</name>
+            <url>https://repo1.maven.org/maven2/</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+</project>

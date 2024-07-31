@@ -1,0 +1,3322 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2848" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-12-14.22.21.824397</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>8404</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CCTC_FINAID</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr>CCTC Financial Aid</szProjectDescr>
+        <szSrcDBName>CS92NEW</szSrcDBName>
+        <szSrcOprId>PWEATHERBY</szSrcOprId>
+        <szSessionId>ae137d97-7c0a-11ed-8b2b-77233e125b8f</szSessionId>
+        <szRunDtTm>2022-12-14-15.54.43.560812</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16777215</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>0</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease>Campus Solutions 9.20.00.020</szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>326</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="326" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center
+Financial Aid Project
+Holds the common CRUD operations around CCPromise Application data into and out of staging tables</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nProjectCount>23</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="19688" count="23">
+            <row>
+              <eObjectType>0</eObjectType>
+              <szObjectValue_0>CCTC_FA_UNT_STG</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>1</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CCCID</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CCCID</szObjectValue_0>
+              <szObjectValue_1>10</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CID</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CID</szObjectValue_0>
+              <szObjectValue_1>10</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CLASS_NBR</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CLASS_NBR</szObjectValue_0>
+              <szObjectValue_1>CLASSNBR</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CLASS_TTL</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CLASS_TTL</szObjectValue_0>
+              <szObjectValue_1>CLASSTTL</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CLASS_UNTS</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_CLASS_UNTS</szObjectValue_0>
+              <szObjectValue_1>CLASSUNTS</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_MIS_CD</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_MIS_CD</szObjectValue_0>
+              <szObjectValue_1>MISCODE</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_MIS_NM</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_MIS_NM</szObjectValue_0>
+              <szObjectValue_1>MISNAME</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_TERM_CD</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>3</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>2</eObjectType>
+              <szObjectValue_0>CCTC_TERM_CD</szObjectValue_0>
+              <szObjectValue_1>TERM_CD</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>6</eObjectID_0>
+              <eObjectID_1>102</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_FA_UNT_STG_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_FA_UNT_STG_LST</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_FA_UNT_STG_RMV</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_FA_UNT_STG_SET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CCTC_FINAID_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_FINAID_PKG</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_FINAID_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_FinancialAidUnits</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="RDM">
+    <rowset name="RecDefn" size="920" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.40.465883</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>1681</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szRecName>CCTC_FA_UNT_STG</szRecName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <fFlags>0</fFlags>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nFieldCount>13</nFieldCount>
+        <eRecType>0</eRecType>
+        <fRecUse>0</fRecUse>
+        <cOptTrigFlag>N</cOptTrigFlag>
+        <szAuditRecName></szAuditRecName>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szRelLangRecName></szRelLangRecName>
+        <szOptDelRecName></szOptDelRecName>
+        <szParentRecName></szParentRecName>
+        <szQrySecRecName></szQrySecRecName>
+        <szSqlTableName></szSqlTableName>
+        <nBuildSeqNo>1</nBuildSeqNo>
+        <szRecDescr>CCTC Financial Aid Units Stage</szRecDescr>
+        <hAltDefn>HANDLE</hAltDefn>
+        <nDescrLongLen>596</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="596" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center: Holds the Financial Aid Unit Records for students whose home college is this one and have enrolled, via course exchange, in other community colleges. Students must have consented to sharing the enrollment data automatically for this table to be populated.</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <hRft> HANDLE
+          <rowset name="RecField" size="5512" count="13">
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_CCCID</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>20</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.02.47.433965</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>10</atmLabelID>
+                    <atmLongName>cccid</atmLongName>
+                    <atmShortName>cccid</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>cccid</atmLongName>
+              <atmShortName>cccid</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_TERM_CD</atmFieldName>
+              <eFieldType>1</eFieldType>
+              <nLength>15</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-26-15.11.56.949776</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>TERM_CD</atmLabelID>
+                    <atmLongName>Term Code</atmLongName>
+                    <atmShortName>Term Cd</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Term Code</atmLongName>
+              <atmShortName>Term Cd</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_MIS_CD</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>5</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.06.14.433598</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>MISCODE</atmLabelID>
+                    <atmLongName>MIS Code</atmLongName>
+                    <atmShortName>MIS Code</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>MIS Code</atmLongName>
+              <atmShortName>MIS Code</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_MIS_NM</atmFieldName>
+              <eFieldType>1</eFieldType>
+              <nLength>100</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.08.37.433452</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>MISNAME</atmLabelID>
+                    <atmLongName>MIS Name</atmLongName>
+                    <atmShortName>MIS Name</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>MIS Name</atmLongName>
+              <atmShortName>MIS Name</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_CID</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>20</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.06.14.433598</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>10</atmLabelID>
+                    <atmLongName>C-ID</atmLongName>
+                    <atmShortName>C-ID</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>C-ID</atmLongName>
+              <atmShortName>C-ID</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_CLASS_NBR</atmFieldName>
+              <eFieldType>2</eFieldType>
+              <nLength>5</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.16.10.959161</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>CLASSNBR</atmLabelID>
+                    <atmLongName>Class Number</atmLongName>
+                    <atmShortName>Class num</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Class Number</atmLongName>
+              <atmShortName>Class num</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_CLASS_TTL</atmFieldName>
+              <eFieldType>1</eFieldType>
+              <nLength>100</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.16.41.440122</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>CLASSTTL</atmLabelID>
+                    <atmLongName>Class Title</atmLongName>
+                    <atmShortName>Class Ttl</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Class Title</atmLongName>
+              <atmShortName>Class Ttl</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>CCTC_CLASS_UNTS</atmFieldName>
+              <eFieldType>2</eFieldType>
+              <nLength>6</nLength>
+              <nDecimalPos>2</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.16.54.655358</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>1</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="32" count="1">
+                  <row>
+                    <atmLabelID>CLASSUNTS</atmLabelID>
+                    <atmLongName>Class Units</atmLongName>
+                    <atmShortName>Class Unt</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Class Units</atmLongName>
+              <atmShortName>Class Unt</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>STATUS_FLAG</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>1</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.20.40.432982</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>2</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="64" count="2">
+                  <row>
+                    <atmLabelID>DISPLAY STATUS</atmLabelID>
+                    <atmLongName>Display Status</atmLongName>
+                    <atmShortName>Status</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>STATUS FLAG</atmLabelID>
+                    <atmLongName>Status Flag</atmLongName>
+                    <atmShortName>Status Flag</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Status Flag</atmLongName>
+              <atmShortName>Status Flag</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>STATUS_DTTM</atmFieldName>
+              <eFieldType>6</eFieldType>
+              <nLength>26</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>12</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>1</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.20.40.432982</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>4</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="128" count="4">
+                  <row>
+                    <atmLabelID>STATUSDATE/TIME</atmLabelID>
+                    <atmLongName>Status Date/Time</atmLongName>
+                    <atmShortName>Status Date/Tim</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>STATUS_DTTM</atmLabelID>
+                    <atmLongName>Status Date &amp; Time</atmLongName>
+                    <atmShortName>Status DTM</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>TS1-STATUS_DTTM</atmLabelID>
+                    <atmLongName>Status Date &amp;&amp; Time</atmLongName>
+                    <atmShortName>Status DTM</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>TS2-STATUS_DTTM</atmLabelID>
+                    <atmLongName>Status Date &amp;&amp; Time</atmLongName>
+                    <atmShortName>Status DTM</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Status Date &amp; Time</atmLongName>
+              <atmShortName>Status DTM</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>DESCRLONG_NOTES</atmFieldName>
+              <eFieldType>1</eFieldType>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>0</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.20.40.432982</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>3</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="96" count="3">
+                  <row>
+                    <atmLabelID>COMMENT</atmLabelID>
+                    <atmLongName>Comments</atmLongName>
+                    <atmShortName>Comments</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>DESCRLONG</atmLabelID>
+                    <atmLongName>Description</atmLongName>
+                    <atmShortName>Descr</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>NOTES</atmLabelID>
+                    <atmLongName>Notes</atmLongName>
+                    <atmShortName>Notes</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Notes</atmLongName>
+              <atmShortName>Notes</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>LASTUPDOPRID</atmFieldName>
+              <eFieldType>0</eFieldType>
+              <nLength>30</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>6</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>0</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.20.40.432982</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>5</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="160" count="5">
+                  <row>
+                    <atmLabelID>BY</atmLabelID>
+                    <atmLongName>by</atmLongName>
+                    <atmShortName>by</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>EODC_SUBMITTED_BY</atmLabelID>
+                    <atmLongName>Submitted By</atmLongName>
+                    <atmShortName>Submitted by</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>LASTUPDOPRID</atmLabelID>
+                    <atmLongName>Last Update User ID</atmLongName>
+                    <atmShortName>Last Upd User</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PTBR_OPRID</atmLabelID>
+                    <atmLongName>Modified By</atmLongName>
+                    <atmShortName>Modified</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PTPPB_UPD_OPRID</atmLabelID>
+                    <atmLongName>Updated By User</atmLongName>
+                    <atmShortName>Updated By</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>by</atmLongName>
+              <atmShortName>by</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+            <row>
+              <fStatus>0</fStatus>
+              <atmFieldName>LASTUPDDTTM</atmFieldName>
+              <eFieldType>6</eFieldType>
+              <nLength>26</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <eFormat>12</eFormat>
+              <nFormatLength>0</nFormatLength>
+              <eImgFmt>0</eImgFmt>
+              <atmFormatFamily></atmFormatFamily>
+              <atmDispFmtName></atmDispFmtName>
+              <nDefCntryYr>50</nDefCntryYr>
+              <nIMEMode>1</nIMEMode>
+              <nKeyboardLayout>0</nKeyboardLayout>
+              <szObjectOwnerID></szObjectOwnerID>
+              <szLastUpdDttm>2019-08-09-12.20.40.432982</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nDescrLongLen>0</nDescrLongLen>
+              <hDescrLong>HANDLE</hDescrLong>
+              <nLabelCount>9</nLabelCount>
+              <hDBFldLabel> HANDLE
+                <rowset name="DBFldLabel" size="288" count="9">
+                  <row>
+                    <atmLabelID>DATE/TIME</atmLabelID>
+                    <atmLongName>Date/Time</atmLongName>
+                    <atmShortName>Date/Time</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>DEFAULT</atmLabelID>
+                    <atmLongName>Last Update Dttm</atmLongName>
+                    <atmShortName>Last Upd Dttm</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>EODC_SUBMITTED_DT</atmLabelID>
+                    <atmLongName>Submitted Date/Time</atmLongName>
+                    <atmShortName>Submitted on</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>LASTUPDDTTM</atmLabelID>
+                    <atmLongName>Last Update Date/Time</atmLongName>
+                    <atmShortName>Last Upd DtTm</atmShortName>
+                    <bIsDefault>1</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PTIA_LASTUPDDTTM</atmLabelID>
+                    <atmLongName>Last Updated on</atmLongName>
+                    <atmShortName>Updated on</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PTPPB_UPD_DTTM</atmLabelID>
+                    <atmLongName>Updated Date/Time</atmLongName>
+                    <atmShortName>Updated</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>PURGEDON</atmLabelID>
+                    <atmLongName>Purged on</atmLongName>
+                    <atmShortName>Purged on</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>TIMESTAMP</atmLabelID>
+                    <atmLongName>Time Stamp</atmLongName>
+                    <atmShortName>Time Stamp</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                  <row>
+                    <atmLabelID>UPDATEDON</atmLabelID>
+                    <atmLongName>Updated on</atmLongName>
+                    <atmShortName>Updated on</atmShortName>
+                    <bIsDefault>0</bIsDefault>
+                  </row>
+                </rowset>
+              </hDBFldLabel>
+              <nOrgLabelCount>0</nOrgLabelCount>
+              <hOrgDBFldLabel>HANDLE</hOrgDBFldLabel>
+              <nNotUsed>0</nNotUsed>
+              <fAuxFlagMask>0</fAuxFlagMask>
+              <atmDefRecName></atmDefRecName>
+              <atmDefFieldName></atmDefFieldName>
+              <atmCurCtlFieldName></atmCurCtlFieldName>
+              <fUseEdit>8388608</fUseEdit>
+              <fUseEdit2>0</fUseEdit2>
+              <atmEditTable></atmEditTable>
+              <nDefGUICtl>99</nDefGUICtl>
+              <atmSetCntrlFld></atmSetCntrlFld>
+              <atmLabelID></atmLabelID>
+              <nTimeZoneUse>0</nTimeZoneUse>
+              <atmTimeZoneFieldName></atmTimeZoneFieldName>
+              <nCurrencyCtlUse>0</nCurrencyCtlUse>
+              <atmRelTmDtFieldName></atmRelTmDtFieldName>
+              <atmLongName>Last Update Date/Time</atmLongName>
+              <atmShortName>Last Upd DtTm</atmShortName>
+              <atmPhysicalRecNameList>CCTC_FA_UNT_STG     </atmPhysicalRecNameList>
+              <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+              <nContextLabelCount>0</nContextLabelCount>
+              <atmEditTableOverride></atmEditTableOverride>
+            </row>
+          </rowset>
+        </hRft>
+        <nIndexCount>0</nIndexCount>
+        <lpIdt>POINTER</lpIdt>
+        <nDDLCount>0</nDDLCount>
+        <lpRpt>POINTER</lpRpt>
+        <nDelFieldCount>0</nDelFieldCount>
+        <hDelRft>HANDLE</hDelRft>
+        <hOrgDefn>HANDLE</hOrgDefn>
+        <hExpDefn>HANDLE</hExpDefn>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <szSystemIDFieldName></szSystemIDFieldName>
+        <szRowLevelTimeStampFieldName></szRowLevelTimeStampFieldName>
+        <nTblSpcCount>1</nTblSpcCount>
+        <lpSpct> POINTER
+          <rowset name="RecTblSpc" size="86" count="1">
+            <row>
+              <szDDLSpaceName>SALARGE</szDDLSpaceName>
+              <szDBName></szDBName>
+              <eDBType> </eDBType>
+            </row>
+          </rowset>
+        </lpSpct>
+        <nSecRecCount>0</nSecRecCount>
+        <hSecRec>HANDLE</hSecRec>
+        <nMatVwDefnCount>0</nMatVwDefnCount>
+        <hMatVwDefn>HANDLE</hMatVwDefn>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.50.465894</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_CCCID</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>20</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>346</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="346" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+California Community Colleges Tech Center Person Id
+
+Unique identifier to a student across all community colleges in california</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>10</szLabelID>
+              <szLongName>cccid</szLongName>
+              <szShortName>cccid</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.50.465894</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>10</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>cccid</szLongName>
+        <szShortName>cccid</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.56.466118</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_TERM_CD</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>1</eFieldType>
+        <nLength>15</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>176</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="176" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+Term Code
+
+The college's code for the term</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>TERM_CD</szLabelID>
+              <szLongName>Term Code</szLongName>
+              <szShortName>Term Cd</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.56.466118</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>TERM_CD</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Term Code</szLongName>
+        <szShortName>Term Cd</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.53.466298</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_MIS_CD</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>5</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>180</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="180" count="1">
+            <row>
+              <hDescrLong>CCTC California Community Colleges MIS Code; unique code assigned to each district/college</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>MISCODE</szLabelID>
+              <szLongName>MIS Code</szLongName>
+              <szShortName>MIS Code</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.53.466298</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>MISCODE</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>MIS Code</szLongName>
+        <szShortName>MIS Code</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.53.466332</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_MIS_NM</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>1</eFieldType>
+        <nLength>100</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>158</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="158" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+MIS Name
+
+The Name of the college</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>MISNAME</szLabelID>
+              <szLongName>MIS Name</szLongName>
+              <szShortName>MIS Name</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.53.466332</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>MISNAME</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>MIS Name</szLongName>
+        <szShortName>MIS Name</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.50.465911</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_CID</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>20</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>96</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="96" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+C-ID</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>10</szLabelID>
+              <szLongName>C-ID</szLongName>
+              <szShortName>C-ID</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.50.465911</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>10</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>C-ID</szLongName>
+        <szShortName>C-ID</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.50.465959</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_CLASS_NBR</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>2</eFieldType>
+        <nLength>5</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>460</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="460" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+External Class Number
+
+For an External Organization, (identified by the MIS Code), this field provides the unique section identitfier within a given term that a student has enrolled in</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>CLASSNBR</szLabelID>
+              <szLongName>Class Number</szLongName>
+              <szShortName>Class num</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.50.465959</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>CLASSNBR</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Class Number</szLongName>
+        <szShortName>Class num</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.50.465975</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_CLASS_TTL</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>1</eFieldType>
+        <nLength>100</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>302</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="302" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+External Class Title
+
+At another extenral organization, the title of a given class section within a term.</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>CLASSTTL</szLabelID>
+              <szLongName>Class Title</szLongName>
+              <szShortName>Class Ttl</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.50.465975</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>CLASSTTL</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Class Title</szLongName>
+        <szShortName>Class Ttl</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.50.465991</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1681</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>CCTC_CLASS_UNTS</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>2</eFieldType>
+        <nLength>6</nLength>
+        <nDecimalPos>2</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>260</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="260" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+External Class Units
+
+The number of units the student is taken within a given class.</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>1</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="264" count="1">
+            <row>
+              <szLabelID>CLASSUNTS</szLabelID>
+              <szLongName>Class Units</szLongName>
+              <szShortName>Class Unt</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-28-15.40.50.465991</szLastUpdDttm>
+              <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>CLASSUNTS</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Class Units</szLongName>
+        <szShortName>Class Unt</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-08-15.27.58.424410</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>HTLC</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1597</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>STATUS_FLAG</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>1</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>22</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="22" count="1">
+            <row>
+              <hDescrLong>Status Flag</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>2</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="528" count="2">
+            <row>
+              <szLabelID>DISPLAY STATUS</szLabelID>
+              <szLongName>Display Status</szLongName>
+              <szShortName>Status</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424410</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>STATUS FLAG</szLabelID>
+              <szLongName>Status Flag</szLongName>
+              <szShortName>Status Flag</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424410</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>STATUS FLAG</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Status Flag</szLongName>
+        <szShortName>Status Flag</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-08-15.27.58.424387</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>HPI</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1597</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>STATUS_DTTM</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>6</eFieldType>
+        <nLength>26</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>12</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>1</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>0</nDescrLongLen>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLabelCount>4</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="1056" count="4">
+            <row>
+              <szLabelID>STATUSDATE/TIME</szLabelID>
+              <szLongName>Status Date/Time</szLongName>
+              <szShortName>Status Date/Tim</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424387</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>STATUS_DTTM</szLabelID>
+              <szLongName>Status Date &amp; Time</szLongName>
+              <szShortName>Status DTM</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424387</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>TS1-STATUS_DTTM</szLabelID>
+              <szLongName>Status Date &amp;&amp; Time</szLongName>
+              <szShortName>Status DTM</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424387</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>TS2-STATUS_DTTM</szLabelID>
+              <szLongName>Status Date &amp;&amp; Time</szLongName>
+              <szShortName>Status DTM</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424387</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>STATUS_DTTM</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Status Date &amp; Time</szLongName>
+        <szShortName>Status DTM</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-08-15.27.56.424484</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>SLCG</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1597</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>DESCRLONG_NOTES</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>1</eFieldType>
+        <nLength>0</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>0</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>32</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="32" count="1">
+            <row>
+              <hDescrLong>Long Description</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>3</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="792" count="3">
+            <row>
+              <szLabelID>COMMENT</szLabelID>
+              <szLongName>Comments</szLongName>
+              <szShortName>Comments</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.56.424484</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>DESCRLONG</szLabelID>
+              <szLongName>Description</szLongName>
+              <szShortName>Descr</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.56.424484</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>NOTES</szLabelID>
+              <szLongName>Notes</szLongName>
+              <szShortName>Notes</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.56.424484</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>NOTES</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Notes</szLongName>
+        <szShortName>Notes</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-08-15.27.58.424286</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1597</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>LASTUPDOPRID</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>0</eFieldType>
+        <nLength>30</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>6</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>0</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>278</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="278" count="1">
+            <row>
+              <hDescrLong>Specifies the User ID which made the last update to an entry.  This field is maintained by PeopleSoft and is used in a variety of contexts.</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>5</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="1320" count="5">
+            <row>
+              <szLabelID>BY</szLabelID>
+              <szLongName>by</szLongName>
+              <szShortName>by</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424286</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>EODC_SUBMITTED_BY</szLabelID>
+              <szLongName>Submitted By</szLongName>
+              <szShortName>Submitted by</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424286</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>LASTUPDOPRID</szLabelID>
+              <szLongName>Last Update User ID</szLongName>
+              <szShortName>Last Upd User</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424286</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PTBR_OPRID</szLabelID>
+              <szLongName>Modified By</szLongName>
+              <szShortName>Modified</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424286</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PTPPB_UPD_OPRID</szLabelID>
+              <szLongName>Updated By User</szLongName>
+              <szShortName>Updated By</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424286</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>BY</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>by</szLongName>
+        <szShortName>by</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="FIELD">
+    <rowset name="Field" size="936" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+        <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+        <szObjectOwnerID>PPT</szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1597</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szFieldName>LASTUPDDTTM</szFieldName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <eFieldType>6</eFieldType>
+        <nLength>26</nLength>
+        <nDecimalPos>0</nDecimalPos>
+        <eFormat>12</eFormat>
+        <nFormatLength>0</nFormatLength>
+        <eImgFmt>0</eImgFmt>
+        <szFormatFamily></szFormatFamily>
+        <szDispFmtName></szDispFmtName>
+        <nDefCntryYr>50</nDefCntryYr>
+        <nIMEMode>1</nIMEMode>
+        <nKeyboardLayout>0</nKeyboardLayout>
+        <nNotUsed>0</nNotUsed>
+        <fAuxFlagMask>0</fAuxFlagMask>
+        <nDescrLongLen>274</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="274" count="1">
+            <row>
+              <hDescrLong>Specifies the date and time of the last update to an entry.  This field is maintained by PeopleSoft and is used in a variety of contexts.</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLabelCount>9</nLabelCount>
+        <hDBFldLabel> HANDLE
+          <rowset name="DBFldLabel" size="2376" count="9">
+            <row>
+              <szLabelID>DATE/TIME</szLabelID>
+              <szLongName>Date/Time</szLongName>
+              <szShortName>Date/Time</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>DEFAULT</szLabelID>
+              <szLongName>Last Update Dttm</szLongName>
+              <szShortName>Last Upd Dttm</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>EODC_SUBMITTED_DT</szLabelID>
+              <szLongName>Submitted Date/Time</szLongName>
+              <szShortName>Submitted on</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>LASTUPDDTTM</szLabelID>
+              <szLongName>Last Update Date/Time</szLongName>
+              <szShortName>Last Upd DtTm</szShortName>
+              <bIsDefault>1</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PTIA_LASTUPDDTTM</szLabelID>
+              <szLongName>Last Updated on</szLongName>
+              <szShortName>Updated on</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PTPPB_UPD_DTTM</szLabelID>
+              <szLongName>Updated Date/Time</szLongName>
+              <szShortName>Updated</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>PURGEDON</szLabelID>
+              <szLongName>Purged on</szLongName>
+              <szShortName>Purged on</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>TIMESTAMP</szLabelID>
+              <szLongName>Time Stamp</szLongName>
+              <szShortName>Time Stamp</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szLabelID>UPDATEDON</szLabelID>
+              <szLongName>Updated on</szLongName>
+              <szShortName>Updated on</szShortName>
+              <bIsDefault>0</bIsDefault>
+              <szLastUpdDttm>2022-11-08-15.27.58.424108</szLastUpdDttm>
+              <szLastUpdOprId>PPLSOFT</szLastUpdOprId>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hDBFldLabel>
+        <szDefRecName></szDefRecName>
+        <szDefFieldName></szDefFieldName>
+        <szCurCtlFieldName></szCurCtlFieldName>
+        <fUseEdit>0</fUseEdit>
+        <fUseEdit2>0</fUseEdit2>
+        <szEditTable></szEditTable>
+        <nDefGUICtl>0</nDefGUICtl>
+        <szSetCntrlFld></szSetCntrlFld>
+        <szLabelID>LASTUPDDTTM</szLabelID>
+        <nTimeZoneUse>0</nTimeZoneUse>
+        <szTimeZoneFieldName></szTimeZoneFieldName>
+        <nCurrencyCtlUse>0</nCurrencyCtlUse>
+        <szLongName>Last Update Date/Time</szLongName>
+        <szShortName>Last Upd DtTm</szShortName>
+        <fStatus>0</fStatus>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nContextLabelCount>0</nContextLabelCount>
+        <hDBFldContextLabel>HANDLE</hDBFldContextLabel>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-30-14.37.23.429485</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>566</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_FA_UNT_STG_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Financial Aid Units Get</szDescr>
+              <lSqlTextLen>644</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="644" count="1">
+                  <row>
+                    <lpszSqlText>SELECT CCTC_MIS_CD   , CCTC_MIS_NM   , CCTC_CID   , CCTC_CLASS_NBR   , CCTC_CLASS_TTL   , CCTC_CLASS_UNTS   , STATUS_FLAG   , STATUS_DTTM   , DESCRLONG_NOTES   , LASTUPDOPRID   , LASTUPDDTTM   FROM %Table(CCTC_FA_UNT_STG) a   WHERE A.CCTC_CCCID = :1   AND A.CCTC_TERM_CD = :2   AND A.CCTC_MIS_CD = :3   AND A.CCTC_CID = :4</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>214</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="214" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Retrieves the Financial Aid Units Record from the Staging table </lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-30-14.37.35.429369</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>567</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_FA_UNT_STG_LST</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Financial Aid Units List</szDescr>
+              <lSqlTextLen>550</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="550" count="1">
+                  <row>
+                    <lpszSqlText>SELECT CCTC_MIS_CD   , CCTC_MIS_NM   , CCTC_CID   , CCTC_CLASS_NBR   , CCTC_CLASS_TTL   , CCTC_CLASS_UNTS   , STATUS_FLAG   , STATUS_DTTM   , DESCRLONG_NOTES   , LASTUPDOPRID   , LASTUPDDTTM   FROM %Table(CCTC_FA_UNT_STG) a   WHERE A.CCTC_CCCID = :1   AND A.CCTC_TERM_CD = :2</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>230</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="230" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Lists all of the Financial Aid Unit records for a given student and term</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-30-14.37.48.429725</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>568</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_FA_UNT_STG_RMV</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Financial Aid Unit Remove</szDescr>
+              <lSqlTextLen>256</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="256" count="1">
+                  <row>
+                    <lpszSqlText>DELETE   FROM %Table(CCTC_FA_UNT_STG)   WHERE CCTC_CCCID = :1   AND CCTC_TERM_CD = :2   AND CCTC_MIS_CD = :3   AND CCTC_CID = :4</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>202</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="202" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Removes a Financial Aid Unit Record from the staging table</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-30-14.38.12.429105</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>569</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_FA_UNT_STG_SET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Financial Aid Unit Insert</szDescr>
+              <lSqlTextLen>788</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="788" count="1">
+                  <row>
+                    <lpszSqlText>INSERT INTO %Table(CCTC_FA_UNT_STG) ( CCTC_CCCID   , CCTC_TERM_CD   , CCTC_MIS_CD   , CCTC_MIS_NM   , CCTC_CID   , CCTC_CLASS_NBR   , CCTC_CLASS_TTL   , CCTC_CLASS_UNTS   , STATUS_FLAG   , STATUS_DTTM   , DESCRLONG_NOTES   , LASTUPDOPRID   , LASTUPDDTTM )   VALUES ( :1   ,:2   ,:3   ,:4   ,:5   ,:6   ,:7   ,:8   ,' '   ,%CurrentDateTimeIn   ,%TextIn(' ')   ,%OperatorId   ,%CurrentDateTimeIn)</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>214</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="214" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Inserts/Sets a Financial Aid Units record into the staging table</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-12-14.15.37.824094</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>157</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CCTC_FINAID_PKG</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CCTC_FINAID_PKG</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr>CCTC: Financial Aid Package</szDescr>
+        <lDescrLongLen>372</lDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="372" count="1">
+            <row>
+              <lpszDescrLong>California Community Colleges Tech Center: 
+Financial Aid Package
+
+Contains all the classes needed to support features related to Financial Aid including CCPromise Grant Applications</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>CCTC_FinancialAidUnits</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CCTC_FINAID_PKG</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>CCTC_FinancialAidUnits</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-30-14.38.54.429171</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1909</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CCTC_FINAID_PKG</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>CCTC_FinancialAidUnits</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>6</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>8678</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>242</lEntryNamesLen>
+              <nEntry>6</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>9</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="3204" count="6">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>SQL</szFieldName>
+              <szPackageRoot>SQL</szPackageRoot>
+              <szQualifyPath>SQL</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_FA_UNT_STG_LST</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_FA_UNT_STG_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_FA_UNT_STG_SET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_FA_UNT_STG_RMV</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>/**
+* Gets/Sets Course Exchange Financial Aid Units into/from a staging table
+* @company CCC Tech Center
+* @version CAv4.5.0
+*/
+class CCTC_FinancialAidUnits
+   method CCTC_FinancialAidUnits();
+   
+   method getList(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method getStudentUnits(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method setStudentUnits(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method removeStudentUnits(&amp;bindVars As array of any) Returns array of array of any;
+   
+end-class;
+
+method CCTC_FinancialAidUnits
+   rem do nothing;
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* retrieve Course Exchange FA Unit data from a staging table
+* 
+* @param &amp;bindVars[1] California Community Colleges ID for student
+* @param &amp;bindVars[2] STRM
+* @Returns first matching row (if any), empty array if not found
+*/
+method getList
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 2 Then
+      Error &quot;bindVars should have 2 elements when listing FA Units&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_FA_UNT_STG_LST, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK Then
+      Error String(&amp;sql.Status);
+   Else
+      Local number &amp;i = 0;
+      Local number &amp;maxRows = 30;
+      While &amp;sql.Fetch(&amp;AAny) And
+            &amp;i &lt; &amp;maxRows
+         Local number &amp;j = 0;
+         Local array of any &amp;temp = CreateArrayAny();
+         For &amp;j = 1 To &amp;AAny.Len
+            &amp;temp.Push(&amp;AAny [&amp;j]);
+         End-For;
+         &amp;result_list.Push(&amp;temp);
+         &amp;i = &amp;i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* retrieve Course Exchange FA Unit data from a staging table
+* 
+* @param &amp;bindVars[1] California Community Colleges ID for student
+* @param &amp;bindVars[2] STRM
+* @param &amp;bindVars[3] Mis Code for the External District/College
+* @param &amp;bindVars[4] C-ID for the course
+* @Returns first matching row (if any), empty array if not found
+*/
+method getStudentUnits
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 4 Then
+      Error &quot;bindVars should have 4 elements when getting FA Units&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;misCode is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;c_id is required&quot;;
+   End-If;
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_FA_UNT_STG_GET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK Then
+      Error String(&amp;sql.Status);
+   Else
+      Local number &amp;i = 0;
+      Local number &amp;maxRows = 1;
+      While &amp;sql.Fetch(&amp;AAny) And
+            &amp;i &lt; &amp;maxRows
+         Local number &amp;j = 0;
+         Local array of any &amp;temp = CreateArrayAny();
+         For &amp;j = 1 To &amp;AAny.Len
+            &amp;temp.Push(&amp;AAny [&amp;j]);
+         End-For;
+         &amp;result_list.Push(&amp;temp);
+         &amp;i = &amp;i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* insert Course Exchange FA Units data into a staging table
+* 
+* @param &amp;bindVars array of data to insert into the staging table
+* @Returns 2d array with rows affected in first row, first column
+*/
+method setStudentUnits
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 8 Then
+      Error &quot;bindVars should have 8 elements when setting FA Units&quot;;
+   End-If;
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_FA_UNT_STG_SET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK Then
+      Error String(&amp;sql.Status);
+   End-If;
+   Local number &amp;rowsAffected = &amp;sql.RowsAffected;
+   &amp;sql.Close();
+   Return CreateArray(CreateArrayAny(&amp;rowsAffected));
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* remove Course Exchange FA Units data from a staging table
+* 
+* @param &amp;bindVars[1] California Community Colleges ID for student
+* @param &amp;bindVars[2] STRM
+* @param &amp;bindVars[3] Mis Code for the External District/College
+* @param &amp;bindVars[4] C-ID for the course
+* @Returns 2d array with rows affected in first row, first column
+*/
+method removeStudentUnits
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 4 Then
+      Error &quot;bindVars should have 4 elements when removing FA Units&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;cccid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;mis code is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;c_id is required&quot;;
+   End-If;
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_FA_UNT_STG_RMV, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK And
+         &amp;sql.Status &lt;&gt; %SQLStatus_NotFound Then
+      Error &quot;SQL Status not ok [&quot; | String(&amp;sql.Status) | &quot;]&quot;;
+   End-If;
+   Local number &amp;rowsAffected = &amp;sql.RowsAffected;
+   &amp;sql.Close();
+   Return CreateArray(CreateArrayAny(&amp;rowsAffected));
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>RiQAAAQDAgEBAAAAvAIAAAAAAABoHkMAQwBUAEMAXwBGAEkATgBBAEkARABfAFAASwBHAGssQwBDAFQAQwBfAEYAaQBuAGEAbgBjAGkAYQBsAEEAaQBkAFUAbgBpAHQAcwAMEk8AbgBFAHgAZQBjAHUAdABlAAAAAAAAAAAA/3UHAAAGAAEA/wAAAAAAAAAANDIAMAAyADIALQAxADEALQAzADAALQAxADQALgAzADgALgA1ADQALgA0ADIAOQAxADcAMQA0MgAwADIAMgAtADEAMQAtADMAMAAtADEANAAuADMAOAAuADUANAAuADQAMgA5ADEANwAxABRQAFcARQBBAFQASABFAFIAQgBZAAAA/+YhAAD/AQAAACT+AP4vACoAKgAKACoAIABHAGUAdABzAC8AUwBlAHQAcwAgAEMAbwB1AHIAcwBlACAARQB4AGMAaABhAG4AZwBlACAARgBpAG4AYQBuAGMAaQBhAGwAIABBAGkAZAAgAFUAbgBpAHQAcwAgAGkAbgB0AG8ALwBmAHIAbwBtACAAYQAgAHMAdABhAGcAaQBuAGcAIAB0AGEAYgBsAGUACgAqACAAQABjAG8AbQBwAGEAbgB5ACAAQwBDAEMAIABUAGUAYwBoACAAQwBlAG4AdABlAHIACgAqACAAQAB2AGUAcgBzAGkAbwBuACAAQwBBAHYANAAuADUALgAwAAoAKgAvAFoKLEMAQwBUAEMAXwBGAGkAbgBhAG4AYwBpAGEAbABBAGkAZABVAG4AaQB0AHMAYwosQwBDAFQAQwBfAEYAaQBuAGEAbgBjAGkAYQBsAEEAaQBkAFUAbgBpAHQAcwALFBVPYwoOZwBlAHQATABpAHMAdAALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9jCh5nAGUAdABTAHQAdQBkAGUAbgB0AFUAbgBpAHQAcwALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9jCh5zAGUAdABTAHQAdQBkAGUAbgB0AFUAbgBpAHQAcwALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9jCiRyAGUAbQBvAHYAZQBTAHQAdQBkAGUAbgB0AFUAbgBpAHQAcwALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9bFS1PY0EKLEMAQwBUAEMAXwBGAGkAbgBhAG4AYwBpAGEAbABBAGkAZABVAG4AaQB0AHMALSQeAB5yAGUAbQAgAGQAbwAgAG4AbwB0AGgAaQBuAGcAOwBkFS1PJEwC/0wCAAAvACoAKgAKACoAIABUAGgAaQBzACAAZgB1AG4AYwB0AGkAbwBuACAAcAByAG8AdgBpAGQAZQBzACAAYQBuACAAaQBuAHQAZQByAGYAYQBjAGUAIAB0AG8AIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAcgBlAHQAcgBpAGUAdgBlACAAQwBvAHUAcgBzAGUAIABFAHgAYwBoAGEAbgBnAGUAIABGAEEAIABVAG4AaQB0ACAAZABhAHQAYQAgAGYAcgBvAG0AIABhACAAcwB0AGEAZwBpAG4AZwAgAHQAYQBiAGwAZQAKACoAIAAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzAFsAMQBdACAAQwBhAGwAaQBmAG8AcgBuAGkAYQAgAEMAbwBtAG0AdQBuAGkAdAB5ACAAQwBvAGwAbABlAGcAZQBzACAASQBEACAAZgBvAHIAIABzAHQAdQBkAGUAbgB0AAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAyAF0AIABTAFQAUgBNAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgAGYAaQByAHMAdAAgAG0AYQB0AGMAaABpAG4AZwAgAHIAbwB3ACAAKABpAGYAIABhAG4AeQApACwAIABlAG0AcAB0AHkAIABhAHIAcgBhAHkA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UAB1AHMAaAALAQomAEEAQQBuAHkATAEEJgBqAE0UFSwVARgmAHIAZQBzAHUAbAB0AF8AbABpAHMAdAAFCghQAHUAcwBoAAsBCiYAdABlAG0AcAAUFQEEJgBpAAYBBCYAaQATUBIAAAABAAAAAAAAAAAAAAAAAAAVJhUaFQEIJgBzAHEAbAAFCgpDAGwAbwBzAGUACxQVTzgBGCYAcgBlAHMAdQBsAHQAXwBsAGkAcwB0ABVPZBUtTyQUAv8UAgAALwAqACoACgAqACAAVABoAGkAcwAgAGYAdQBuAGMAdABpAG8AbgAgAHAAcgBvAHYAaQBkAGUAcwAgAGEAbgAgAGkAbgB0AGUAcgBmAGEAYwBlACAAdABvACAAdABoAGUAIABDAG8AbABsAGUAZwBlACAAQQBkAGEAcAB0AG8AcgAgAHQAbwAgAAoAKgAgAGkAbgBzAGUAcgB0ACAAQwBvAHUAcgBzAGUAIABFAHgAYwBoAGEAbgBnAGUAIABGAEEAIABVAG4AaQB0AHMAIABkAGEAdABhACAAaQBuAHQAbwAgAGEAIABzAHQAYQBnAGkAbgBnACAAdABhAGIAbABlAAoAKgAgAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAIABhAHIAcgBhAHkAIABvAGYAIABkAGEAdABhACAAdABvACAAaQBuAHMAZQByAHQAIABpAG4AdABvACAAdABoAGUAIABzAHQAYQBnAGkAbgBnACAAdABhAGIAbABlAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgADIAZAAgAGEAcgByAGEAeQAgAHcAaQB0AGgAIAByAG8AdwBzACAAYQBmAGYAZQBjAHQAZQBkACAAaQBuACAAZgBpAHIAcwB0ACAAcgBvAHcALAAgAGYAaQByAHMAdAAgAGMAbwBsAHUAbQBuAAoAKgAvAGNBCh5zAGUAdABTAHQAdQBkAGUAbgB0AFUAbgBpAHQAcwAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATxwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAgAAAAAAAAAAAAAAAAAAB8bFmpiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAA4ACAAZQBsAGUAbQBlAG4AdABzACAAdwBoAGUAbgAgAHMAZQB0AHQAaQBuAGcAIABGAEEAIABVAG4AaQB0AHMAFRoVT0QKBlMAUQBMAAEIJgBzAHEAbAAGCgxHAGUAdABTAFEATAALIQQAAwESJgBiAGkAbgBkAFYAYQByAHMAFBUcAQgmAHMAcQBsAAUKDFMAdABhAHQAdQBzABASGiUAUwBRAEwAUwB0AGEAdAB1AHMAXwBPAEsAHxsKDFMAdAByAGkAbgBnAAsBCCYAcwBxAGwABQoMUwB0AGEAdAB1AHMAFBUaFURADG4AdQBtAGIAZQByAAEaJgByAG8AdwBzAEEAZgBmAGUAYwB0AGUAZAAGAQgmAHMAcQBsAAUKGFIAbwB3AHMAQQBmAGYAZQBjAHQAZQBkABUBCCYAcwBxAGwABQoKQwBsAG8AcwBlAAsUFTgKFkMAcgBlAGEAdABlAEEAcgByAGEAeQALChxDAHIAZQBhAHQAZQBBAHIAcgBhAHkAQQBuAHkACwEaJgByAG8AdwBzAEEAZgBmAGUAYwB0AGUAZAAUFBVkFS1PJCID/yIDAAAvACoAKgAKACoAIABUAGgAaQBzACAAZgB1AG4AYwB0AGkAbwBuACAAcAByAG8AdgBpAGQAZQBzACAAYQBuACAAaQBuAHQAZQByAGYAYQBjAGUAIAB0AG8AIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAcgBlAG0AbwB2AGUAIABDAG8AdQByAHMAZQAgAEUAeABjAGgAYQBuAGcAZQAgAEYAQQAgAFUAbgBpAHQAcwAgAGQAYQB0AGEAIABmAHIAbwBtACAAYQAgAHMAdABhAGcAaQBuAGcAIAB0AGEAYgBsAGUACgAqACAACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQAgAEMAYQBsAGkAZgBvAHIAbgBpAGEAIABDAG8AbQBtAHUAbgBpAHQAeQAgAEMAbwBsAGwAZQBnAGUAcwAgAEkARAAgAGYAbwByACAAcwB0AHUAZABlAG4AdAAKACoAIABAAHAAYQBy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</peoplecode_blob>
+  </instance>

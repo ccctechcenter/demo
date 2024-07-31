@@ -1,0 +1,53 @@
+[
+    {
+        "misCode": "${misCode}",
+        "districtMisCode": "${districtMisCode}",
+        "name": "Mock College"
+    },
+    ## For testing with CCC apply
+    {
+        "misCode": "ZZ1",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ1"
+    }
+    ,{
+        "misCode": "ZZ2",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ2"
+    }
+    ,{
+        "misCode": "ZZ3",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ3"
+    }
+    ,{
+        "misCode": "ZZ4",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ4"
+    }
+    ,{
+        "misCode": "ZZ5",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ5"
+    }
+    ,{
+        "misCode": "ZZ6",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ6"
+    }
+    ,{
+        "misCode": "ZZ7",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ7"
+    }
+    ,{
+        "misCode": "ZZ8",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ8"
+    }
+    ,{
+        "misCode": "ZZ9",
+        "districtMisCode": "ZZ0",
+        "name": "Test College ZZ9"
+    }
+]

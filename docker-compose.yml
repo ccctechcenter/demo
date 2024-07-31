@@ -1,0 +1,29 @@
+college-adaptor-001:
+    image: ccctechcenter/college-adaptor:latest
+    ports:
+     - "8443:8443"
+    environment:
+     - miscode=001
+     - s3_profile=dev
+     - SPRING_PROFILES_ACTIVE=dev,001
+     - ENCRYPT_KEY=ThisIsNotTheActualEncryptionKey
+
+college-adaptor-002:
+    image: ccctechcenter/college-adaptor:latest
+    ports:
+     - "8443:8443"
+    environment:
+     - miscode=002
+     - s3_profile=dev
+     - SPRING_PROFILES_ACTIVE=dev,002
+     - ENCRYPT_KEY=ThisIsNotTheActualEncryptionKey
+
+college-adaptor-111-qa:
+    image: ccctechcenter/college-adaptor:latest
+    ports:
+     - "8443:8443"
+    environment:
+     - miscode=111
+     - s3_profile=qa
+     - SPRING_PROFILES_ACTIVE=qa,111,111-qa
+     - ENCRYPT_KEY=ThisIsNotTheActualEncryptionKey

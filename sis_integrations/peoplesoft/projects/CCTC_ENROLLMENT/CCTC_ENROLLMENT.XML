@@ -1,0 +1,1492 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2848" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-08-16.02.51.131640</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>8375</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CCTC_ENROLLMENT</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr>CCTC Enrollment API</szProjectDescr>
+        <szSrcDBName>CS92NEW</szSrcDBName>
+        <szSrcOprId>PWEATHERBY</szSrcOprId>
+        <szSessionId>fa231eee-7c0a-11ed-8b2b-77233e125b8f</szSessionId>
+        <szRunDtTm>2022-12-14-15.56.50.561421</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16777215</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>0</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease>HRMS and Campus Solutions 9.00.05.050</szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>478</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="478" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center: Enrollment API -
+Interfaces with the Enrollment Request Engine to submit enrollment requests for adding/dropping student enrollments. Also pulls limited prerequisiste data and current enrollments</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nProjectCount>6</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="5136" count="6">
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_CRSEID_CID_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_ENRL_MSG_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_ENRL_PREREQ_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_STDNT_ENRL_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CCTC_ENROLLMENT_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_ENROLLMENT_PKG</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_ENROLLMENT_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_StudentEnrollment</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-13.31.53.261459</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>697</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_CRSEID_CID_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>2</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="288" count="2">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Course/CID translation</szDescr>
+              <lSqlTextLen>858</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="858" count="1">
+                  <row>
+                    <lpszSqlText>SELECT rtrim(replace(%Substring(CC.descrlong, CASE WHEN instr(CC.descrlong, 'C-ID') = 0 THEN LENGTH(CC.descrlong)+1 ELSE instr(CC.descrlong, 'C-ID')+5 END)   ,'-'   , ' ')   , '.') AS C_ID   FROM %Table(CRSE_CATALOG) CC   WHERE CC.EFF_STATUS = 'A'   AND CC.EFFDT = (   SELECT MAX(CC_EFF.EFFDT)   FROM %Table(CRSE_CATALOG) CC_EFF   WHERE CC_EFF.CRSE_ID = CC.CRSE_ID   AND CC_EFF.EFFDT &lt;= %CurrentDateTimeIn )   AND CC.CRSE_ID = :1</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>238</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="238" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: CourseId/CID translation- Given a CourseId, will retrieve the associated CID</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>55</eDbType>
+              <cDbType>7</cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr></szDescr>
+              <lSqlTextLen>872</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="872" count="1">
+                  <row>
+                    <lpszSqlText>SELECT rtrim( REPLACE(%Substring(CC.descrlong, CASE WHEN charindex(CC.descrlong, 'C-ID') = 0 THEN LEN(CC.descrlong)+1 ELSE charindex(CC.descrlong, 'C-ID')+5 END )   ,'-'   , ' ')   , '.') AS C_ID   FROM %Table(CRSE_CATALOG) CC   WHERE CC.EFF_STATUS = 'A'   AND CC.EFFDT = (   SELECT MAX(CC_EFF.EFFDT)   FROM %Table(CRSE_CATALOG) CC_EFF   WHERE CC_EFF.CRSE_ID = CC.CRSE_ID   AND CC_EFF.EFFDT &lt;= %CurrentDateTimeIn )   AND CC.CRSE_ID = :1</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>0</lDescrLongLen>
+              <lpszDescrLong>POINTER</lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-01-14.53.36.960923</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>593</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_ENRL_MSG_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Enrollment Error Log</szDescr>
+              <lSqlTextLen>1012</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="1012" count="1">
+                  <row>
+                    <lpszSqlText>SELECT C.MESSAGE_SEQ   , D.MESSAGE_TEXT   , D.DESCRLONG   FROM %Table(ENRL_REQ_DETAIL) B   , %Table(ENRL_MSG_LOG) C   , %Table(MSG_CAT_VW) D   WHERE B.EMPLID = :1   AND B.STRM = :2   AND B.CLASS_NBR = :3   AND B.INSTITUTION = :4   AND B.ACAD_CAREER = :5   AND B.ENRL_REQUEST_ID = :6   AND B.ENRL_REQUEST_ID = C.ENRL_REQUEST_ID   AND B.ENRL_REQ_DETL_SEQ = C.ENRL_REQ_DETL_SEQ   AND C.MESSAGE_SET_NBR = D.MESSAGE_SET_NBR   AND C.MESSAGE_NBR = D.MESSAGE_NBR   AND C.MSG_SEVERITY = 'E'   ORDER BY C.MESSAGE_SEQ</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>258</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="258" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Enrollment Error Log; retrieves the errors associated with a denied enrollment request</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-15.28.15.909545</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>711</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_ENRL_PREREQ_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC: Enrollment Prerequisite</szDescr>
+              <lSqlTextLen>2564</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="2564" count="1">
+                  <row>
+                    <lpszSqlText>SELECT srr.ITEM_R_STATUS   , rq.DESCR   FROM %Table(SSR_REQS_RSLTS) srr   , %Table(TERM_TBL) trm   , %Table(RQ_GRP_TBL) rq   , %Table(CLASS_TBL) cls   WHERE srr.INSTITUTION = :4   AND srr.ACAD_CAREER = :5   AND srr.EMPLID = :1   AND srr.SSR_REQS_TYPE = 'E'   AND srr.ENTRY_R_TYPE = 'KEYRQG'   AND srr.SSR_ENTRY_SEQ = (   SELECT MAX(ssr_ES.SSR_ENTRY_SEQ)   FROM %Table(SSR_REQS_RSLTS) ssr_ES   WHERE ssr_ES.EMPLID = srr.EMPLID   AND ssr_ES.ACAD_CAREER = srr.ACAD_CAREER   AND ssr_ES.INSTITUTION = srr.INSTITUTION   AND ssr_ES.STRM = srr.STRM   AND ssr_ES.CLASS_NBR = srr.CLASS_NBR   AND ssr_ES.SSR_REQS_TYPE = srr.SSR_REQS_TYPE   AND ssr_ES.SSR_REQS_SEQ_NO = srr.SSR_REQS_SEQ_NO   AND ssr_ES.ENTRY_R_TYPE = srr.ENTRY_R_TYPE)   AND srr.STRM = trm.STRM   AND (%DateIn(LTRIM(:2)) BETWEEN trm.TERM_BEGIN_DT AND trm.TERM_END_DT)   AND srr.RQRMNT_GROUP = rq.RQRMNT_GROUP   AND rq.EFF_STATUS = 'A'   AND rq.EFFDT = (   SELECT MAX(rq_ED.EFFDT)   FROM %Table(RQ_GRP_TBL) rq_ED   WHERE rq_ED.RQRMNT_GROUP = rq.RQRMNT_GROUP   AND rq_ED.EFFDT &lt;= trm.TERM_BEGIN_DT)   AND srr.INSTITUTION = cls.INSTITUTION   AND srr.ACAD_CAREER = cls.ACAD_CAREER   AND srr.STRM = cls.STRM   AND srr.CLASS_NBR = cls.CLASS_NBR   AND (LTRIM(RTRIM(cls.SUBJECT)) %Concat '-' %Concat LTRIM(RTRIM(cls.CATALOG_NBR))) = :3</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>290</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="290" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Retrieves the Enrollment Prerequisite Status for the given student considering enrollment in the class</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-13.29.56.260814</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>696</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_STDNT_ENRL_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC Student Enrollments Get</szDescr>
+              <lSqlTextLen>2118</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="2118" count="1">
+                  <row>
+                    <lpszSqlText>SELECT A.EMPLID   , A.STRM   , A.CLASS_NBR   , A.STDNT_ENRL_STATUS   , A.STATUS_DT   , A.UNT_TAKEN   , A.GRADING_BASIS_ENRL   , A.AUDIT_GRADE_BASIS   , A.CRSE_GRADE_OFF   , A.GRADE_DT   , (LTRIM(RTRIM(B.SUBJECT)) %Concat '-' %Concat LTRIM(RTRIM(B.CATALOG_NBR)))  , B.DESCR   , C.LAST_ATTEND_DT   FROM %Table(STDNT_ENRL) A JOIN %Table(CLASS_TBL) B ON (A.INSTITUTION = B.INSTITUTION   AND A.ACAD_CAREER = B.ACAD_CAREER   AND A.STRM = B.STRM   AND A.CLASS_NBR = B.CLASS_NBR) LEFT OUTER JOIN (   SELECT ATT.EMPLID   , ATT.STRM   , ATT.CLASS_NBR   , ATT.INSTITUTION   , ATT.ACAD_CAREER   , MAX(ATT.CLASS_ATTEND_DT) AS LAST_ATTEND_DT   FROM %Table(CLASS_ATTENDNCE) ATT   WHERE ATT.CLASS_ATTEND_DT IS NOT NULL   GROUP BY ATT.EMPLID, ATT.STRM, ATT.CLASS_NBR, ATT.INSTITUTION, ATT.ACAD_CAREER) C ON (A.EMPLID = C.EMPLID   AND A.STRM = C.STRM   AND A.CLASS_NBR = C.CLASS_NBR   AND A.INSTITUTION = C.INSTITUTION   AND A.ACAD_CAREER = C.ACAD_CAREER)   WHERE A.EMPLID LIKE :1   AND A.STRM LIKE :2   AND A.CLASS_NBR LIKE :3   AND A.INSTITUTION = :4   AND A.ACAD_CAREER = :5</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>246</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="246" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Retrieves the enrollment records PS_STDNT_ENRL for either a student or a section</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.58.466216</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>156</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CCTC_ENROLLMENT_PKG</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CCTC_ENROLLMENT_PKG</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr>CCTC: Enrollment Package</szDescr>
+        <lDescrLongLen>348</lDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="348" count="1">
+            <row>
+              <lpszDescrLong>California Community Colleges Tech Center
+Enrollments Package
+
+Contains the functions needed by the College Adapter for Requesting and updating student course enrollments</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>CCTC_StudentEnrollment</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CCTC_ENROLLMENT_PKG</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>CCTC_StudentEnrollment</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-15.30.16.909121</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1914</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CCTC_ENROLLMENT_PKG</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>CCTC_StudentEnrollment</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>8</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>33828</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>384</lEntryNamesLen>
+              <nEntry>8</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>13</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="4272" count="8">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>SQL</szFieldName>
+              <szPackageRoot>SQL</szPackageRoot>
+              <szQualifyPath>SQL</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_STDNT_ENRL_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_CRSEID_CID_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>APIOBJECT</szFieldName>
+              <szPackageRoot>ApiObject</szPackageRoot>
+              <szQualifyPath>ApiObject</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>COMPINTFC</szRecName>
+              <szFieldName>ENRL_REQUEST</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_ENRL_MSG_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_ENRL_PREREQ_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>/**
+* Gets/Sets Student Enrollment data into/from a legit Peoplesoft Tables
+* @company CCC Tech Center
+* @version CAv4.5.0
+*/
+class CCTC_StudentEnrollment
+   method CCTC_StudentEnrollment();
+   
+   method getEnrollments(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method requestEnrollment(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method dropEnrollment(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method checkEnrollmentRequest(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method getEnrollmentErrorMessage(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method getStudentPrerequisiteStatus(&amp;bindVars As array of any) Returns array of array of any;
+   
+end-class;
+
+method CCTC_StudentEnrollment
+   rem do nothing;
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* retrieve all the actual (as opposed to requested) enrollments of the Student
+* 
+* @param &amp;bindVars array of keys to retrieve from the legit enrollment table
+* &amp;bindVars[1]: sis Person Id (aka EMPLID)
+* &amp;bindVars[2]: sis Term Cd (aka strm)
+* &amp;bindVars[3]: sis Section Id (aka class nbr)
+* &amp;bindVars[4]: institution code
+* &amp;bindVars[5]: academic career code
+* @Returns 2d array with enrollment request rows found, if any
+*/
+method getEnrollments
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   rem validate parameters/arguments;
+   If &amp;bindVars.Len &lt;&gt; 5 Then
+      Error &quot;bindVars should have 5 elements when requesting enrollment&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      &amp;bindVars [1] = &quot;%&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      &amp;bindVars [2] = &quot;%&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      &amp;bindVars [3] = &quot;%&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [5]) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   If &amp;bindVars [1] = &quot;%&quot; And
+         &amp;bindVars [2] = &quot;%&quot; And
+         &amp;bindVars [3] = &quot;%&quot; Then
+      Error &quot;when emplid not provided, strm and class_nbr are required&quot;;
+   End-If;
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_STDNT_ENRL_GET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK Then
+      Error String(&amp;sql.Status);
+   Else
+      Local number &amp;i = 0;
+      rem this loop does an inner query. with MaxRows = 999, worst case scenario is 1000 total queries;
+      Local number &amp;maxRows = 999;
+      While &amp;sql.Fetch(&amp;AAny) And
+            &amp;i &lt; &amp;maxRows
+         Local number &amp;j = 0;
+         Local array of any &amp;temp = CreateArrayAny();
+         For &amp;j = 1 To &amp;AAny.Len
+            &amp;temp.Push(&amp;AAny [&amp;j]);
+         End-For;
+         
+         rem for each enrollment record, also get the cid for the course;
+         Local array of any &amp;cid_input = CreateArrayAny();
+         rem set crse_id for subquery;
+         &amp;cid_input [1] = &amp;AAny [11];
+         Local array of any &amp;cid_AAny = CreateArrayAny();
+         Local SQL &amp;cid_sql = GetSQL(SQL.CCTC_CRSEID_CID_GET, &amp;cid_input);
+         If &amp;cid_sql.Status = %SQLStatus_OK Then
+            Local number &amp;cid_i = 0;
+            Local number &amp;max_cid_Rows = 1;
+            While &amp;cid_sql.Fetch(&amp;cid_AAny) And
+                  &amp;cid_i &lt; &amp;max_cid_Rows
+               &amp;temp.Push(&amp;cid_AAny [1]);
+               &amp;cid_i = &amp;cid_i + 1;
+            End-While;
+            If &amp;cid_i = 0 Then
+               &amp;temp.Push(&quot;&quot;);
+            End-If;
+         Else
+            &amp;temp.Push(&quot;&quot;);
+         End-If;
+         &amp;cid_sql.Close();
+         
+         &amp;result_list.Push(&amp;temp);
+         &amp;i = &amp;i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* request a Student be enrolled into a section
+* Process based on workflow/pipeline described here:
+* https://docs.oracle.com/cd/E56917_01/cs9pbr4/eng/cs/lssr/concept_UnderstandingClassEnrollmentProcessing-ab456f.html#topofpage
+*
+* @param &amp;bindVars array of keys to insert data
+* &amp;bindVars[1]: sisPersonId (aka emplid)
+* &amp;bindVars[2]: sisTermId (aka strm)
+* &amp;bindVars[3]: sisSectionId (aka class nbr)
+* &amp;bindVars[4]: institution
+* &amp;bindVars[5]: academic career
+* &amp;bindVars[6]: action reason (optional)
+* @Returns 2d array: first row: [ first column: [requestId] second column: [Enrollment request status code] ]
+*/
+method requestEnrollment
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   rem validate parameters/arguments;
+   If &amp;bindVars.Len &lt;&gt; 6 Then
+      Error &quot;bindVars should have 6 elements when requesting enrollment&quot;;
+   End-If;
+   
+   Local string &amp;emplid = &amp;bindVars [1];
+   If None(&amp;emplid) Then
+      Error &quot;emplid is required&quot;;
+   End-If;
+   
+   Local string &amp;strm = &amp;bindVars [2];
+   If None(&amp;strm) Then
+      Error &quot;strm is required&quot;;
+   End-If;
+   
+   Local string &amp;class_nbr = &amp;bindVars [3];
+   If None(&amp;class_nbr) Then
+      Error &quot;class_nbr is required&quot;;
+   End-If;
+   
+   Local string &amp;institution = &amp;bindVars [4];
+   If None(&amp;institution) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   Local string &amp;acad_career = &amp;bindVars [5];
+   If None(&amp;acad_career) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   Local string &amp;actionRsn = &amp;bindVars [6];
+   rem action reason is optional;
+   
+   rem first check that student not already fully enrolled in this class this term;
+   Local array of any &amp;enrlExistCheck = CreateArrayAny();
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_STDNT_ENRL_GET, &amp;bindVars);
+   If &amp;sql.Status = %SQLStatus_OK Then
+      Local number &amp;eec_i = 0;
+      Local number &amp;eec_maxRows = 50;
+      While &amp;sql.Fetch(&amp;enrlExistCheck) And
+            &amp;eec_i &lt; &amp;eec_maxRows
+         Local string &amp;enrlStat = &amp;enrlExistCheck [4];
+         If &amp;enrlStat = &quot;E&quot; Then
+            Error &quot;enrollment record already exists&quot;;
+         End-If;
+         &amp;eec_i = &amp;eec_i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   
+   Local ApiObject &amp;oEnrlRequest = (%Session).GetCompIntfc(CompIntfc.ENRL_REQUEST);
+   If &amp;oEnrlRequest = Null Then
+      Error &quot;Could not instantiate the ENRL_REQUEST Component Interface&quot;;
+   End-If;
+   
+   &amp;oEnrlRequest.InteractiveMode = False;
+   &amp;oEnrlRequest.GetHistoryItems = True;
+   &amp;oEnrlRequest.EditHistoryItems = False;
+   
+   rem check if enrollment request already exists by looping through this student's enrollment requests this term;
+   &amp;oEnrlRequest.ENRL_REQUEST_ID = &quot;&quot;;
+   &amp;oEnrlRequest.EMPLID = &amp;emplid;
+   &amp;oEnrlRequest.ACAD_CAREER = &amp;acad_career;
+   &amp;oEnrlRequest.INSTITUTION = &amp;institution;
+   &amp;oEnrlRequest.STRM = &amp;strm;
+   Local ApiObject &amp;findResults = &amp;oEnrlRequest.Find();
+   
+   Local number &amp;I;
+   For &amp;I = 1 To &amp;findResults.Count
+      Local ApiObject &amp;currentEnrlRequest = &amp;findResults.Item(&amp;I);
+      If Not &amp;currentEnrlRequest.Get() Then
+         Error &quot;Could not get the enrollment request record when verifying if requests exists&quot;;
+      End-If;
+      Local ApiObject &amp;currentEnrlReqDetailCollection = &amp;currentEnrlRequest.ENRL_REQ_DETAIL;
+      Local number &amp;J;
+      For &amp;J = 1 To &amp;currentEnrlReqDetailCollection.Count
+         Local ApiObject &amp;currentEnrlReqDetail = &amp;currentEnrlReqDetailCollection.Item(&amp;J);
+         If &amp;currentEnrlReqDetail.CLASS_NBR = &amp;class_nbr And
+               &amp;currentEnrlReqDetail.ENRL_REQ_DETL_STAT = &quot;P&quot; Then
+            rem if any add/drop/gradechanges requests are pending for this class, dont add more noise/requests;
+            Error &quot;pending request currently exists&quot;;
+         End-If;
+      End-For;
+   End-For;
+   
+   rem if not found, go ahead and create it (in memory);
+   &amp;oEnrlRequest.ENRL_REQ_ACTION = &quot;E&quot;;
+   &amp;oEnrlRequest.CLASS_NBR = &amp;class_nbr;
+   
+   If Not &amp;oEnrlRequest.Create() Then
+      Error &quot;Creating the add enrollment request record failed&quot;;
+   End-If;
+   
+   rem Note: once created (in memory), it is not automatically saved;
+   rem We must save the 'created' record using save method to persist in db;
+   Local ApiObject &amp;oEnrlReqDetailCollection = &amp;oEnrlRequest.ENRL_REQ_DETAIL;
+   Local ApiObject &amp;oEnrlReqDetail = &amp;oEnrlReqDetailCollection.Item(1);
+   
+   &amp;oEnrlReqDetail.CLASS_NBR = &amp;class_nbr;
+   &amp;oEnrlReqDetail.ENRL_REQ_ACTION = &quot;E&quot;;
+   
+   If All(&amp;actionRsn) Then
+      &amp;oEnrlReqDetail.ENRL_ACTION_REASON = &amp;actionRsn;
+   End-If;
+   
+   If Not &amp;oEnrlRequest.Save() Then
+      Error &quot;Saving the add enrollment request record failed&quot;;
+   End-If;
+   
+   DoSaveNow();
+   CommitWork();
+   
+   rem finally, run the enrollment request process;
+   rem note, cobol program is ran within the FieldChange peoplecode of ENRL_RE_HDR_WRK.ENRL_REQ_RC_PB;
+   &amp;oEnrlRequest.ENRL_REQ_RC_PB = &quot;X&quot;;
+   
+   rem by changing the value, the enrollment request engine should have ran;
+   rem return the request_id, and its approve/deny status;
+   Local array of any &amp;result_row = CreateArrayAny();
+   &amp;result_row [1] = &amp;oEnrlRequest.ENRL_REQUEST_ID_0;
+   &amp;result_row [2] = &amp;oEnrlReqDetail.ENRL_REQ_DETL_STAT;
+   Return CreateArray(&amp;result_row);
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* Drop a student's enrollment in a class
+* Process based on workflow/pipeline described here:
+* https://docs.oracle.com/cd/E56917_01/cs9pbr4/eng/cs/lssr/concept_UnderstandingClassEnrollmentProcessing-ab456f.html#topofpage
+*
+* @param &amp;bindVars array of data keys to drop enrollment of
+* &amp;bindVars[1]: sisPersonId (aka emplid)
+* &amp;bindVars[2]: sisTermId (aka strm)
+* &amp;bindVars[3]: sisSectionId (aka class nbr)
+* &amp;bindVars[4]: institution
+* &amp;bindVars[5]: academic career
+* &amp;bindVars[6]: action reason (optional)
+* @Returns 2d array: first row: [ first column: [requestId] second column: [Enrollment request status code] ]
+*/
+method dropEnrollment
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   rem validate parameters/arguments;
+   If &amp;bindVars.Len &lt;&gt; 6 Then
+      Error &quot;bindVars should have 6 elements when requesting enrollment&quot;;
+   End-If;
+   
+   Local string &amp;emplid = &amp;bindVars [1];
+   If None(&amp;emplid) Then
+      Error &quot;emplid is required&quot;;
+   End-If;
+   
+   Local string &amp;strm = &amp;bindVars [2];
+   If None(&amp;strm) Then
+      Error &quot;strm is required&quot;;
+   End-If;
+   
+   Local string &amp;class_nbr = &amp;bindVars [3];
+   If None(&amp;class_nbr) Then
+      Error &quot;class_nbr is required&quot;;
+   End-If;
+   
+   Local string &amp;institution = &amp;bindVars [4];
+   If None(&amp;institution) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   Local string &amp;acad_career = &amp;bindVars [5];
+   If None(&amp;acad_career) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   Local string &amp;actionRsn = &amp;bindVars [6];
+   rem action reason is optional;
+   
+   rem first check that student is fully enrolled in this class this term;
+   Local number &amp;enrollmentFound = 0;
+   Local array of any &amp;enrlExistCheck = CreateArrayAny();
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_STDNT_ENRL_GET, &amp;bindVars);
+   If &amp;sql.Status = %SQLStatus_OK Then
+      Local number &amp;eec_i = 0;
+      Local number &amp;eec_maxRows = 50;
+      While &amp;sql.Fetch(&amp;enrlExistCheck) And
+            &amp;eec_i &lt; &amp;eec_maxRows
+         Local string &amp;enrlStat = &amp;enrlExistCheck [4];
+         If &amp;enrlStat = &quot;E&quot; Then
+            &amp;enrollmentFound = 1;
+            rem break out of loop early now that we found a record;
+            &amp;eec_i = &amp;eec_maxRows;
+         End-If;
+         &amp;eec_i = &amp;eec_i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   If &amp;enrollmentFound = 0 Then
+      Error &quot;no enrollment found to drop&quot;;
+   End-If;
+   
+   Local ApiObject &amp;oEnrlRequest = (%Session).GetCompIntfc(CompIntfc.ENRL_REQUEST);
+   If &amp;oEnrlRequest = Null Then
+      Error &quot;Could not instantiate the ENRL_REQUEST Component Interface&quot;;
+   End-If;
+   
+   &amp;oEnrlRequest.InteractiveMode = False;
+   &amp;oEnrlRequest.GetHistoryItems = True;
+   &amp;oEnrlRequest.EditHistoryItems = False;
+   
+   rem check if a pending add/drop enrollment request exists by looping through this student's enrollment request this term;
+   &amp;oEnrlRequest.ENRL_REQUEST_ID = &quot;&quot;;
+   &amp;oEnrlRequest.EMPLID = &amp;emplid;
+   &amp;oEnrlRequest.ACAD_CAREER = &amp;acad_career;
+   &amp;oEnrlRequest.INSTITUTION = &amp;institution;
+   &amp;oEnrlRequest.STRM = &amp;strm;
+   Local ApiObject &amp;findResults = &amp;oEnrlRequest.Find();
+   
+   Local number &amp;I;
+   For &amp;I = 1 To &amp;findResults.Count;
+      Local ApiObject &amp;currentEnrlRequest = &amp;findResults.Item(&amp;I);
+      If Not &amp;currentEnrlRequest.Get() Then
+         Error &quot;Could not get the enrollment request record when looping through find results&quot;;
+      End-If;
+      Local ApiObject &amp;currentEnrlReqDetailCollection = &amp;currentEnrlRequest.ENRL_REQ_DETAIL;
+      Local number &amp;J;
+      For &amp;J = 1 To &amp;currentEnrlReqDetailCollection.Count;
+         rem loop through all classes within this enrollment request;
+         Local ApiObject &amp;currentEnrlReqDetail = &amp;currentEnrlReqDetailCollection.Item(&amp;J);
+         If &amp;currentEnrlReqDetail.CLASS_NBR = &amp;class_nbr And
+               &amp;currentEnrlReqDetail.ENRL_REQ_DETL_STAT = &quot;P&quot; Then
+            rem if any add/drop/gradechanges requests are pending for this class, dont add more noise/requests;
+            Error &quot;pending request currently exists&quot;;
+         End-If;
+      End-For;
+   End-For;
+   
+   rem if not found, go ahead and create it (in memory);
+   &amp;oEnrlRequest.ENRL_REQ_ACTION = &quot;D&quot;;
+   &amp;oEnrlRequest.CLASS_NBR = &amp;class_nbr;
+   
+   If Not &amp;oEnrlRequest.Create() Then
+      Error &quot;Creating the drop enrollment request record failed&quot;;
+   End-If;
+   
+   rem Note: once created (in memory), it is not automatically saved;
+   rem We must save the 'created' record using save method to persist in db;
+   Local ApiObject &amp;oEnrlReqDetailCollection = &amp;oEnrlRequest.ENRL_REQ_DETAIL;
+   Local ApiObject &amp;oEnrlReqDetail = &amp;oEnrlReqDetailCollection.Item(1);
+   
+   &amp;oEnrlReqDetail.CLASS_NBR = &amp;class_nbr;
+   &amp;oEnrlReqDetail.ENRL_REQ_ACTION = &quot;D&quot;;
+   
+   If All(&amp;actionRsn) Then
+      &amp;oEnrlReqDetail.ENRL_ACTION_REASON = &amp;actionRsn;
+   End-If;
+   
+   If Not &amp;oEnrlRequest.Save() Then
+      Error &quot;Saving the drop enrollment request record failed&quot;;
+   End-If;
+   
+   DoSaveNow();
+   CommitWork();
+   
+   rem finally, run the enrollment request process;
+   rem note, cobol program is ran within the FieldChange peoplecode of ENRL_RE_HDR_WRK.ENRL_REQ_RC_PB;
+   &amp;oEnrlRequest.ENRL_REQ_RC_PB = &quot;X&quot;;
+   
+   rem by changing the value, the enrollment request engine should have ran;
+   rem return the request_id, and its approve/deny status;
+   Local array of any &amp;result_row = CreateArrayAny();
+   &amp;result_row [1] = &amp;oEnrlRequest.ENRL_REQUEST_ID_0;
+   &amp;result_row [2] = &amp;oEnrlReqDetail.ENRL_REQ_DETL_STAT;
+   Return CreateArray(&amp;result_row);
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* check the status of a enrollment request
+*
+* @param &amp;bindVars array of keys to insert data
+* &amp;bindVars[1]: sisPersonId (aka emplid)
+* &amp;bindVars[2]: sisTermId (aka strm)
+* &amp;bindVars[3]: sisSectionId (aka class nbr)
+* &amp;bindVars[4]: institution
+* &amp;bindVars[5]: academic career
+* &amp;bindVars[6]: request id
+* @Returns 2d array: first row: [ first column: [Enrollment request status code] ]
+*/
+method checkEnrollmentRequest
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   rem validate parameters/arguments;
+   If &amp;bindVars.Len &lt;&gt; 6 Then
+      Error &quot;bindVars should have 6 elements when checking an enrollment request&quot;;
+   End-If;
+   
+   Local string &amp;emplid = &amp;bindVars [1];
+   If None(&amp;emplid) Then
+      Error &quot;emplid is required&quot;;
+   End-If;
+   
+   Local string &amp;strm = &amp;bindVars [2];
+   If None(&amp;strm) Then
+      Error &quot;strm is required&quot;;
+   End-If;
+   
+   Local string &amp;class_nbr = &amp;bindVars [3];
+   If None(&amp;class_nbr) Then
+      Error &quot;class_nbr is required&quot;;
+   End-If;
+   
+   Local string &amp;institution = &amp;bindVars [4];
+   If None(&amp;institution) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   Local string &amp;acad_career = &amp;bindVars [5];
+   If None(&amp;acad_career) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   Local string &amp;requestId = &amp;bindVars [6];
+   If None(&amp;acad_career) Then
+      Error &quot;requestId is required&quot;;
+   End-If;
+   
+   Local ApiObject &amp;oEnrlRequest = (%Session).GetCompIntfc(CompIntfc.ENRL_REQUEST);
+   If &amp;oEnrlRequest = Null Then
+      Error &quot;Could not instantiate the ENRL_REQUEST Component Interface&quot;;
+   End-If;
+   
+   &amp;oEnrlRequest.InteractiveMode = False;
+   &amp;oEnrlRequest.GetHistoryItems = True;
+   &amp;oEnrlRequest.EditHistoryItems = False;
+   
+   rem check if enrollment request already exists by looping through this student's enrollment requests this term;
+   &amp;oEnrlRequest.ENRL_REQUEST_ID = &amp;requestId;
+   &amp;oEnrlRequest.EMPLID = &amp;emplid;
+   &amp;oEnrlRequest.ACAD_CAREER = &amp;acad_career;
+   &amp;oEnrlRequest.INSTITUTION = &amp;institution;
+   &amp;oEnrlRequest.STRM = &amp;strm;
+   Local ApiObject &amp;findResults = &amp;oEnrlRequest.Find();
+   Local string &amp;statusCode = &quot;&quot;;
+   
+   Local number &amp;I;
+   For &amp;I = 1 To &amp;findResults.Count
+      Local ApiObject &amp;currentEnrlRequest = &amp;findResults.Item(&amp;I);
+      If Not &amp;currentEnrlRequest.Get() Then
+         Error &quot;Could not get the enrollment request record when verifying if requests exists&quot;;
+      End-If;
+      Local ApiObject &amp;currentEnrlReqDetailCollection = &amp;currentEnrlRequest.ENRL_REQ_DETAIL;
+      Local number &amp;J;
+      For &amp;J = 1 To &amp;currentEnrlReqDetailCollection.Count
+         Local ApiObject &amp;currentEnrlReqDetail = &amp;currentEnrlReqDetailCollection.Item(&amp;J);
+         If &amp;currentEnrlReqDetail.CLASS_NBR = &amp;class_nbr Then
+            &amp;statusCode = &amp;currentEnrlReqDetail.ENRL_REQ_DETL_STAT;
+         End-If;
+      End-For;
+   End-For;
+   
+   Return CreateArray(CreateArrayAny(&amp;statusCode));
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* get the logs produced by the built-in enrollment engine when
+* it tries to process an enrollment add/drop/grade request
+*
+* @param &amp;bindVars array of data keys to retrieve logs of
+* &amp;bindVars[1]: sisPersonId (aka emplid)
+* &amp;bindVars[2]: sisTermId (aka strm)
+* &amp;bindVars[3]: sisSectionId (aka class nbr)
+* &amp;bindVars[4]: institution
+* &amp;bindVars[5]: academic career
+* &amp;bindVars[6]: request Id
+* @Returns 2d array containing the error messages of the enrollment request process
+*/
+method getEnrollmentErrorMessage
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_ENRL_MSG_GET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK And
+         &amp;sql.Status &lt;&gt; %SQLStatus_NotFound Then
+      Error String(&amp;sql.Status);
+   Else
+      If &amp;sql.Status = %SQLStatus_OK Then
+         Local number &amp;i = 0;
+         Local number &amp;maxRows = 100;
+         While &amp;sql.Fetch(&amp;AAny) And
+               &amp;i &lt; &amp;maxRows
+            Local number &amp;j = 0;
+            Local array of any &amp;temp = CreateArrayAny();
+            For &amp;j = 1 To &amp;AAny.Len
+               &amp;temp.Push(&amp;AAny [&amp;j]);
+            End-For;
+            &amp;result_list.Push(&amp;temp);
+            &amp;i = &amp;i + 1;
+         End-While;
+      End-If;
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* retrieve all the prerequisite status for the given student in
+* the given class assuming the class starts on/after the given date
+* 
+* @param &amp;bindVars array of keys to retrieve from the staging table
+* &amp;bindVars[1]: sis Person Id (aka EMPLID)
+* &amp;bindVars[2]: start Date
+* &amp;bindVars[3]: sis Course Id (aka SUBJ-NBR)
+* &amp;bindVars[4]: institution code
+* &amp;bindVars[5]: academic career code
+* @Returns 2d array with the prerequisite status in first row
+*/
+method getStudentPrerequisiteStatus
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   rem validate parameters/arguments;
+   If &amp;bindVars.Len &lt;&gt; 5 Then
+      Error &quot;bindVars should have 5 elements when requesting enrollment&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;sisPersonId is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;Start Date is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;Course id is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [5]) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_ENRL_PREREQ_GET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK And
+         &amp;sql.Status &lt;&gt; %SQLStatus_NotFound Then
+      Error String(&amp;sql.Status);
+   Else
+      Local array of any &amp;temp = CreateArrayAny();
+      Local string &amp;status = &quot;Complete&quot;;
+      Local string &amp;descr = &quot;No Prereq&quot;;
+      If &amp;sql.Status = %SQLStatus_OK Then
+         Local number &amp;i = 0;
+         Local number &amp;maxRows = 1;
+         While &amp;sql.Fetch(&amp;AAny) And
+               &amp;i &lt; &amp;maxRows
+            &amp;status = &amp;AAny [1];
+            &amp;descr = &amp;AAny [2];
+            
+            Evaluate &amp;status
+            When &quot;COND&quot;
+               &amp;status = &quot;Pending&quot;;
+               Break;
+            When &quot;FAIL&quot;
+               &amp;status = &quot;Incomplete&quot;;
+               Break;
+            When-Other
+               &amp;status = &quot;Other&quot;;
+            End-Evaluate;
+            &amp;i = &amp;i + 1;
+         End-While;
+      End-If;
+      &amp;temp.Push(&amp;status);
+      &amp;temp.Push(&amp;descr);
+      &amp;result_list.Push(&amp;temp);
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>oIUAAAQDAgEBAAAAvAIAAAAAAABoJkMAQwBUAEMAXwBFAE4AUgBPAEwATABNAEUATgBUAF8AUABLAEcAayxDAEMAVABDAF8AUwB0AHUAZABlAG4AdABFAG4AcgBvAGwAbABtAGUAbgB0AAwSTwBuAEUAeABlAGMAdQB0AGUAAAAAAAAAAAD/egcAAAgAAQD/AAAAAAAAAAA0MgAwADIAMgAtADEAMgAtADEANAAtADEANQAuADMAMAAuADEANgAuADkAMAA5ADEAMgAxADQyADAAMgAyAC0AMQAyAC0AMQA0AC0AMQA1AC4AMwAwAC4AMQA2AC4AOQAwADkAMQAyADEAFFAAVwBFAEEAVABIAEUAUgBCAFkAAAD/JIQAAP8BAAAAJPoA+i8AKgAqAAoAKgAgAEcAZQB0AHMALwBTAGUAdABzACAAUwB0AHUAZABlAG4AdAAgAEUAbgByAG8AbABsAG0AZQBuAHQAIABkAGEAdABhACAAaQBuAHQAbwAvAGYAcgBvAG0AIABhACAAbABlAGcAaQB0ACAAUABlAG8AcABsAGUAcwBvAGYAdAAgAFQAYQBiAGwAZQBzAAoAKgAgAEAAYwBvAG0AcABhAG4AeQAgAEMAQwBDACAAVABlAGMAaAAgAEMAZQBuAHQAZQByAAoAKgAgAEAAdgBlAHIAcwBpAG8AbgAgAEMAQQB2ADQALgA1AC4AMAAKACoALwBaCixDAEMAVABDAF8AUwB0AHUAZABlAG4AdABFAG4AcgBvAGwAbABtAGUAbgB0AGMKLEMAQwBUAEMAXwBTAHQAdQBkAGUAbgB0AEUAbgByAG8AbABsAG0AZQBuAHQACxQVT2MKHGcAZQB0AEUAbgByAG8AbABsAG0AZQBuAHQAcwALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9jCiJyAGUAcQB1AGUAcwB0AEUAbgByAG8AbABsAG0AZQBuAHQACwESJgBiAGkAbgBkAFYAYQByAHMANUAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFDlACmEAcgByAGEAeQBABG8AZgBACmEAcgByAGEAeQBABG8AZgBABmEAbgB5ABVPYwocZAByAG8AcABFAG4AcgBvAGwAbABtAGUAbgB0AAsBEiYAYgBpAG4AZABWAGEAcgBzADVACmEAcgByAGEAeQBABG8AZgBABmEAbgB5ABQ5QAphAHIAcgBhAHkAQARvAGYAQAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAVT2MKLGMAaABlAGMAawBFAG4AcgBvAGwAbABtAGUAbgB0AFIAZQBxAHUAZQBzAHQACwESJgBiAGkAbgBkAFYAYQByAHMANUAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFDlACmEAcgByAGEAeQBABG8AZgBACmEAcgByAGEAeQBABG8AZgBABmEAbgB5ABVPYwoyZwBlAHQARQBuAHIAbwBsAGwAbQBlAG4AdABFAHIAcgBvAHIATQBlAHMAcwBhAGcAZQALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9jCjhnAGUAdABTAHQAdQBkAGUAbgB0AFAAcgBlAHIAZQBxAHUAaQBzAGkAdABlAFMAdABhAHQAdQBzAAsBEiYAYgBpAG4AZABWAGEAcgBzADVACmEAcgByAGEAeQBABG8AZgBABmEAbgB5ABQ5QAphAHIAcgBhAHkAQARvAGYAQAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAVT1sVLU9jQQosQwBDAFQAQwBfAFMAdAB1AGQAZQBuAHQARQBuAHIAbwBsAGwAbQBlAG4AdAAtJB4AHnIAZQBtACAAZABvACAAbgBvAHQAaABpAG4AZwA7AGQVLU8k2AP/2AMAAC8AKgAqAAoAKgAgAFQAaABpAHMAIABmAHUAbgBjAHQAaQBvAG4AIABwAHIAbwB2AGkAZABlAHMAIABhAG4AIABpAG4AdABlAHIAZgBhAGMAZQAgAHQAbwAgAHQAaABlACAAQwBvAGwAbABlAGcAZQAgAEEAZABhAHAAdABvAHIAIAB0AG8AIAAKACoAIAByAGUAdAByAGkAZQB2AGUAIABhAGwAbAAgAHQAaABlACAAYQBjAHQAdQBhAGwAIAAoAGEAcwAgAG8AcABwAG8AcwBlAGQAIAB0AG8AIAByAGUAcQB1AGUAcwB0AGUAZAApACAAZQBuAHIAbwBsAGwAbQBlAG4AdABzACAAbwBmACAAdABoAGUAIABTAHQAdQBkAGUAbgB0AAoAKgAgAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAIABhAHIAcgBhAHkAIABvAGYAIABrAGUAeQBzACAAdABvACAAcgBlAHQAcgBpAGUAdgBlACAAZgByAG8AbQAgAHQAaABlACAAbABlAGcAaQB0ACAAZQBuAHIAbwBsAGwAbQBlAG4AdAAgAHQAYQBiAGwAZQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAcwBpAHMAIABQAGUAcgBzAG8AbgAgAEkAZAAgACgAYQBrAGEAIABFAE0AUABMAEkARAApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMgBdADoAIABzAGkAcwAgAFQAZQByAG0AIABDAGQAIAAoAGEAawBhACAAcwB0AHIAbQApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMwBdADoAIABzAGkAcwAgAFMAZQBjAHQAaQBvAG4AIABJAGQAIAAoAGEAawBhACAAYwBsAGEAcwBzACAAbgBiAHIAKQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADQAXQA6ACAAaQBuAHMAdABpAHQAdQB0AGkAbwBuACAAYwBvAGQAZQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADUAXQA6ACAAYQBjAGEAZABlAG0AaQBjACAAYwBhAHIAZQBlAHIAIABjAG8AZABlAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgADIAZAAgAGEAcgByAGEAeQAgAHcAaQB0AGgAIABlAG4AcgBvAGwAbABtAGUAbgB0ACAAcgBlAHEAdQBlAHMAdAAgAHIAbwB3AHMAIABmAG8AdQBuAGQALAAgAGkAZgAgAGEAbgB5AAoAKgAvAGNBChxnAGUAdABFAG4AcgBvAGwAbABtAGUAbgB0AHMALW0yJgBiAGkAbgBkAFYAYQByAHMAIABhAHMAIABBAHIAcgBhAHkAIABvAGYAIABBAG4AeQBtKlIAZQB0AHUAcgBuAHMAIABBAHIAcgBhAHkAMgAgAG8AZgAgAEEAbgB5AE8kRABEcgBlAG0A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AC8AYwBzADkAcABiAHIANAAvAGUAbgBnAC8AYwBzAC8AbABzAHMAcgAvAGMAbwBuAGMAZQBwAHQAXwBVAG4AZABlAHIAcwB0AGEAbgBkAGkAbgBnAEMAbABhAHMAcwBFAG4AcgBvAGwAbABtAGUAbgB0AFAAcgBvAGMAZQBzAHMAaQBuAGcALQBhAGIANAA1ADYAZgAuAGgAdABtAGwAIwB0AG8AcABvAGYAcABhAGcAZQAKACoACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwAgAGEAcgByAGEAeQAgAG8AZgAgAGsAZQB5AHMAIAB0AG8AIABpAG4AcwBlAHIAdAAgAGQAYQB0AGEACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAxAF0AOgAgAHMAaQBzAFAAZQByAHMAbwBuAEkAZAAgACgAYQBrAGEAIABlAG0AcABsAGkAZAApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMgBdADoAIABzAGkAcwBUAGUAcgBtAEkAZAAgACgAYQBrAGEAIABzAHQAcgBtACkACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAzAF0AOgAgAHMAaQBzAFMAZQBjAHQAaQBvAG4ASQBkACAAKABhAGsAYQAgAGMAbABhAHMAcwAgAG4AYgByACkACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA0AF0AOgAgAGkAbgBzAHQAaQB0AHUAdABpAG8AbgAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADUAXQA6ACAAYQBjAGEAZABlAG0AaQBjACAAYwBhAHIAZQBlAHIACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA2AF0AOgAgAGEAYwB0AGkAbwBuACAAcgBlAGEAcwBvAG4AIAAoAG8AcAB0AGkAbwBuAGEAbAApAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgADIAZAAgAGEAcgByAGEAeQA6ACAAZgBpAHIAcwB0ACAAcgBvAHcAOgAgAFsAIABmAGkAcgBzAHQAIABjAG8AbAB1AG0AbgA6ACAAWwByAGUAcQB1AGUAcwB0AEkAZABdACAAcwBlAGMAbwBuAGQAIABjAG8AbAB1AG0AbgA6ACAAWwBFAG4AcgBvAGwAbABtAGUAbgB0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bgBnACAAZgBvAHIAIAB0AGgAaQBzACAAYwBsAGEAcwBzACwAIABkAG8AbgB0ACAAYQBkAGQAIABtAG8AcgBlACAAbgBvAGkAcwBlAC8AcgBlAHEAdQBlAHMAdABzADsAGxZAcABlAG4AZABpAG4AZwAgAHIAZQBxAHUAZQBzAHQAIABjAHUAcgByAGUAbgB0AGwAeQAgAGUAeABpAHMAdABzABUaFSwVLBVPJGoAanIAZQBtACAAaQBmACAAbgBvAHQAIABmAG8AdQBuAGQALAAgAGcAbwAgAGEAaABlAGEAZAAgAGEAbgBkACAAYwByAGUAYQB0AGUAIABpAHQAIAAoAGkAbgAgAG0AZQBtAG8AcgB5ACkAOwABGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABQoeRQBOAFIATABfAFIARQBRAF8AQQBDAFQASQBPAE4ABhYCRQAVARomAG8ARQBuAHIAbABSAGUAcQB1AGUAcwB0AAUKEkMATABBAFMAUwBfAE4AQgBSAAYBFCYAYwBsAGEAcwBzAF8AbgBiAHIAFU8cHQEaJgBvAEUAbgByAGwAUgBlAHEAdQBlAHMAdAAFCgxDAHIAZQBhAHQAZQALFB8bFmJDAHIAZQBhAHQAaQBuAGcAIAB0AGgAZQAgAGEAZABkACAAZQBuAHIAbwBsAGwAbQBlAG4AdAAgAHIAZQBxAHUAZQBzAHQAIAByAGUAYwBvAHIAZAAgAGYAYQBpAGwAZQBkABUaFU8khACEcgBlAG0AIABOAG8AdABlADoAIABvAG4AYwBlACAAYwByAGUAYQB0AGUAZAAgACgAaQBuACAAbQBlAG0AbwByAHkAKQAsACAAaQB0ACAAaQBzACAAbgBvAHQAIABhAHUAdABvAG0AYQB0AGkAYwBhAGwAbAB5ACAAcwBhAHYAZQBkADsAJJIAknIAZQBtACAAVwBlACAAbQB1AHMAdAAgAHMAYQB2AGUAIAB0AGgAZQAgACcAYwByAGUAYQB0AGUAZAAnACAAcgBlAGMAbwByAGQAIAB1AHMAaQBuAGcAIABzAGEAdgBlACAAbQBlAHQAaABvAGQAIAB0AG8AIABwAGUAcgBzAGkAcwB0ACAAaQBuACAAZABiADsARAoSQQBwAGkATwBiAGoAZQBjAHQAATImAG8ARQBuAHIAbABSAGUA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AGYAYQBjAGUAIAB0AG8AIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAARAByAG8AcAAgAGEAIABzAHQAdQBkAGUAbgB0ACcAcwAgAGUAbgByAG8AbABsAG0AZQBuAHQAIABpAG4AIABhACAAYwBsAGEAcwBzAAoAKgAgAFAAcgBvAGMAZQBzAHMAIABiAGEAcwBlAGQAIABvAG4AIAB3AG8AcgBrAGYAbABvAHcALwBwAGkAcABlAGwAaQBuAGUAIABkAGUAcwBjAHIAaQBiAGUAZAAgAGgAZQByAGUAOgAKACoAIABoAHQAdABwAHMAOgAvAC8AZABvAGMAcwAuAG8AcgBhAGMAbABlAC4AYwBvAG0ALwBjAGQALwBFADUANgA5ADEANwBfADAAMQAvAGMAcwA5AHAAYgByADQALwBlAG4AZwAvAGMAcwAvAGwAcwBzAHIALwBjAG8AbgBjAGUAcAB0AF8AVQBuAGQAZQByAHMAdABhAG4AZABpAG4AZwBDAGwAYQBzAHMARQBuAHIAbwBsAGwAbQBlAG4AdABQAHIAbwBjAGUAcwBzAGkAbgBnAC0AYQBiADQANQA2AGYALgBoAHQAbQBsACMAdABvAHAAbwBmAHAAYQBnAGUACgAqAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAIABhAHIAcgBhAHkAIABvAGYAIABkAGEAdABhACAAawBlAHkAcwAgAHQAbwAgAGQAcgBvAHAAIABlAG4AcgBvAGwAbABtAGUAbgB0ACAAbwBmAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMQBdADoAIABzAGkAcwBQAGUAcgBzAG8AbgBJAGQAIAAoAGEAawBhACAAZQBtAHAAbABpAGQAKQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADIAXQA6ACAAcwBpAHMAVABlAHIAbQBJAGQAIAAoAGEAawBhACAAcwB0AHIAbQApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMwBdADoAIABzAGkAcwBTAGUAYwB0AGkAbwBuAEkAZAAgACgAYQBrAGEAIABjAGwAYQBzAHMAIABuAGIAcgApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsANABdADoAIABpAG4AcwB0AGkAdAB1AHQAaQBvAG4ACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA1AF0AOgAgAGEAYwBhAGQAZQBtAGkAYwAgAGMAYQByAGUAZQByAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsANgBdADoAIABhAGMAdABpAG8AbgAgAHIAZQBhAHMAbwBuACAAKABvAHAAdABpAG8AbgBhAGwAKQAKACoAIABAAFIAZQB0AHUAcgBuAHMAIAAyAGQAIABhAHIAcgBhAHkAOgAgAGYAaQByAHMAdAAgAHIAbwB3ADoAIABbACAAZgBpAHIAcwB0ACAAYwBvAGwAdQBtAG4AOgAgAFsAcgBlAHEAdQBlAHMAdABJAGQAXQAgAHMAZQBjAG8AbgBkACAAYwBvAGwAdQBtAG4AOgAgAFsARQBuAHIAbwBsAGwAbQBlAG4AdAAgAHIAZQBxAHUAZQBzAHQAIABzAHQAYQB0AHUAcwAgAGMAbwBkAGUAXQAgAF0ACgAqAC8AY0EKHGQAcgBvAHAARQBuAHIAbwBsAGwAbQBlAG4AdAAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATyREAERyAGUAbQAgAHYAYQBsAGkAZABhAHQAZQAgAHAAYQByAGEAbQBlAHQAZQByAHMALwBhAHIAZwB1AG0AZQBuAHQAcwA7ABwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAYAAAAAAAAAAAAAAAAAAB8bFnRiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAA2ACAAZQBsAGUAbQBlAG4AdABzACAAdwBoAGUAbgAgAHIAZQBxAHUAZQBzAHQAaQBuAGcAIABlAG4AcgBvAGwAbABtAGUAbgB0ABUaFU9EQAxzAHQAcgBpAG4AZwABDiYAZQBtAHAAbABpAGQABgESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAQAAAAAAAAAAAAAAAAAATRUcCghOAG8AbgBlAAsBDiYAZQBtAHAAbABpAGQAFB8bFiRlAG0AcABsAGkA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OwAbFkBwAGUAbgBkAGkAbgBnACAAcgBlAHEAdQBlAHMAdAAgAGMAdQByAHIAZQBuAHQAbAB5ACAAZQB4AGkAcwB0AHMAFRoVLBUsFU8kagBqcgBlAG0AIABpAGYAIABuAG8AdAAgAGYAbwB1AG4AZAAsACAAZwBvACAAYQBoAGUAYQBkACAAYQBuAGQAIABjAHIAZQBhAHQAZQAgAGkAdAAgACgAaQBuACAAbQBlAG0AbwByAHkAKQA7AAEaJgBvAEUAbgByAGwAUgBlAHEAdQBlAHMAdAAFCh5FAE4AUgBMAF8AUgBFAFEAXwBBAEMAVABJAE8ATgAGFgJEABUBGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABQoSQwBMAEEAUwBTAF8ATgBCAFIABgEUJgBjAGwAYQBzAHMAXwBuAGIAcgAVTxwdARomAG8ARQBuAHIAbABSAGUAcQB1AGUAcwB0AAUKDEMAcgBlAGEAdABlAAsUHxsWZEMAcgBlAGEAdABpAG4AZwAgAHQAaABlACAAZAByAG8AcAAgAGUAbgByAG8AbABsAG0AZQBuAHQAIAByAGUAcQB1AGUAcwB0ACAAcgBlAGMAbwByAGQAIABmAGEAaQBsAGUAZAAVGhVPJIQAhHIAZQBtACAATgBvAHQAZQA6ACAAbwBuAGMAZQAgAGMAcgBlAGEAdABlAGQAIAAoAGkAbgAgAG0AZQBtAG8AcgB5ACkALAAgAGkAdAAgAGkAcwAgAG4AbwB0ACAAYQB1AHQAbwBtAGEAdABpAGMAYQBsAGwAeQAgAHMAYQB2AGUAZAA7ACSSAJJyAGUAbQAgAFcAZQAgAG0AdQBzAHQAIABzAGEAdgBlACAAdABoAGUAIAAnAGMAcgBlAGEAdABlAGQAJwAgAHIAZQBjAG8AcgBkACAAdQBzAGkAbgBnACAAcwBhAHYAZQAgAG0AZQB0AGgAbwBkACAAdABvACAAcABlAHIAcwBpAHMAdAAgAGkAbgAgAGQAYgA7AEQKEkEAcABpAE8AYgBqAGUAYwB0AAEyJgBvAEUAbgByAGwAUgBlAHEARABlAHQAYQBpAGwAQwBvAGwAbABlAGMAdABpAG8AbgAGARomAG8ARQBuAHIAbABSAGUAcQB1AGUAcwB0AAUKHkUATgBSAEwAXwBSAEUAUQBfAEQARQBUAEEA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AHQAYQB0AHUAcwAgAG8AZgAgAGEAIABlAG4AcgBvAGwAbABtAGUAbgB0ACAAcgBlAHEAdQBlAHMAdAAKACoACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwAgAGEAcgByAGEAeQAgAG8AZgAgAGsAZQB5AHMAIAB0AG8AIABpAG4AcwBlAHIAdAAgAGQAYQB0AGEACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAxAF0AOgAgAHMAaQBzAFAAZQByAHMAbwBuAEkAZAAgACgAYQBrAGEAIABlAG0AcABsAGkAZAApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMgBdADoAIABzAGkAcwBUAGUAcgBtAEkAZAAgACgAYQBrAGEAIABzAHQAcgBtACkACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAzAF0AOgAgAHMAaQBzAFMAZQBjAHQAaQBvAG4ASQBkACAAKABhAGsAYQAgAGMAbABhAHMAcwAgAG4AYgByACkACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA0AF0AOgAgAGkAbgBzAHQAaQB0AHUAdABpAG8AbgAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADUAXQA6ACAAYQBjAGEAZABlAG0AaQBjACAAYwBhAHIAZQBlAHIACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA2AF0AOgAgAHIAZQBxAHUAZQBzAHQAIABpAGQACgAqACAAQABSAGUAdAB1AHIAbgBzACAAMgBkACAAYQByAHIAYQB5ADoAIABmAGkAcgBzAHQAIAByAG8AdwA6ACAAWwAgAGYAaQByAHMAdAAgAGMAbwBsAHUAbQBuADoAIABbAEUAbgByAG8AbABsAG0AZQBuAHQAIAByAGUAcQB1AGUAcwB0ACAAcwB0AGEAdAB1AHMAIABjAG8AZABlAF0AIABdAAoAKgAvAGNBCixjAGgAZQBjAGsARQBuAHIAbwBsAGwAbQBlAG4AdABSAGUAcQB1AGUAcwB0AC1tMiYAYgBpAG4AZABWAGEAcgBzACAAYQBzACAAQQByAHIAYQB5ACAAbwBmACAAQQBuAHkAbSpSAGUAdAB1AHIAbgBzACAAQQByAHIAYQB5ADIAIABvAGYAIABBAG4AeQBPJEQARHIAZQBtACAAdgBhAGwAaQBkAGEAdABlACAAcABhAHIAYQBtAGUAdABlAHIAcwAvAGEAcgBnAHUAbQBlAG4AdABzADsAHAESJgBiAGkAbgBkAFYAYQByAHMABQoGTABlAG4AEFASAAAABgAAAAAAAAAAAAAAAAAAHxsWhmIAaQBuAGQAVgBhAHIAcwAgAHMAaABvAHUAbABkACAAaABhAHYAZQAgADYAIABlAGwAZQBtAGUAbgB0AHMAIAB3AGgAZQBuACAAYwBoAGUAYwBrAGkAbgBnACAAYQBuACAAZQBuAHIAbwBsAGwAbQBlAG4AdAAgAHIAZQBxAHUAZQBzAHQAFRoVT0RADHMAdAByAGkAbgBnAAEOJgBlAG0AcABsAGkAZAAGARImAGIAaQBuAGQAVgBhAHIAcwBMUBIAAAABAAAAAAAAAAAAAAAAAABNFRwKCE4AbwBuAGUACwEOJgBlAG0AcABsAGkAZAAUHxsWJGUAbQBwAGwAaQBkACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU9EQAxzAHQAcgBpAG4AZwABCiYAcwB0AHIAbQAGARImAGIAaQBuAGQAVgBhAHIAcwBMUBIAAAACAAAAAAAAAAAAAAAAAABNFRwKCE4AbwBuAGUACwEKJgBzAHQAcgBtABQfGxYgcwB0AHIAbQAgAGkAcwAgAHIAZQBxAHUAaQByAGUAZAAVGhVPREAMcwB0AHIAaQBuAGcAARQmAGMAbABhAHMAcwBfAG4AYgByAAYBEiYAYgBpAG4AZABWAGEAcgBzAExQEgAAAAMAAAAAAAAAAAAAAAAAAE0VHAoITgBvAG4AZQALARQmAGMAbABhAHMAcwBfAG4AYgByABQfGxYqYwBsAGEAcwBzAF8AbgBiAHIAIABpAHMAIAByAGUAcQB1AGkAcgBlAGQAFRoVT0RADHMAdAByAGkAbgBnAAEYJgBpAG4AcwB0AGkAdAB1AHQAaQBvAG4ABgESJgBiAGkAbgBkAFYAYQByAHMATFASAAAABAAAAAAAAAAAAAAAAAAATRUcCghOAG8AbgBlAAsBGCYAaQBuAHMAdABpAHQAdQB0AGkAbwBuABQfGxYuaQBuAHMAdABpAHQAdQB0AGkAbwBuACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU9EQAxzAHQAcgBpAG4AZwABGCYAYQBjAGEAZABfAGMAYQByAGUAZQByAAYBEiYAYgBpAG4AZABWAGEAcgBzAExQEgAAAAUAAAAAAAAAAAAAAAAAAE0VHAoITgBvAG4AZQALARgmAGEAYwBhAGQAXwBjAGEAcgBlAGUAcgAUHxsWLmEAYwBhAGQAXwBjAGEAcgBlAGUAcgAgAGkAcwAgAHIAZQBxAHUAaQByAGUAZAAVGhVPREAMcwB0AHIAaQBuAGcAARQmAHIAZQBxAHUAZQBzAHQASQBkAAYBEiYAYgBpAG4AZABWAGEAcgBzAExQEgAAAAYAAAAAAAAAAAAAAAAAAE0VHAoITgBvAG4AZQALARgmAGEAYwBhAGQAXwBjAGEAcgBlAGUAcgAUHxsWKnIAZQBxAHUAZQBzAHQASQBkACAAaQBzACAAcgBlAHEAdQBpAHIAZQBkABUaFU9EChJBAHAAaQBPAGIAagBlAGMAdAABGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABgsSECUAUwBlAHMAcwBpAG8AbgAUBQoYRwBlAHQAQwBvAG0AcABJAG4AdABmAGMACyEFABQVHAEaJgBvAEUAbgByAGwAUgBlAHEAdQBlAHMAdAAGSx8bFnRDAG8AdQBsAGQAIABuAG8AdAAgAGkAbgBzAHQAYQBuAHQAaQBhAHQAZQAgAHQAaABlACAARQBOAFIATABfAFIARQBRAFUARQBTAFQAIABDAG8AbQBwAG8AbgBlAG4AdAAgAEkAbgB0AGUAcgBmAGEAYwBlABUaFU8BGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABQoeSQBuAHQAZQByAGEAYwB0AGkAdgBlAE0AbwBkAGUABjAVARomAG8ARQBuAHIAbABSAGUAcQB1AGUAcwB0AAUKHkcAZQB0AEgAaQBzAHQAbwByAHkASQB0AGUAbQBzAAYvFQEaJgBvAEUAbgByAGwAUgBlAHEAdQBlAHMAdAAFCiBFAGQAaQB0AEgAaQBzAHQAbwByAHkASQB0AGUAbQBzAAYwFU8k3gDecgBlAG0AIABjAGgAZQBjAGsAIABpAGYAIABlAG4AcgBvAGwAbABtAGUAbgB0ACAAcgBlAHEAdQBlAHMAdAAgAGEAbAByAGUAYQBkAHkAIABlAHgAaQBzAHQAcwAgAGIAeQAgAGwAbwBvAHAAaQBuAGcAIAB0AGgAcgBvAHUAZwBoACAAdABoAGkAcwAgAHMAdAB1AGQAZQBuAHQAJwBzACAAZQBuAHIAbwBsAGwAbQBlAG4AdAAgAHIAZQBxAHUAZQBzAHQAcwAgAHQAaABpAHMAIAB0AGUAcgBtADsAARomAG8ARQBuAHIAbABSAGUAcQB1AGUAcwB0AAUKHkUATgBSAEwAXwBSAEUAUQBVAEUAUwBUAF8ASQBEAAYBFCYAcgBlAHEAdQBlAHMAdABJAGQAFQEaJgBvAEUAbgByAGwAUgBlAHEAdQBlAHMAdAAFCgxFAE0AUABMAEkARAAGAQ4mAGUAbQBwAGwAaQBkABUBGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABQoWQQBDAEEARABfAEMAQQBSAEUARQBSAAYBGCYAYQBjAGEAZABfAGMAYQByAGUAZQByABUBGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABQoWSQBOAFMAVABJAFQAVQBUAEkATwBOAAYBGCYAaQBuAHMAdABpAHQAdQB0AGkAbwBuABUBGiYAbwBFAG4AcgBsAFIAZQBxAHUAZQBzAHQABQoIUwBUAFIATQAGAQomAHMAdAByAG0AFUQKEkEAcABpAE8AYgBqAGUAYwB0AAEYJgBmAGkAbgBkAFIAZQBzAHUAbAB0AHMABgEaJgBvAEUAbgByAGwAUgBlAHEAdQBlAHMAdAAFCghGAGkAbgBkAAsUFURADHMAdAByAGkAbgBnAAEWJgBzAHQAYQB0AHUAcwBDAG8AZABlAAYWABVPREAMbgB1AG0AYgBlAHIAAQQmAEkAFSkBBCYASQAGUBIAAAABAAAAAAAAAAAAAAAAAAAqARgmAGYAaQBuAGQAUgBlAHMAdQBsAHQAcwAFCgpDAG8AdQBuAHQALUQKEkEAcABpAE8AYgBqAGUAYwB0AAEmJgBjAHUAcgByAGUAbgB0AEUAbgByAGwAUgBlAHEAdQBlAHMAdAAGARgmAGYAaQBuAGQAUgBlAHMAdQBsAHQAcwAFCghJAHQAZQBtAAsBBCYASQAUFRwdASYmAGMAdQByAHIAZQBuAHQARQBuAHIAbABSAGUAcQB1AGUAcwB0AAUKBkcAZQB0AAsUHxsWmkMAbwB1AGwAZAAgAG4AbwB0ACAAZwBlAHQAIAB0AGgAZQAgAGUAbgByAG8AbABsAG0AZQBuAHQAIAByAGUAcQB1AGUAcwB0ACAAcgBlAGMAbwByAGQAIAB3AGgAZQBuACAAdgBlAHIAaQBmAHkAaQBuAGcAIABpAGYAIAByAGUAcQB1AGUAcwB0AHMAIABlAHgAaQBzAHQAcwAVGhVEChJBAHAAaQBPAGIAagBlAGMAdAABPiYAYwB1AHIAcgBlAG4AdABFAG4AcgBsAFIAZQBxAEQAZQB0AGEAaQBsAEMAbwBsAGwAZQBjAHQAaQBvAG4ABgEmJgBjAHUAcgByAGUAbgB0AEUAbgByAGwAUgBlAHEAdQBlAHMAdAAFCh5FAE4AUgBMAF8AUgBFAFEAXwBEAEUAVABBAEkATAAVREAMbgB1AG0AYgBlAHIAAQQmAEoAFSkBBCYASgAGUBIAAAABAAAAAAAAAAAAAAAAAAAqAT4mAGMAdQByAHIAZQBuAHQARQBuAHIAbABSAGUAcQBEAGUAdABhAGkAbABDAG8AbABsAGUAYwB0AGkAbwBuAAUKCkMAbwB1AG4AdAAtRAoSQQBwAGkATwBiAGoAZQBjAHQAASomAGMAdQByAHIAZQBuAHQARQBuAHIAbABSAGUAcQBEAGUAdABhAGkAbAAGAT4mAGMAdQByAHIAZQBuAHQARQBuAHIAbABSAGUAcQBEAGUAdABhAGkAbABDAG8AbABsAGUAYwB0AGkAbwBuAAUKCEkAdABlAG0ACwEEJgBKABQVHAEqJgBjAHUAcgByAGUAbgB0AEUAbgByAGwAUgBlAHEARABlAHQAYQBpAGwABQoSQwBMAEEAUwBTAF8ATgBCAFIABgEUJgBjAGwAYQBzAHMAXwBuAGIAcgAfARYmAHMAdABhAHQAdQBzAEMAbwBkAGUABgEqJgBjAHUAcgByAGUAbgB0AEUAbgByAGwAUgBlAHEARABlAHQAYQBpAGwABQokRQBOAFIATABfAFIARQBRAF8ARABFAFQATABfAFMAVABBAFQAFRoVLBUsFU84ChZDAHIAZQBhAHQAZQBBAHIAcgBhAHkACwocQwByAGUAYQB0AGUAQQByAHIAYQB5AEEAbgB5AAsBFiYAcwB0AGEAdAB1AHMAQwBvAGQAZQAUFBVkFS1PJEYE/0YEAAAvACoAKgAKACoAIABUAGgAaQBzACAAZgB1AG4AYwB0AGkAbwBuACAAcAByAG8AdgBpAGQAZQBzACAAYQBuACAAaQBuAHQAZQByAGYAYQBjAGUAIAB0AG8AIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAZwBlAHQAIAB0AGgAZQAgAGwAbwBnAHMAIABwAHIAbwBkAHUAYwBlAGQAIABiAHkAIAB0AGgAZQAgAGIAdQBpAGwAdAAtAGkAbgAgAGUAbgByAG8AbABsAG0AZQBuAHQAIABlAG4AZwBpAG4AZQAgAHcAaABlAG4ACgAqACAAaQB0ACAAdAByAGkAZQBzACAAdABvACAAcAByAG8AYwBlAHMAcwAgAGEAbgAgAGUAbgByAG8AbABsAG0AZQBuAHQAIABhAGQAZAAvAGQAcgBvAHAALwBnAHIAYQBkAGUAIAByAGUAcQB1AGUAcwB0AAoAKgAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzACAAYQByAHIAYQB5ACAAbwBmACAAZABhAHQAYQAgAGsAZQB5AHMAIAB0AG8AIAByAGUAdAByAGkAZQB2AGUAIABsAG8AZwBzACAAbwBmAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMQBdADoAIABzAGkAcwBQAGUAcgBzAG8AbgBJAGQAIAAoAGEAawBhACAAZQBtAHAAbABpAGQAKQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADIAXQA6ACAAcwBpAHMAVABlAHIAbQBJAGQAIAAoAGEAawBhACAAcwB0AHIAbQApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMwBdADoAIABzAGkAcwBTAGUAYwB0AGkAbwBuAEkAZAAgACgAYQBrAGEAIABjAGwAYQBzAHMAIABuAGIAcgApAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsANABdADoAIABpAG4AcwB0AGkAdAB1AHQAaQBvAG4ACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA1AF0AOgAgAGEAYwBhAGQAZQBtAGkAYwAgAGMAYQByAGUAZQByAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsANgBdADoAIAByAGUAcQB1AGUAcwB0ACAASQBkAAoAKgAgAEAAUgBlAHQA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ACAAawBlAHkAcwAgAHQAbwAgAHIAZQB0AHIAaQBlAHYAZQAgAGYAcgBvAG0AIAB0AGgAZQAgAHMAdABhAGcAaQBuAGcAIAB0AGEAYgBsAGUACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAxAF0AOgAgAHMAaQBzACAAUABlAHIAcwBvAG4AIABJAGQAIAAoAGEAawBhACAARQBNAFAATABJAEQAKQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADIAXQA6ACAAcwB0AGEAcgB0ACAARABhAHQAZQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADMAXQA6ACAAcwBpAHMAIABDAG8AdQByAHMAZQAgAEkAZAAgACgAYQBrAGEAIABTAFUAQgBKAC0ATgBCAFIAKQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADQAXQA6ACAAaQBuAHMAdABpAHQAdQB0AGkAbwBuACAAYwBvAGQAZQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADUAXQA6ACAAYQBjAGEAZABlAG0AaQBjACAAYwBhAHIAZQBlAHIAIABjAG8AZABlAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgADIAZAAgAGEAcgByAGEAeQAgAHcAaQB0AGgAIAB0AGgAZQAgAHAAcgBlAHIAZQBxAHUAaQBzAGkAdABlACAAcwB0AGEAdAB1AHMAIABpAG4AIABmAGkAcgBzAHQAIAByAG8AdwAKACoALwBjQQo4ZwBlAHQAUwB0AHUAZABlAG4AdABQAHIAZQByAGUAcQB1AGkAcwBpAHQAZQBTAHQAYQB0AHUAcwAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATyREAERyAGUAbQAgAHYAYQBsAGkAZABhAHQAZQAgAHAAYQByAGEAbQBlAHQAZQByAHMALwBhAHIAZwB1AG0AZQBuAHQAcwA7ABwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAUAAAAAAAAAAAAAAAAAAB8bFnRiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgA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</peoplecode_blob>
+  </instance>

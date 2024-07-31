@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+<!--
+  ~ Copyright (c) 2017. California Community Colleges Technology Center
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<jxb:bindings version="1.0"
+              xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+              xmlns:xs="http://www.w3.org/2001/XMLSchema"
+              xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
+              jxb:extensionBindingPrefixes="xjc">
+    <jxb:bindings schemaLocation="CoreMain_v1.14.0.xsd" node="/xs:schema">
+
+        <jxb:globalBindings generateValueClass="false">
+            <!--XJC Default generated jaxb classes could not properly model pesc International and Domestic Addresses.
+            Both DomesticAddressDetailsGroup and InternationalAddressDetailsGroup contain 'PostalCode' which causes issues for default xjc.
+            The fix was to use xjc 'simpler&better' binding mode which allowed xjc to generate jaxb classes that properly represent
+            both PESC XSD compliant Domestic and International addresses.
+            https://jaxb.java.net/2.1.2/docs/vendorgustomizations.html#simple-->
+            <xjc:serializable uid="1"/>
+
+            <xjc:simple/>
+            
+            <jxb:javaType name= "java.util.Date" xmlType="xs:date"
+                          parseMethod="com.ccctc.adaptor.util.transcript.DateConverter.parseDate"
+                          printMethod="com.ccctc.adaptor.util.transcript.DateConverter.printDate" />
+            <jxb:javaType name= "java.util.Date" xmlType="xs:dateTime"
+                          parseMethod="com.ccctc.adaptor.util.transcript.DateConverter.parseDateTime"
+                          printMethod="com.ccctc.adaptor.util.transcript.DateConverter.printDateTime" />
+            <jxb:javaType name= "java.util.Date" xmlType="xs:time"
+                          parseMethod="com.ccctc.adaptor.util.transcript.DateConverter.parseTime"
+                          printMethod="com.ccctc.adaptor.util.transcript.DateConverter.printTime" />
+            <jxb:javaType name= "java.util.Date" xmlType="xs:gYearMonth"
+                          parseMethod="com.ccctc.adaptor.util.transcript.DateConverter.parseYearMonth"
+                          printMethod="com.ccctc.adaptor.util.transcript.DateConverter.printYearMonth" />
+            <jxb:javaType name= "java.util.Date" xmlType="xs:gYear"
+                          parseMethod="com.ccctc.adaptor.util.transcript.DateConverter.parseYear"
+                          printMethod="com.ccctc.adaptor.util.transcript.DateConverter.printYear" />
+            <jxb:javaType name= "java.lang.String" xmlType="xs:gMonthDay"
+                          parseMethod="com.ccctc.adaptor.util.transcript.DateConverter.parseMonthDay"
+                          printMethod="com.ccctc.adaptor.util.transcript.DateConverter.printMonthDay" />
+        </jxb:globalBindings>
+
+
+        <jxb:bindings schemaLocation="AcademicRecord_v1.9.0.xsd">
+            <jxb:schemaBindings>
+                <jxb:package name="com.ccctc.sector.academicrecord.v1_9"/>
+            </jxb:schemaBindings>
+        </jxb:bindings>
+
+        <jxb:bindings schemaLocation="CoreMain_v1.14.0.xsd">
+            <jxb:schemaBindings>
+                <jxb:package name="com.ccctc.core.coremain.v1_14"/>
+            </jxb:schemaBindings>
+        </jxb:bindings>
+
+        <jxb:bindings schemaLocation="CollegeTranscript_v1.6.0.xsd">
+            <jxb:schemaBindings>
+                <jxb:package name="com.ccctc.message.collegetranscript.v1_6"/>
+            </jxb:schemaBindings>
+        </jxb:bindings>
+
+        <jxb:bindings schemaLocation="HighSchoolTranscript_v1.5.0.xsd">
+            <jxb:schemaBindings>
+                <jxb:package name="com.ccctc.message.highschooltranscript.v1_5"/>
+            </jxb:schemaBindings>
+        </jxb:bindings>
+
+        <jxb:bindings schemaLocation="TranscriptCCCUDE_v1.0.0.xsd">
+            <jxb:schemaBindings>
+                <jxb:package name="com.xap.ccctran"/>
+            </jxb:schemaBindings>
+            <!-- Enumeration bindings for CourseCCCExtensionsType -->
+            <jxb:bindings node="xs:complexType[@name='CourseCCCExtensionsType']/xs:sequence">
+                <jxb:bindings node="xs:element[@name='CSUAmerInstCode']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="CSUAmerInstCodeType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CSUGEEligibleArea']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="CSUGEEligibleAreaType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CSUGEAppliedArea']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="CSUGEAppliedAreaType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CSUIGETCEligibleArea']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="CSUIGETCEligibleAreaType">
+                        <jxb:typesafeEnumMember name="IGETC_1A" value="1A" />
+                        <jxb:typesafeEnumMember name="IGETC_1B" value="1B" />
+                        <jxb:typesafeEnumMember name="IGETC_1C" value="1C" />
+                        <jxb:typesafeEnumMember name="IGETC_2A" value="2A" />
+                        <jxb:typesafeEnumMember name="IGETC_3A" value="3A" />
+                        <jxb:typesafeEnumMember name="IGETC_3B" value="3B" />
+                        <jxb:typesafeEnumMember name="IGETC_4A" value="4A" />
+                        <jxb:typesafeEnumMember name="IGETC_4B" value="4B" />
+                        <jxb:typesafeEnumMember name="IGETC_4C" value="4C" />
+                        <jxb:typesafeEnumMember name="IGETC_4D" value="4D" />
+                        <jxb:typesafeEnumMember name="IGETC_4E" value="4E" />
+                        <jxb:typesafeEnumMember name="IGETC_4F" value="4F" />
+                        <jxb:typesafeEnumMember name="IGETC_4G" value="4G" />
+                        <jxb:typesafeEnumMember name="IGETC_4H" value="4H" />
+                        <jxb:typesafeEnumMember name="IGETC_4I" value="4I" />
+                        <jxb:typesafeEnumMember name="IGETC_4J" value="4J" />
+                        <jxb:typesafeEnumMember name="IGETC_5A" value="5A" />
+                        <jxb:typesafeEnumMember name="IGETC_5B" value="5B" />
+                        <jxb:typesafeEnumMember name="IGETC_8A" value="8A" />
+                        <jxb:typesafeEnumMember name="IGETC_8B" value="8B" />
+                    </jxb:typesafeEnumClass>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CSUIGETCAppliedArea']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="CSUIGETCAppliedAreaType">
+                        <jxb:typesafeEnumMember name="IGETC_1A" value="1A" />
+                        <jxb:typesafeEnumMember name="IGETC_1B" value="1B" />
+                        <jxb:typesafeEnumMember name="IGETC_1C" value="1C" />
+                        <jxb:typesafeEnumMember name="IGETC_2A" value="2A" />
+                        <jxb:typesafeEnumMember name="IGETC_3A" value="3A" />
+                        <jxb:typesafeEnumMember name="IGETC_3B" value="3B" />
+                        <jxb:typesafeEnumMember name="IGETC_4A" value="4A" />
+                        <jxb:typesafeEnumMember name="IGETC_4B" value="4B" />
+                        <jxb:typesafeEnumMember name="IGETC_4C" value="4C" />
+                        <jxb:typesafeEnumMember name="IGETC_4D" value="4D" />
+                        <jxb:typesafeEnumMember name="IGETC_4E" value="4E" />
+                        <jxb:typesafeEnumMember name="IGETC_4F" value="4F" />
+                        <jxb:typesafeEnumMember name="IGETC_4G" value="4G" />
+                        <jxb:typesafeEnumMember name="IGETC_4H" value="4H" />
+                        <jxb:typesafeEnumMember name="IGETC_4I" value="4I" />
+                        <jxb:typesafeEnumMember name="IGETC_4J" value="4J" />
+                        <jxb:typesafeEnumMember name="IGETC_5A" value="5A" />
+                        <jxb:typesafeEnumMember name="IGETC_5B" value="5B" />
+                        <jxb:typesafeEnumMember name="IGETC_8A" value="8A" />
+                        <jxb:typesafeEnumMember name="IGETC_8B" value="8B" />
+                    </jxb:typesafeEnumClass>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='UCIGETCEligibleArea']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="UCIGETCEligibleAreaType">
+                        <jxb:typesafeEnumMember name="IGETC_1A" value="1A" />
+                        <jxb:typesafeEnumMember name="IGETC_1B" value="1B" />
+                        <jxb:typesafeEnumMember name="IGETC_1C" value="1C" />
+                        <jxb:typesafeEnumMember name="IGETC_2A" value="2A" />
+                        <jxb:typesafeEnumMember name="IGETC_3A" value="3A" />
+                        <jxb:typesafeEnumMember name="IGETC_3B" value="3B" />
+                        <jxb:typesafeEnumMember name="IGETC_4A" value="4A" />
+                        <jxb:typesafeEnumMember name="IGETC_4B" value="4B" />
+                        <jxb:typesafeEnumMember name="IGETC_4C" value="4C" />
+                        <jxb:typesafeEnumMember name="IGETC_4D" value="4D" />
+                        <jxb:typesafeEnumMember name="IGETC_4E" value="4E" />
+                        <jxb:typesafeEnumMember name="IGETC_4F" value="4F" />
+                        <jxb:typesafeEnumMember name="IGETC_4G" value="4G" />
+                        <jxb:typesafeEnumMember name="IGETC_4H" value="4H" />
+                        <jxb:typesafeEnumMember name="IGETC_4I" value="4I" />
+                        <jxb:typesafeEnumMember name="IGETC_4J" value="4J" />
+                        <jxb:typesafeEnumMember name="IGETC_5A" value="5A" />
+                        <jxb:typesafeEnumMember name="IGETC_5B" value="5B" />
+                        <jxb:typesafeEnumMember name="IGETC_8A" value="8A" />
+                        <jxb:typesafeEnumMember name="IGETC_8B" value="8B" />
+                    </jxb:typesafeEnumClass>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='UCIGETCAppliedArea']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="UCIGETCAppliedAreaType">
+                        <jxb:typesafeEnumMember name="IGETC_1A" value="1A" />
+                        <jxb:typesafeEnumMember name="IGETC_1B" value="1B" />
+                        <jxb:typesafeEnumMember name="IGETC_1C" value="1C" />
+                        <jxb:typesafeEnumMember name="IGETC_2A" value="2A" />
+                        <jxb:typesafeEnumMember name="IGETC_3A" value="3A" />
+                        <jxb:typesafeEnumMember name="IGETC_3B" value="3B" />
+                        <jxb:typesafeEnumMember name="IGETC_4A" value="4A" />
+                        <jxb:typesafeEnumMember name="IGETC_4B" value="4B" />
+                        <jxb:typesafeEnumMember name="IGETC_4C" value="4C" />
+                        <jxb:typesafeEnumMember name="IGETC_4D" value="4D" />
+                        <jxb:typesafeEnumMember name="IGETC_4E" value="4E" />
+                        <jxb:typesafeEnumMember name="IGETC_4F" value="4F" />
+                        <jxb:typesafeEnumMember name="IGETC_4G" value="4G" />
+                        <jxb:typesafeEnumMember name="IGETC_4H" value="4H" />
+                        <jxb:typesafeEnumMember name="IGETC_4I" value="4I" />
+                        <jxb:typesafeEnumMember name="IGETC_4J" value="4J" />
+                        <jxb:typesafeEnumMember name="IGETC_5A" value="5A" />
+                        <jxb:typesafeEnumMember name="IGETC_5B" value="5B" />
+                        <jxb:typesafeEnumMember name="IGETC_8A" value="8A" />
+                        <jxb:typesafeEnumMember name="IGETC_8B" value="8B" />
+                    </jxb:typesafeEnumClass>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='GradeBracket']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="GradeBracketType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='AttemptedUnitsCalc']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="AttemptedUnitsCalcType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='EarnedUnitsCalc']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="EarnedUnitsCalcType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='GradePointsCalc']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="GradePointsCalcType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='Transferability']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="TransferabilityType" />
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CourseActionCode']/xs:simpleType">
+                    <jxb:typesafeEnumClass name="CourseActionCodeType" />
+                </jxb:bindings>
+            </jxb:bindings>
+            <!-- Enumeration bindings for AcademicRecordCCCExtensionsType -->
+            <jxb:bindings node="xs:complexType[@name='AcademicRecordCCCExtensionsType']/xs:sequence">
+                <jxb:bindings node="xs:element[@name='GradeSchemeEntry']/xs:complexType/xs:sequence">
+                    <jxb:bindings node="xs:element[@name='AttemptedUnitsCalc']/xs:simpleType">
+                        <jxb:typesafeEnumClass name="AttemptedUnitsCalcType" />
+                    </jxb:bindings>
+                    <jxb:bindings node="xs:element[@name='EarnedUnitsCalc']/xs:simpleType">
+                        <jxb:typesafeEnumClass name="EarnedUnitsCalcType" />
+                    </jxb:bindings>
+                    <jxb:bindings node="xs:element[@name='GradePointsCalc']/xs:simpleType">
+                        <jxb:typesafeEnumClass name="GradePointsCalcType" />
+                    </jxb:bindings>
+                </jxb:bindings>
+
+                <jxb:bindings node="xs:element[@name='InstitutionInformationEntry']/xs:complexType/xs:sequence">
+                    <jxb:bindings node="xs:element[@name='InstitutionNoteID']/xs:complexType/xs:sequence">
+                        <jxb:bindings node="xs:element[@name='InstitutionNoteTopic']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="InstitutionNoteTopicType" />
+                        </jxb:bindings>
+                    </jxb:bindings>
+                </jxb:bindings>
+
+                <jxb:bindings node="xs:element[@name='CSUAmerHistCompletion']/xs:complexType/xs:sequence">
+                    <jxb:bindings node="xs:element[@name='CompletionIndicator']/xs:simpleType">
+                        <jxb:typesafeEnumClass name="CompletionIndicatorType" />
+                    </jxb:bindings>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CSUGECompletion']/xs:complexType/xs:sequence">
+                    <jxb:bindings node="xs:element[@name='CSUGECompletionAreas']/xs:complexType/xs:sequence">
+                        <jxb:bindings node="xs:element[@name='CSUGEAreaID']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="CSUGEAreaIDType" />
+                        </jxb:bindings>
+                        <jxb:bindings node="xs:element[@name='CSUGEAreaCompletionIndicator']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="CSUGEAreaCompletionIndicatorType" />
+                        </jxb:bindings>
+                    </jxb:bindings>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='CSUIGETCCompletion']/xs:complexType/xs:sequence">
+                    <jxb:bindings node="xs:element[@name='CSUIGETCCertificationAreas']/xs:complexType/xs:sequence">
+                        <jxb:bindings node="xs:element[@name='CSUIGETCAreaID']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="CSUIGETCAreaIDType">
+                                <jxb:typesafeEnumMember name="IGETC_1" value="1" />
+                                <jxb:typesafeEnumMember name="IGETC_2" value="2" />
+                                <jxb:typesafeEnumMember name="IGETC_3" value="3" />
+                                <jxb:typesafeEnumMember name="IGETC_4" value="4" />
+                                <jxb:typesafeEnumMember name="IGETC_5" value="5" />
+                                <jxb:typesafeEnumMember name="IGETC_6" value="6" />
+                            </jxb:typesafeEnumClass>
+                        </jxb:bindings>
+                        <jxb:bindings node="xs:element[@name='CSUIGETCAreaCompletionIndicator']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="CSUIGETCAreaCompletionIndicatorType" />
+                        </jxb:bindings>
+                    </jxb:bindings>
+                </jxb:bindings>
+                <jxb:bindings node="xs:element[@name='UCIGETCCompletion']/xs:complexType/xs:sequence">
+                    <jxb:bindings node="xs:element[@name='UCIGETCCertificationAreas']/xs:complexType/xs:sequence">
+                        <jxb:bindings node="xs:element[@name='UCIGETCAreaID']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="UCIGETCAreaIDType">
+                                <jxb:typesafeEnumMember name="IGETC_1" value="1" />
+                                <jxb:typesafeEnumMember name="IGETC_2" value="2" />
+                                <jxb:typesafeEnumMember name="IGETC_3" value="3" />
+                                <jxb:typesafeEnumMember name="IGETC_4" value="4" />
+                                <jxb:typesafeEnumMember name="IGETC_5" value="5" />
+                                <jxb:typesafeEnumMember name="IGETC_6" value="6" />
+                            </jxb:typesafeEnumClass>
+                        </jxb:bindings>
+                        <jxb:bindings node="xs:element[@name='UCIGETCAreaCompletionIndicator']/xs:simpleType">
+                            <jxb:typesafeEnumClass name="UCIGETCAreaCompletionIndicatorType" />
+                        </jxb:bindings>
+                    </jxb:bindings>
+                </jxb:bindings>
+            </jxb:bindings>
+        </jxb:bindings>
+    </jxb:bindings>
+</jxb:bindings>

@@ -1,0 +1,4 @@
+service:
+  envName: prod
+  misCode: "001"
+  serviceRouterDomain: ccctechcenter.org

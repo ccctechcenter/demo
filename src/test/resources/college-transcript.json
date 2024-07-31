@@ -1,0 +1,1675 @@
+{
+  "ColTrn.CollegeTranscript" : {
+    "Student" : {
+      "Person" : {
+        "SchoolAssignedPersonID" : "500307753",
+        "AgencyIdentifier" : [ ],
+        "PartialSSN" : "0000",
+        "Birth" : {
+          "BirthDate" : "1989-09-06"
+        },
+        "Name" : {
+          "FirstName" : "Janet",
+          "MiddleName" : [ "E" ],
+          "LastName" : "Doe"
+        },
+        "HighSchool" : {
+          "OrganizationName" : "Buena High"
+        },
+        "Contacts" : [ {
+          "Address" : [ {
+            "AddressLine" : [ "668 Springfield Ave" ],
+            "City" : "Ventura",
+            "StateProvinceCode" : "CA",
+            "PostalCode" : "93004-2104"
+          } ],
+          "Email" : [ {
+            "EmailAddress" : "janet.doe@my.vcccd.edu"
+          } ]
+        } ],
+        "Gender" : {
+          "GenderCode" : "Female"
+        },
+        "Residency" : {
+          "StateProvince" : "CA"
+        },
+        "NoteMessage" : [ "High School Graduation Date: 20070601" ]
+      },
+      "AcademicRecord" : [ {
+        "School" : {
+          "OrganizationName" : "Ventura College",
+          "FICE" : "001334"
+        },
+        "AcademicAward" : [ {
+          "AcademicAwardLevel" : "2.3",
+          "AcademicAwardDate" : "2015-11-02",
+          "AcademicAwardTitle" : "Associate in Arts in GS:NATURAL SCIENCES",
+          "AcademicCompletionIndicator" : true
+        } ],
+        "AcademicSummary" : [ {
+          "GPA" : {
+            "CreditHoursAttempted" : 131.5,
+            "CreditHoursEarned" : 82.5,
+            "CreditUnit" : "Units",
+            "GradePointAverage" : 3.54,
+            "TotalQualityPoints" : 292.0,
+            "CreditHoursforGPA" : 82.5,
+            "GPARangeMinimum" : 0.0,
+            "GPARangeMaximum" : 4.0
+          }
+        } ],
+        "AcademicSession" : [ {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1996-08",
+            "SessionName" : "Fall 1996",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1996-08-19",
+            "SessionEndDate" : "1996-12-18"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0.5,
+            "CourseAcademicGradeScaleCode" : "62",
+            "CourseAcademicGrade" : "CR",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "GW",
+            "CourseNumber" : "02X",
+            "CourseTitle" : "ORIENTATION WORKSHOP",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 0.5,
+              "CreditHoursEarned" : 0.5,
+              "GradePointAverage" : 0.0,
+              "CreditHoursforGPA" : 0
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1997-01",
+            "SessionName" : "Spring 1997",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1997-01-13",
+            "SessionEndDate" : "1997-05-16"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "CJ",
+            "CourseNumber" : "02A",
+            "CourseTitle" : "CONCEPTS/CRIMINAL LAW",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 1.5,
+            "CourseCreditEarned" : 1.5,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 6,
+            "CourseSubjectAbbreviation" : "PE",
+            "CourseNumber" : "45",
+            "CourseTitle" : "SELF DEFNS/ASSAULT PREV",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 4.5,
+              "CreditHoursEarned" : 1.5,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 6
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1997-08",
+            "SessionName" : "Fall 1997",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1997-08-18",
+            "SessionEndDate" : "1997-12-17"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "HE",
+            "CourseNumber" : "23",
+            "CourseTitle" : "CHILD GROWTH & DEVELOP",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "HED",
+            "CourseNumber" : "93",
+            "CourseTitle" : "HEALTH AND WELLNESS",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "PHIL",
+            "CourseNumber" : "03A",
+            "CourseTitle" : "SURV WRLD RELIGION:EAST",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 9,
+              "CreditHoursEarned" : 0,
+              "GradePointAverage" : 0.0,
+              "CreditHoursforGPA" : 0
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1998-01",
+            "SessionName" : "Spring 1998",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1998-01-12",
+            "SessionEndDate" : "1998-05-15"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "Postsecondary"
+          }
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1998-08",
+            "SessionName" : "Fall 1998",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1998-08-17",
+            "SessionEndDate" : "1998-12-16"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "ENGL",
+            "CourseNumber" : "02A",
+            "CourseTitle" : "ENGLISH COMPOSITION: II",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "HIST",
+            "CourseNumber" : "08",
+            "CourseTitle" : "HISTORY OF CALIFORNIA",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseQualityPointsEarned" : 9,
+            "CourseSubjectAbbreviation" : "PSYCH",
+            "CourseNumber" : "25",
+            "CourseTitle" : "PSYCHOLOGY OF HUMAN SEX",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 11,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 3.0,
+              "CreditHoursforGPA" : 9
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1999-01",
+            "SessionName" : "Spring 1999",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1999-01-11",
+            "SessionEndDate" : "1999-05-14"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 1,
+            "CourseAcademicGradeScaleCode" : "62",
+            "CourseAcademicGrade" : "CR",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "BIS",
+            "CourseNumber" : "56A",
+            "CourseTitle" : "MICROSOFT POWERPOINT I",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "05",
+            "CourseTitle" : "PLANE TRIGONOMETRY",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 1.5,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "F",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "PE",
+            "CourseNumber" : "32",
+            "CourseTitle" : "AIKIDO",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 5.5,
+              "CreditHoursEarned" : 1,
+              "GradePointAverage" : 0.0,
+              "CreditHoursforGPA" : 0
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "1999-08",
+            "SessionName" : "Fall 1999",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "1999-08-16",
+            "SessionEndDate" : "1999-12-15"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "F",
+            "CourseRepeatCode" : "RepeatNotCounted",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "SPAN",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Elementary Spanish I",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "F",
+            "CourseRepeatCode" : "RepeatNotCounted",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "BUS",
+            "CourseNumber" : "V30",
+            "CourseTitle" : "Intro to Business",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 1.5,
+            "CourseCreditEarned" : 1.5,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 6,
+            "CourseSubjectAbbreviation" : "PE",
+            "CourseNumber" : "V56",
+            "CourseTitle" : "Tennis: Beginning",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "PE",
+            "CourseNumber" : "V48",
+            "CourseTitle" : "Step Aerobics",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 11,
+              "CreditHoursEarned" : 1.5,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 6
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2000-01",
+            "SessionName" : "Spring 2000",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2000-01-12",
+            "SessionEndDate" : "2000-05-17"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "F",
+            "CourseRepeatCode" : "RepeatNotCounted",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "POLS",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "American Government",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "V04",
+            "CourseTitle" : "College Algebra",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "F",
+            "CourseRepeatCode" : "RepeatNotCounted",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "PHIL",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Intro to Philosophy",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 9,
+              "CreditHoursEarned" : 0,
+              "GradePointAverage" : 0.0,
+              "CreditHoursforGPA" : 0
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2008-05",
+            "SessionName" : "Summer 2008",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2008-05-19",
+            "SessionEndDate" : "2008-08-08"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "SOC",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Introduction to Sociology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 12
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2008-08",
+            "SessionName" : "Fall 2008",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2008-08-18",
+            "SessionEndDate" : "2008-12-17"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "PSY",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Introduction to Psychology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "PSY",
+            "CourseNumber" : "V05",
+            "CourseTitle" : "Developmental Psychology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 6,
+              "CreditHoursEarned" : 6,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 24
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2009-01",
+            "SessionName" : "Spring 2009",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2009-01-12",
+            "SessionEndDate" : "2009-05-20"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "BUS",
+            "CourseNumber" : "V27A",
+            "CourseTitle" : "Beginning Medical Terminology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 12
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2009-08",
+            "SessionName" : "Fall 2009",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2009-08-17",
+            "SessionEndDate" : "2009-12-16"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseQualityPointsEarned" : 9,
+            "CourseSubjectAbbreviation" : "HED",
+            "CourseNumber" : "V93",
+            "CourseTitle" : "Health and Wellness",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 3.0,
+              "CreditHoursforGPA" : 9
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2010-01",
+            "SessionName" : "Spring 2010",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2010-01-11",
+            "SessionEndDate" : "2010-05-19"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseQualityPointsEarned" : 9,
+            "CourseSubjectAbbreviation" : "BIOL",
+            "CourseNumber" : "V12",
+            "CourseTitle" : "Principles of Human Biology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 3.0,
+              "CreditHoursforGPA" : 9
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2010-08",
+            "SessionName" : "Fall 2010",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2010-08-16",
+            "SessionEndDate" : "2010-12-15"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "V10",
+            "CourseTitle" : "Prealgebra",
+            "CourseApplicability" : "NotApplicable",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 12
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2011-01",
+            "SessionName" : "Spring 2011",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2011-01-10",
+            "SessionEndDate" : "2011-05-17"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "Postsecondary"
+          }
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2011-08",
+            "SessionName" : "Fall 2011",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2011-08-22",
+            "SessionEndDate" : "2011-12-21"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeFirstYear"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 5,
+            "CourseCreditEarned" : 5,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 20,
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Elementary Algebra",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 5,
+              "CreditHoursEarned" : 5,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 20
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2012-01",
+            "SessionName" : "Spring 2012",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2012-01-09",
+            "SessionEndDate" : "2012-05-15"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 5,
+            "CourseCreditEarned" : 5,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseQualityPointsEarned" : 15,
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "V03",
+            "CourseTitle" : "Intermediate Algebra",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 5,
+              "CreditHoursEarned" : 5,
+              "GradePointAverage" : 3.0,
+              "CreditHoursforGPA" : 15
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2012-08",
+            "SessionName" : "Fall 2012",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2012-08-16",
+            "SessionEndDate" : "2012-12-17"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "ANTH",
+            "CourseNumber" : "V02",
+            "CourseTitle" : "Cultural Anthropology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "506",
+            "CourseAcademicGrade" : "W",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "AES",
+            "CourseNumber" : "V11",
+            "CourseTitle" : "Racial&Ethnic Group Relations",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsBracketed",
+                "AttemptedUnitsCalc" : "BracketedNotCounted",
+                "GradePointsCalc" : "BracketedNotCounted"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 6,
+              "CreditHoursEarned" : 0,
+              "GradePointAverage" : 0.0,
+              "CreditHoursforGPA" : 0
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2013-08",
+            "SessionName" : "Fall 2013",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2013-08-19",
+            "SessionEndDate" : "2013-12-18"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseQualityPointsEarned" : 9,
+            "CourseSubjectAbbreviation" : "AST",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Elementary Astronomy",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "C",
+            "CourseQualityPointsEarned" : 6,
+            "CourseSubjectAbbreviation" : "HIST",
+            "CourseNumber" : "V01A",
+            "CourseTitle" : "Intro to Western Civilizatn I",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 6,
+              "CreditHoursEarned" : 6,
+              "GradePointAverage" : 2.5,
+              "CreditHoursforGPA" : 15
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2014-01",
+            "SessionName" : "Spring 2014",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2014-01-06",
+            "SessionEndDate" : "2014-05-19"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "B",
+            "CourseQualityPointsEarned" : 9,
+            "CourseSubjectAbbreviation" : "BIOL",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Principles of Biology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "POLS",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "American Government",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 1,
+            "CourseCreditEarned" : 1,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 4,
+            "CourseSubjectAbbreviation" : "BIOL",
+            "CourseNumber" : "V01L",
+            "CourseTitle" : "Principles of Biology Lab",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 7,
+              "CreditHoursEarned" : 7,
+              "GradePointAverage" : 3.6,
+              "CreditHoursforGPA" : 25
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2014-05",
+            "SessionName" : "Summer 2014",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2014-05-20",
+            "SessionEndDate" : "2014-08-08"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "C",
+            "CourseQualityPointsEarned" : 6,
+            "CourseSubjectAbbreviation" : "ART",
+            "CourseNumber" : "R101",
+            "CourseTitle" : "Art Appreciation",
+            "CourseOverrideSchool" : {
+              "OrganizationName" : "Oxnard College",
+              "FICE" : "016391"
+            },
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 2.0,
+              "CreditHoursforGPA" : 6
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2014-08",
+            "SessionName" : "Fall 2014",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2014-08-18",
+            "SessionEndDate" : "2014-12-17"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "COMM",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Intro to Speech Communication",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 3,
+              "CreditHoursEarned" : 3,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 12
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2015-01",
+            "SessionName" : "Spring 2015",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2015-01-12",
+            "SessionEndDate" : "2015-05-20"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 4,
+            "CourseCreditEarned" : 4,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 16,
+            "CourseSubjectAbbreviation" : "CHEM",
+            "CourseNumber" : "V30",
+            "CourseTitle" : "Chemistry for Health Sciences",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 1,
+            "CourseCreditEarned" : 1,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 4,
+            "CourseSubjectAbbreviation" : "CHEM",
+            "CourseNumber" : "V30L",
+            "CourseTitle" : "Chem for Health Sciences Lab",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 5,
+              "CreditHoursEarned" : 5,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 20
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2015-08",
+            "SessionName" : "Fall 2015",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2015-08-17",
+            "SessionEndDate" : "2015-12-16"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 5,
+            "CourseCreditEarned" : 5,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 20,
+            "CourseSubjectAbbreviation" : "ENGL",
+            "CourseNumber" : "V02",
+            "CourseTitle" : "Fundamntls English Composition",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 3,
+            "CourseCreditEarned" : 3,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 12,
+            "CourseSubjectAbbreviation" : "ANTH",
+            "CourseNumber" : "V02",
+            "CourseTitle" : "Cultural Anthropology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 8,
+              "CreditHoursEarned" : 8,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 32
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2016-01",
+            "SessionName" : "Spring 2016",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2016-01-11",
+            "SessionEndDate" : "2016-05-18"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 4,
+            "CourseCreditEarned" : 4,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 16,
+            "CourseSubjectAbbreviation" : "ANAT",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "General Human Anatomy",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 4,
+            "CourseCreditEarned" : 4,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 16,
+            "CourseSubjectAbbreviation" : "ENGL",
+            "CourseNumber" : "V01A",
+            "CourseTitle" : "English Composition",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 8,
+              "CreditHoursEarned" : 8,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 32
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2016-08",
+            "SessionName" : "Fall 2016",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2016-08-17",
+            "SessionEndDate" : "2016-12-16"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "CollegeSophomore"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 4,
+            "CourseCreditEarned" : 4,
+            "CourseAcademicGradeScaleCode" : "25",
+            "CourseAcademicGrade" : "A",
+            "CourseQualityPointsEarned" : 16,
+            "CourseSubjectAbbreviation" : "PHSO",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Intro to Human Physiology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ],
+          "AcademicSummary" : [ {
+            "GPA" : {
+              "CreditHoursAttempted" : 4,
+              "CreditHoursEarned" : 4,
+              "GradePointAverage" : 4.0,
+              "CreditHoursforGPA" : 16
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2017-01",
+            "SessionName" : "Spring 2017",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2017-01-09",
+            "SessionEndDate" : "2017-05-19"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "Postsecondary"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "500",
+            "CourseAcademicGrade" : "IP",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "MICR",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "General Microbiology",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          }, {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "500",
+            "CourseAcademicGrade" : "IP",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "HS",
+            "CourseNumber" : "V10",
+            "CourseTitle" : "Certified Nurse Assistant",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ]
+        }, {
+          "AcademicSessionDetail" : {
+            "SessionDesignator" : "2017-05",
+            "SessionName" : "Summer 2017",
+            "SessionType" : "Semester",
+            "SessionBeginDate" : "2017-05-20",
+            "SessionEndDate" : "2017-08-08"
+          },
+          "StudentLevel" : {
+            "StudentLevelCode" : "Postsecondary"
+          },
+          "Course" : [ {
+            "CourseCreditBasis" : "Regular",
+            "CourseCreditUnits" : "Semester",
+            "CourseCreditValue" : 0,
+            "CourseCreditEarned" : 0,
+            "CourseAcademicGradeScaleCode" : "500",
+            "CourseAcademicGrade" : "IP",
+            "CourseQualityPointsEarned" : 0,
+            "CourseSubjectAbbreviation" : "MATH",
+            "CourseNumber" : "V01",
+            "CourseTitle" : "Elementary Algebra",
+            "CourseApplicability" : "BothPrograms",
+            "UserDefinedExtensions" : {
+              "CCC.CourseCCCExtensions" : {
+                "GradeBracket" : "GradeIsNotBracketed"
+              }
+            }
+          } ]
+        } ],
+        "AdditionalStudentAchievements" : [ {
+          "Proficiency" : [ {
+            "RAPName" : [ "***AA DEGREE GENERAL STUDIES: NATURAL SCIENCES:", "DECEMBER 16, 2016***VC" ]
+          } ]
+        } ],
+        "UserDefinedExtensions" : {
+          "CCC.AcademicRecordCCCExtensions" : {
+            "GradeSchemeEntry" : {
+              "Grade" : "A",
+              "Description" : "EXCELLENT",
+              "GradePoints" : "4",
+              "EDIGradeQualifier" : "25",
+              "AttemptedUnitsCalc" : "Counted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "Counted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "B",
+              "Description" : "GOOD",
+              "GradePoints" : "3",
+              "EDIGradeQualifier" : "25",
+              "AttemptedUnitsCalc" : "Counted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "Counted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "C",
+              "Description" : "SATISFACTORY",
+              "GradePoints" : "2",
+              "EDIGradeQualifier" : "25",
+              "AttemptedUnitsCalc" : "Counted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "Counted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "CR",
+              "Description" : "CREDIT(REPRESENTS C OR BETTER)",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "62",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "2009-08-17",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "CR",
+              "Description" : "CREDIT(REPRESENTS C OR BETTER)",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "62",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2009-12-16"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "CRE",
+              "Description" : "CREDIT BY EXAMINATION",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "503",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "D",
+              "Description" : "LESS THAN SATISFACTORY",
+              "GradePoints" : "1",
+              "EDIGradeQualifier" : "25",
+              "AttemptedUnitsCalc" : "Counted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "Counted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "F",
+              "Description" : "FAILING",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "25",
+              "AttemptedUnitsCalc" : "Counted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "Counted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "IB",
+              "Description" : "INCOMPLETE B",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "505",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "IC",
+              "Description" : "INCOMPLETE C",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "505",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "ID",
+              "Description" : "INCOMPLETE D",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "505",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "IF",
+              "Description" : "INCOMPLETE F",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "505",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "INC",
+              "Description" : "INCOMPLETE NO CREDIT",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "505",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "2009-08-17",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "INC",
+              "Description" : "INCOMPLETE NO CREDIT",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "505",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2009-12-16"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "IP",
+              "Description" : "IN PROGRESS",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "500",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "MW",
+              "Description" : "MILITARY WITHDRAWAL",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "506",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "NC",
+              "Description" : "NO CREDIT",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "62",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "2009-08-17",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "NC",
+              "Description" : "NO CREDIT",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "62",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2009-12-16"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "NP",
+              "Description" : "NO PASS",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "62",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "2009-08-17",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "P",
+              "Description" : "PASS(REPRESENTS C OR BETTER)",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "62",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "Counted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "2009-08-17",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "RD",
+              "Description" : "REPORT DELAYED",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "513",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            },
+            "GradeSchemeEntry" : {
+              "Grade" : "W",
+              "Description" : "WITHDRAWAL",
+              "GradePoints" : "0",
+              "EDIGradeQualifier" : "506",
+              "AttemptedUnitsCalc" : "NotCounted",
+              "EarnedUnitsCalc" : "NotCounted",
+              "GradePointsCalc" : "NotCounted",
+              "EffectiveFromDate" : "1981-09-08",
+              "EffectiveToDate" : "2999-01-01"
+            }
+          }
+        }
+      } ]
+    }
+  }
+}

@@ -1,0 +1,201 @@
+service:
+  # envName: ci
+  # misCode: "270" needs quotes
+  # serviceRouterDomain: ci.ccctechcenter.org
+
+  sistypes:
+    ci:
+      "002": mock
+    qa:
+      "001": mock
+      "002": mock
+      "050": peoplesoft
+      "110": colleague
+      "460": banner
+      "680": banner
+      "890": banner
+    live:
+      "001": mock
+      "030": banner
+      "050": peoplesoft
+      "070": peoplesoft
+      "090": colleague
+      "110": colleague
+      "130": colleague
+      "140": colleague
+      "160": colleague
+      "170": colleague
+      "180": banner
+      "220": colleague
+      "230": peoplesoft
+      "260": banner
+      "270": banner
+      "310": colleague
+      "330": banner
+      "340": peoplesoft
+      "360": banner
+      "370": banner
+      "410": colleague
+      "420": banner
+      "430": colleague
+      "450": colleague
+      "460": banner
+      "470": colleague
+      "480": banner
+      "490": banner
+      "520": banner
+      "530": colleague
+      "550": peoplesoft
+      "560": banner
+      "570": colleague
+      "580": colleague
+      "590": colleague
+      "610": banner
+      "620": banner
+      "650": banner
+      "680": banner
+      "690": banner
+      "710": banner
+      "720": colleague
+      "740": peoplesoft
+      "770": banner
+      "780": banner
+      "810": peoplesoft
+      "820": banner
+      "830": banner
+      "850": banner
+      "860": banner
+      "870": colleague
+      "880": banner
+      "890": banner
+      "910": banner
+      "920": colleague
+      "940": colleague
+      "960": banner
+      "970": colleague
+      "980": colleague
+      "990": colleague
+
+  fullnameOverride: college-adaptor
+  replicaCount: "{{ .Values.replicaCount }}"
+  image:
+    repository: registry.ccctechcenter.org/ccctechcenter/college-adaptor
+    tag: latest # <set by jenkins at deploy time>
+    serviceWorker:
+      repository: registry.ccctechcenter.org/ccctechcenter/service-workers
+      tag: latest # <set by jenkins at deploy time>
+  imagePullSecrets:
+    - docker-registry
+
+  services:
+    - fullname: college-adaptor
+      ports:
+        - name: https
+          port: 8443
+
+  # Manually setting DNS servers. In-cluster DNS doesn't resolve
+  dnsPolicy: "None"
+  # CI/CD overrides this if miscode & env is set in dns-config.yaml
+  dnsConfig:
+    nameservers:
+      - 8.8.8.8
+
+  configMaps:
+    - name: shared-env-vars
+      data:
+        s3_profile: "{{ .Values.envName }}"
+        AWS_REGION: us-west-2
+    - name: adaptor-env-vars
+      data:
+        IMAGE_TAG: "{{ .Values.image.tag }}"
+        SISTYPE: "{{ get (index .Values.sistypes .Values.envName) (.Values.misCode | toString) }}"
+        SPRING_PROFILES_ACTIVE: "{{ .Values.envName }},{{ .Values.misCode }},{{ .Values.misCode }}-{{ .Values.envName }}"
+        miscode: "{{ .Values.misCode }}"
+    - name: service-worker-env-vars
+      data:
+        SPRING_PROFILES_ACTIVE: "{{ .Values.envName }},college-adaptor"
+        conductor_apiURL: https://service-router.{{ .Values.serviceRouterDomain }}/conductor/secure/
+        conductor_authClientId: service-worker-{{ .Values.misCode }}-client
+        conductor_authURL: https://service-router.{{ .Values.serviceRouterDomain }}/token/v1/token/
+        security_sslCertificateValidationEnabled: "false"
+        tasks_college-adaptor-intake_domainFilter: "{{ .Values.misCode }}"
+
+  externalSecrets:
+    secret-env:
+      data:
+        conductor_authClientSecret: /{{ .Values.envName }}/keycloak/service-worker-{{ .Values.misCode }}-client/secret
+        JASYPT_PASSWORD: /{{ .Values.envName }}/college-adaptor/jasypt_password
+        ENCRYPT_KEY: /{{ .Values.envName }}/college-adaptor/encrypt_key
+
+  tolerations:
+    - effect: NoSchedule
+      operator: "Equal"
+      key: miscode
+      value: "{{ .Values.misCode }}"
+
+  affinity:
+    nodeAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        nodeSelectorTerms:
+          - matchExpressions:
+              - key: miscode
+                operator: In
+                values:
+                  - "{{ .Values.misCode }}"
+
+  containers:
+    - name: college-adaptor
+      image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+      envFrom:
+        - configMapRef:
+            name: shared-env-vars
+        - configMapRef:
+            name: adaptor-env-vars
+        - secretRef:
+            name: secret-env
+
+      ports:
+        - name: https
+          port: 8443
+      livenessProbe:
+        exec:
+          command:
+            - bash
+            - -c
+            - "curl https://localhost:8443/health -k"
+        failureThreshold: 15
+        initialDelaySeconds: 30
+        periodSeconds: 15
+        successThreshold: 1
+        timeoutSeconds: 2
+      readinessProbe:
+        exec:
+          command:
+            - bash
+            - -c
+            - "curl https://localhost:8443/health -k"
+        failureThreshold: 15
+        initialDelaySeconds: 30
+        periodSeconds: 15
+        successThreshold: 1
+        timeoutSeconds: 2
+      resources:
+        requests:
+          memory: 300Mi
+          cpu: 100m
+    - name: service-worker
+      image: "{{ .Values.image.serviceWorker.repository }}:{{ .Values.image.serviceWorker.tag }}"
+      envFrom:
+        - configMapRef:
+            name: shared-env-vars
+        - configMapRef:
+            name: service-worker-env-vars
+        - secretRef:
+            name: secret-env
+      env:
+        tasks_college-adaptor-intake_url: https://localhost:8443
+
+      resources:
+        requests:
+          memory: 200Mi
+          cpu: 100m

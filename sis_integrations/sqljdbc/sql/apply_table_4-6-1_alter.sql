@@ -1,0 +1,1 @@
+ALTER TABLE SZRAPLY ADD studentParent NVARCHAR(1);

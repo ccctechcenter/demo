@@ -1,0 +1,189 @@
+#!groovy
+@Library('jenkinsLib') _
+currentBuild.displayName = "#${env.BUILD_NUMBER}-${branch_name}"
+pipeline {
+    agent { node { label 'build-slave' } }
+    environment {
+        service = "college-adaptor"
+        channel = "#college-adaptor"
+        stack = "college-adaptor"
+        docker_context = "."
+        dockerfile = "Dockerfile"
+        prod_deploy_group = "enabling-services-deploy"
+    }
+    parameters {
+        choice(
+            choices: '\nci\nqa\npilot\nprod',
+            description: 'override the target environment for deployment',
+            name: 'environment')
+        booleanParam(
+            defaultValue: true,
+            description: 'deploy the service',
+            name: 'deploy_service')
+        string(
+            defaultValue: '',
+            description: 'override the the image tag used for this release. If set, no build will occur and the image will just be pulled from the registry',
+            name: 'tag_override'
+        )
+        string(
+            defaultValue: '',
+            description: 'tag for service-worker',
+            name: 'worker_tag_override')
+        choice(
+            choices: '\n002\n001\n007\n008\n020\n030\n050\n060\n070\n090\n110\n120\n130\n140\n160\n170\n180\n210\n220\n230\n240\n260\n270\n280\n290\n310\n330\n340\n360\n370\n410\n420\n430\n440\n450\n460\n470\n480\n490\n520\n530\n550\n560\n570\n580\n590\n610\n620\n640\n650\n660\n680\n690\n710\n720\n730\n740\n770\n780\n810\n820\n830\n840\n850\n860\n870\n880\n890\n910\n920\n930\n940\n950\n960\n970\n980\n990',
+            description: 'target miscode',
+            name: 'miscode')
+        booleanParam(
+            defaultValue: true,
+            description: 'Run the postman Tests; ignored in prod',
+            name: 'run_postman_test'
+        )
+        booleanParam(
+            defaultValue: false,
+            description: 'Enable this to not wait for deployment to be Ready. The Kubernetes Pod will be deployed in Running state for further debugging.',
+            name: 'disable_rollback_on_deploy'
+        )
+    }
+    options {
+        buildDiscarder(logRotator(artifactDaysToKeepStr: '60', artifactNumToKeepStr: '10', daysToKeepStr: '60', numToKeepStr: '10'))
+        timestamps()
+    }
+    stages {
+        stage('init') {
+            steps {
+                script {
+                    env.environment = !params.environment ? ceEnv.getEnvironmentFromBranchName(env.BRANCH_NAME, env.service) : params.environment
+                    env.url = env.environment != "prod" ? "https://${env.service}.${env.environment}.ccctechcenter.org" : "https://${env.service}.ccctechcenter.org"
+                    env.deploy_tag = params.tag_override == '' ? ceBuild.getDeployTag(env.service, env.BRANCH_NAME) : params.tag_override
+                    if (params.miscode == '') {
+                        env.miscode_choice = env.environment == "ci" ? "002" : "001" //defaults to use if build was triggered from branch
+                    } else {
+                        env.miscode_choice = params.miscode
+                    }
+                    if (!env.deploy_service) {
+                        env.helm_args = "${env.helm_args} --dry-run"
+                    }
+                    env.dns_config_env = env.environment
+                    if (env.environment == "pilot" || env.environment == "prod") {
+                        env.dns_config_env = "live" //to avoid duplicating much of this for pilot and prod
+                        env.dns_config_branch = "master"
+                    } else {
+                        env.dns_config_branch = "develop"
+                    }
+
+                    worker_tag_default = env.environment ==~ /ci|qa/ ? "latest" : ceEnv.getLatestTag("service-workers") // use latest tag for worker in ci and qa, versioned tag in pilot and prod, unless we override it via worker_tag build parameter
+                    env.replicaCount = ['001', '002'].contains(env.miscode_choice) ? 1 : 2 //non-mock adaptors should be scaled to 2
+                    env.worker_tag = params.worker_tag_override != '' ? params.worker_tag_override : worker_tag_default
+
+                    env.run_postman_test = !params.run_postman_test ? false : params.run_postman_test
+
+                    if(env.run_postman_test) {
+                        ceEnv.setSSMCreds("${environment}")
+                        env.CA_OAUTH_CLIENT_SECRET = ceEnv.getSSMParameter("gateway-client-tester-secret")
+                        ceEnv.unsetSSMCreds()
+                    }
+
+                }
+            }
+        }
+        stage('Maven Build') {
+            when { expression { env.environment != "prod" && params.tag_override == '' }}
+            steps {
+                script {
+                    ceBuild.mvnBuild('mvn clean install', env.service)
+                    ceBuild.dockerPush("ccctechcenter/college-adaptor", "latest", ceBuild.getDeployTag(env.BRANCH_NAME))
+                    ceBuild.imageScan(image: "ccctechcenter/college-adaptor:${env.deploy_tag}", level: "High", channel: env.channel, ignore_failure: false)
+                }
+            }
+        }
+        stage('Jacoco') {
+            when { expression { env.environment != "prod" && params.tag_override == '' }}
+            steps {
+                script {
+                    jacoco classPattern: '**/target/classes', execPattern: '**/target/jacoco.exec' //publish coverage report
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                script {
+                    if (( ['pilot', 'prod'].contains(env.environment) ) && !ceEnv.isAuthorized(prod_deploy_group)) {
+                        ceEnv.requestAuth(env.service, env.environment, env.channel, prod_deploy_group)
+                    }
+                    checkout changelog: false, poll: false, scm: [$class: 'GitSCM', branches: [[name: env.dns_config_branch]], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: "deployment/college-adaptor/college-adaptor-config"]], submoduleCfg: [], userRemoteConfigs: [[credentialsId: '63b0b64f-edba-40cb-9c1e-c94a6f78c6e8', url: "https://devops_auto@bitbucket.org/cccnext/college-adaptor-config.git"]]]
+                    sh "./deployment/${env.service}/get_dns_values.sh ${env.dns_config_env} ${env.miscode_choice}"
+                    dir ('deployment/college-adaptor/college-adaptor-config') {
+                        deleteDir()
+                    }
+                    env.helm_args = "--set service.image.tag=${env.deploy_tag},service.image.serviceWorker.tag=${env.worker_tag},service.replicaCount=${env.replicaCount}"
+                    if (env.deploy_service == "false") {
+                        env.helm_args = "${env.helm_args} --dry-run"
+                    }
+                    if (params.disable_rollback_on_deploy) {
+                        // remove Kubernetes liveness probes from deployment configuration so pod stays up
+                        sh "yq -i 'del(.service.containers[].livenessProbe, .service.containers[].readinessProbe)' deployment/${env.service}/values.yaml"
+                    }
+                    kubeDeploy name: env.service,
+                        args: "${env.helm_args},service.misCode=${env.miscode_choice}",
+                        chart: "./deployment/${env.service}",
+                        namespace: env.miscode_choice,
+                        cluster: "k3s-${env.stack}-${env.environment}",
+                        environment: env.environment,
+                        stack: env.stack,
+                        values_files: "values-${env.environment}.yaml,values-dns.yaml",
+                        is_eks: false,
+                        wait: !params.disable_rollback_on_deploy
+                    if (params.miscode == '' && env.environment == "qa") { //for automated builds in QA env, also deploy the 002 mock adaptor
+                        sh "./deployment/${env.service}/get_dns_values.sh qa 002"
+                        kubeDeploy name: env.service,
+                            args: "${env.helm_args},service.misCode=002",
+                            chart: "./deployment/${env.service}",
+                            namespace: "002",
+                            cluster: "k3s-${env.stack}-${env.environment}",
+                            environment: env.environment,
+                            stack: env.stack,
+                            values_files: "values-${env.environment}.yaml,values-dns.yaml",
+                            is_eks: false
+                    }
+                }
+            }
+        }
+        stage('postman test') {
+            when { expression { env.run_postman_test == true && ['001', '002'].contains(env.miscode_choice) } }
+            steps {
+                script {
+                    lock_resource = "college-adaptor-${env.environment}-rancher"
+                    lock(resource: lock_resource) {
+                        echo "DEBUG: running postman adaptor tests in $environment environment"
+                        ceBuild.setupEnv() //add mvn and java tool
+                        postman_env = environment == "ci" ? "002-" + env.environment : "001-" + env.environment
+
+                        runPostmanTests environment: postman_env, \
+                                        test_folder: "mock-adaptor-tests", \
+                                        basename: "CollegeAdaptor_build-tests", \
+                                        image_tag: env.test_image_tag, \
+                                        image_name: env.test_image_name, \
+                                        env_var_map: [ SECRET: env.CA_OAUTH_CLIENT_SECRET ]
+                    }
+                }
+            }
+        }
+    }
+    post {
+        success {
+            script {
+                ceDeploy.slackNotify(channel, "good", "Success", env.service, environment, env.url, env.deploy_tag)
+            }
+        }
+        failure {
+            script {
+                ceDeploy.slackNotify(channel, "danger", "Failure", env.service, environment, env.url, env.deploy_tag)
+            }
+        }
+        unstable {
+            script {
+                ceDeploy.slackNotify(channel, "warning", "had test failures", env.service, environment, env.url, env.deploy_tag)
+            }
+        }
+    }
+}

@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Joseph Giroux (private) -->
+<xs:schema targetNamespace="http://www.xap.com/CCCTran" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:ColTrn="urn:org:pesc:message:CollegeTranscript:v1.6.0" xmlns="http://www.xap.com/CCCTran" elementFormDefault="unqualified"
+           attributeFormDefault="unqualified">
+    <xs:import namespace="urn:org:pesc:message:CollegeTranscript:v1.6.0" schemaLocation="CollegeTranscript_v1.6.0.xsd"/>
+    <!--============================================================================-->
+    <!--Name: TranscriptCCCUDE.xsd from California Community Colleges Transcript Project (CCCTran) -->
+    <!--Version:
+    1.0.0 -->
+    <!--Date:
+    Sep. 05, 2007 -->
+    <!--Change Log:-->
+    <!---->
+    <!-- v0.1.0 - Aug, 2005 - Joseph Giroux - proposed CCCUDE given to Xap -->
+    <!-- v0.2.0 - Dec, 2005 - Xap Corp - CCCUDE used for beta system -->
+    <!-- v0.3.0 - 08/22/2007- Joseph Giroux - Add change log & structural comments; Add Course GE/IGETC Area enumerations -->
+    <!-- v1.0.0 - 09/05/2007 - Brandon Young - Update version number to 1.0.0 to indicate this is a live version -->
+    <!--============================================================================-->
+    <!---->
+    <!--=========================================-->
+    <!--Extensions to the Course-->
+    <!--=========================================-->
+    <xs:element name="CourseCCCExtensions" type="CourseCCCExtensionsType"/>
+    <xs:complexType name="CourseCCCExtensionsType">
+        <xs:sequence>
+            <xs:element name="StateArticulationID" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="CSUArticulationID" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                        <xs:maxLength value="10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="CSUAmerInstCode" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Applied"/>
+                        <xs:enumeration value="NotApplied"/>
+                    </xs:restriction>
+                </xs:simpleType></xs:element>
+            <xs:element name="CSUGEEligibleArea" minOccurs="0" maxOccurs="3">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="3"/>
+                        <xs:maxLength value="3"/>
+                        <xs:enumeration value="A01"/>
+                        <xs:enumeration value="A02"/>
+                        <xs:enumeration value="A03"/>
+                        <xs:enumeration value="A04"/>
+                        <xs:enumeration value="A05"/>
+                        <xs:enumeration value="A06"/>
+                        <xs:enumeration value="A07"/>
+                        <xs:enumeration value="A08"/>
+                        <xs:enumeration value="A09"/>
+                        <xs:enumeration value="A10"/>
+                        <xs:enumeration value="B01"/>
+                        <xs:enumeration value="B02"/>
+                        <xs:enumeration value="B03"/>
+                        <xs:enumeration value="B04"/>
+                        <xs:enumeration value="B05"/>
+                        <xs:enumeration value="B06"/>
+                        <xs:enumeration value="B07"/>
+                        <xs:enumeration value="B08"/>
+                        <xs:enumeration value="B09"/>
+                        <xs:enumeration value="B10"/>
+                        <xs:enumeration value="C01"/>
+                        <xs:enumeration value="C02"/>
+                        <xs:enumeration value="C03"/>
+                        <xs:enumeration value="C04"/>
+                        <xs:enumeration value="C05"/>
+                        <xs:enumeration value="C06"/>
+                        <xs:enumeration value="C07"/>
+                        <xs:enumeration value="C08"/>
+                        <xs:enumeration value="C09"/>
+                        <xs:enumeration value="C10"/>
+                        <xs:enumeration value="D01"/>
+                        <xs:enumeration value="D02"/>
+                        <xs:enumeration value="D03"/>
+                        <xs:enumeration value="D04"/>
+                        <xs:enumeration value="D05"/>
+                        <xs:enumeration value="D06"/>
+                        <xs:enumeration value="D07"/>
+                        <xs:enumeration value="D08"/>
+                        <xs:enumeration value="D09"/>
+                        <xs:enumeration value="D10"/>
+                        <xs:enumeration value="E01"/><xs:enumeration value="E02"/>
+                        <xs:enumeration value="E03"/>
+                        <xs:enumeration value="E04"/>
+                        <xs:enumeration value="E05"/>
+                        <xs:enumeration value="E06"/>
+                        <xs:enumeration value="E07"/>
+                        <xs:enumeration value="E08"/>
+                        <xs:enumeration value="E09"/>
+                        <xs:enumeration value="E10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="CSUGEAppliedArea" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="3"/>
+                        <xs:maxLength value="3"/>
+                        <xs:enumeration value="A01"/>
+                        <xs:enumeration value="A02"/>
+                        <xs:enumeration value="A03"/>
+                        <xs:enumeration value="A04"/>
+                        <xs:enumeration value="A05"/>
+                        <xs:enumeration value="A06"/>
+                        <xs:enumeration value="A07"/>
+                        <xs:enumeration value="A08"/>
+                        <xs:enumeration value="A09"/>
+                        <xs:enumeration value="A10"/>
+                        <xs:enumeration value="B01"/>
+                        <xs:enumeration value="B02"/>
+                        <xs:enumeration value="B03"/>
+                        <xs:enumeration value="B04"/>
+                        <xs:enumeration value="B05"/>
+                        <xs:enumeration value="B06"/>
+                        <xs:enumeration value="B07"/>
+                        <xs:enumeration value="B08"/>
+                        <xs:enumeration value="B09"/>
+                        <xs:enumeration value="B10"/>
+                        <xs:enumeration value="C01"/>
+                        <xs:enumeration value="C02"/>
+                        <xs:enumeration value="C03"/>
+                        <xs:enumeration value="C04"/>
+                        <xs:enumeration value="C05"/>
+                        <xs:enumeration value="C06"/>
+                        <xs:enumeration value="C07"/>
+                        <xs:enumeration value="C08"/>
+                        <xs:enumeration value="C09"/>
+                        <xs:enumeration value="C10"/><xs:enumeration value="D01"/>
+                        <xs:enumeration value="D02"/>
+                        <xs:enumeration value="D03"/>
+                        <xs:enumeration value="D04"/>
+                        <xs:enumeration value="D05"/>
+                        <xs:enumeration value="D06"/>
+                        <xs:enumeration value="D07"/>
+                        <xs:enumeration value="D08"/>
+                        <xs:enumeration value="D09"/>
+                        <xs:enumeration value="D10"/>
+                        <xs:enumeration value="E01"/>
+                        <xs:enumeration value="E02"/>
+                        <xs:enumeration value="E03"/>
+                        <xs:enumeration value="E04"/>
+                        <xs:enumeration value="E05"/>
+                        <xs:enumeration value="E06"/>
+                        <xs:enumeration value="E07"/>
+                        <xs:enumeration value="E08"/>
+                        <xs:enumeration value="E09"/>
+                        <xs:enumeration value="E10"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="CSUIGETCEligibleArea" minOccurs="0" maxOccurs="3">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="2"/>
+                        <xs:maxLength value="2"/>
+                        <xs:enumeration value="1A"/>
+                        <xs:enumeration value="1B"/>
+                        <xs:enumeration value="1C"/>
+                        <xs:enumeration value="2A"/>
+                        <xs:enumeration value="3A"/>
+                        <xs:enumeration value="3B"/>
+                        <xs:enumeration value="4A"/>
+                        <xs:enumeration value="4B"/>
+                        <xs:enumeration value="4C"/>
+                        <xs:enumeration value="4D"/>
+                        <xs:enumeration value="4E"/>
+                        <xs:enumeration value="4F"/>
+                        <xs:enumeration value="4G"/>
+                        <xs:enumeration value="4H"/>
+                        <xs:enumeration value="4I"/>
+                        <xs:enumeration value="4J"/>
+                        <xs:enumeration value="5A"/>
+                        <xs:enumeration value="5B"/>
+                        <xs:enumeration value="8A"/><xs:enumeration value="8B"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="CSUIGETCAppliedArea" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="2"/>
+                        <xs:maxLength value="2"/>
+                        <xs:enumeration value="1A"/>
+                        <xs:enumeration value="1B"/>
+                        <xs:enumeration value="1C"/>
+                        <xs:enumeration value="2A"/>
+                        <xs:enumeration value="3A"/>
+                        <xs:enumeration value="3B"/>
+                        <xs:enumeration value="4A"/>
+                        <xs:enumeration value="4B"/>
+                        <xs:enumeration value="4C"/>
+                        <xs:enumeration value="4D"/>
+                        <xs:enumeration value="4E"/>
+                        <xs:enumeration value="4F"/>
+                        <xs:enumeration value="4G"/>
+                        <xs:enumeration value="4H"/>
+                        <xs:enumeration value="4I"/>
+                        <xs:enumeration value="4J"/>
+                        <xs:enumeration value="5A"/>
+                        <xs:enumeration value="5B"/>
+                        <xs:enumeration value="8A"/>
+                        <xs:enumeration value="8B"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="UCIGETCEligibleArea" minOccurs="0" maxOccurs="3">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="2"/>
+                        <xs:maxLength value="2"/>
+                        <xs:enumeration value="1A"/>
+                        <xs:enumeration value="1B"/>
+                        <xs:enumeration value="1C"/>
+                        <xs:enumeration value="2A"/>
+                        <xs:enumeration value="3A"/>
+                        <xs:enumeration value="3B"/>
+                        <xs:enumeration value="4A"/>
+                        <xs:enumeration value="4B"/>
+                        <xs:enumeration value="4C"/>
+                        <xs:enumeration value="4D"/><xs:enumeration value="4E"/>
+                        <xs:enumeration value="4F"/>
+                        <xs:enumeration value="4G"/>
+                        <xs:enumeration value="4H"/>
+                        <xs:enumeration value="4I"/>
+                        <xs:enumeration value="4J"/>
+                        <xs:enumeration value="5A"/>
+                        <xs:enumeration value="5B"/>
+                        <xs:enumeration value="8A"/>
+                        <xs:enumeration value="8B"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="UCIGETCAppliedArea" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="2"/>
+                        <xs:maxLength value="2"/>
+                        <xs:enumeration value="1A"/>
+                        <xs:enumeration value="1B"/>
+                        <xs:enumeration value="1C"/>
+                        <xs:enumeration value="2A"/>
+                        <xs:enumeration value="3A"/>
+                        <xs:enumeration value="3B"/>
+                        <xs:enumeration value="4A"/>
+                        <xs:enumeration value="4B"/>
+                        <xs:enumeration value="4C"/>
+                        <xs:enumeration value="4D"/>
+                        <xs:enumeration value="4E"/>
+                        <xs:enumeration value="4F"/>
+                        <xs:enumeration value="4G"/>
+                        <xs:enumeration value="4H"/>
+                        <xs:enumeration value="4I"/>
+                        <xs:enumeration value="4J"/>
+                        <xs:enumeration value="5A"/>
+                        <xs:enumeration value="5B"/>
+                        <xs:enumeration value="8A"/>
+                        <xs:enumeration value="8B"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="GradeBracket" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="GradeIsBracketed"/>
+                        <xs:enumeration value="GradeIsNotBracketed"/>
+                    </xs:restriction></xs:simpleType>
+            </xs:element>
+            <xs:element name="AttemptedUnitsCalc" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Counted"/>
+                        <xs:enumeration value="BracketedNotCounted"/>
+                        <xs:enumeration value="BracketedCounted"/>
+                        <xs:enumeration value="NotCounted"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="EarnedUnitsCalc" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Counted"/>
+                        <xs:enumeration value="BracketedNotCounted"/>
+                        <xs:enumeration value="BracketedCounted"/>
+                        <xs:enumeration value="NotCounted"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="GradePointsCalc" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="Counted"/>
+                        <xs:enumeration value="BracketedNotCounted"/>
+                        <xs:enumeration value="BracketedCounted"/>
+                        <xs:enumeration value="NotCounted"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="Transferability" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="TransferableToUCandCSU"/>
+                        <xs:enumeration value="TransferableToCSU"/>
+                        <xs:enumeration value="NotTransferableToUCorCSU"/>
+                        <xs:enumeration value="TransferableToUC"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="CourseActionCode" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:enumeration value="CreditDenied"/>
+                        <xs:enumeration value="GradeChanged"/><xs:enumeration value="IncompleteGradeChanged"/>
+                        <xs:enumeration value="CourseEntryChangedByPetition"/>
+                        <xs:enumeration value="UnitsChanged"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <!--=========================================-->
+    <!--Extensions to the Academic Record-->
+    <!--=========================================-->
+    <xs:element name="AcademicRecordCCCExtensions" type="AcademicRecordCCCExtensionsType"/>
+    <xs:complexType name="AcademicRecordCCCExtensionsType">
+        <xs:sequence>
+            <xs:element name="GradeSchemeEntry" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Grade" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="0"/>
+                                    <xs:maxLength value="3"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="Description" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="0"/>
+                                    <xs:maxLength value="30"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="GradePoints" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:decimal">
+                                    <xs:totalDigits value="5"/>
+                                    <xs:fractionDigits value="3"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="EDIGradeQualifier" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:minLength value="0"/>
+                                    <xs:maxLength value="3"/>
+                                </xs:restriction></xs:simpleType>
+                        </xs:element>
+                        <xs:element name="AttemptedUnitsCalc" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Counted"/>
+                                    <xs:enumeration value="BracketedNotCounted"/>
+                                    <xs:enumeration value="BracketedCounted"/>
+                                    <xs:enumeration value="NotCounted"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="EarnedUnitsCalc" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Counted"/>
+                                    <xs:enumeration value="BracketedNotCounted"/>
+                                    <xs:enumeration value="BracketedCounted"/>
+                                    <xs:enumeration value="NotCounted"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="GradePointsCalc" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Counted"/>
+                                    <xs:enumeration value="BracketedNotCounted"/>
+                                    <xs:enumeration value="BracketedCounted"/>
+                                    <xs:enumeration value="NotCounted"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="EffectiveFromDate" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:date"/>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="EffectiveToDate" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:date"/>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="NotationLegendEntry" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType><xs:sequence>
+                    <xs:element name="NotationCode" minOccurs="0">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:minLength value="0"/>
+                                <xs:maxLength value="3"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="NotationDescription" minOccurs="0">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:minLength value="0"/>
+                                <xs:maxLength value="50"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="EffectiveFromDate" type="xs:date" minOccurs="0"/>
+                    <xs:element name="EffectiveToDate" type="xs:date" minOccurs="0"/>
+                </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="InstitutionInformationEntry" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="InstitutionNoteID" minOccurs="0">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="InstitutionNoteTopic"
+                                                minOccurs="0">
+                                        <xs:simpleType>
+                                            <xs:restriction
+                                                    base="xs:string">
+                                                <xs:enumeration
+                                                        value="Accreditation"/>
+                                                <xs:enumeration
+                                                        value="DegreesAndCertificates"/>
+                                                <xs:enumeration
+                                                        value="HonorsPolicy"/>
+                                                <xs:enumeration
+                                                        value="PrivacyPolicy"/>
+                                                <xs:enumeration
+                                                        value="AcademicAndProgressStatus"/>
+                                                <xs:enumeration
+                                                        value="TermsAndConversions"/>
+                                                <xs:enumeration
+                                                        value="OtherInformation"/></xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="InstitutionNoteStatement"
+                                                type="xs:int" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="InstitutionNoteMessage" minOccurs="0"
+                                    maxOccurs="unbounded">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:maxLength value="80"/>
+                                    <xs:minLength value="1"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="CSUAmerHistCompletion" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="CompletionIndicator" minOccurs="0">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:enumeration value="Completed"/>
+                                    <xs:enumeration value="NotCompleted"/>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="DateAchieved" type="xs:date" minOccurs="0"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="CSUGECompletion" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="CSUGECompletionDate" type="xs:date" minOccurs="0"/>
+                        <xs:element name="CSUGECompletionAreas" minOccurs="0" maxOccurs="5">
+                            <xs:complexType>
+                                <xs:sequence minOccurs="0">
+                                    <xs:element name="CSUGEAreaID" minOccurs="0">
+                                        <xs:simpleType>
+                                            <xs:restriction
+                                                    base="xs:string"><xs:minLength
+                                                    value="1"/>
+                                                <xs:maxLength
+                                                        value="1"/>
+                                                <xs:enumeration
+                                                        value="A"/>
+                                                <xs:enumeration
+                                                        value="B"/>
+                                                <xs:enumeration
+                                                        value="C"/>
+                                                <xs:enumeration
+                                                        value="D"/>
+                                                <xs:enumeration
+                                                        value="E"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="CSUGEAreaCompletionIndicator"
+                                                minOccurs="0">
+                                        <xs:simpleType>
+                                            <xs:restriction
+                                                    base="xs:string">
+                                                <xs:enumeration
+                                                        value="Completed"/>
+                                                <xs:enumeration
+                                                        value="NotCompleted"/>
+                                                <xs:enumeration
+                                                        value="CompletedWithPass-along"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="CSUGEAreaCompletionDate"
+                                                type="xs:date" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="CSUIGETCCompletion" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="CSUIGETCCertificationDate" type="xs:date" minOccurs="0"/>
+                        <xs:element name="CSUIGETCCertificationAreas" minOccurs="0" maxOccurs="5">
+                            <xs:complexType>
+                                <xs:sequence minOccurs="0">
+                                    <xs:element name="CSUIGETCAreaID" minOccurs="0"><xs:simpleType>
+                                        <xs:restriction
+                                                base="xs:string">
+                                            <xs:minLength
+                                                    value="1"/>
+                                            <xs:maxLength
+                                                    value="1"/>
+                                            <xs:enumeration
+                                                    value="1"/>
+                                            <xs:enumeration
+                                                    value="2"/>
+                                            <xs:enumeration
+                                                    value="3"/>
+                                            <xs:enumeration
+                                                    value="4"/>
+                                            <xs:enumeration
+                                                    value="5"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element
+                                            name="CSUIGETCAreaCompletionIndicator" minOccurs="0">
+                                        <xs:simpleType>
+                                            <xs:restriction
+                                                    base="xs:string">
+                                                <xs:enumeration
+                                                        value="Completed"/>
+                                                <xs:enumeration
+                                                        value="NotCompleted"/>
+                                                <xs:enumeration
+                                                        value="CompletedWithPass-along"/>
+                                            </xs:restriction>
+                                        </xs:simpleType>
+                                    </xs:element>
+                                    <xs:element name="CSUIGETCAreaCompletionDate"
+                                                type="xs:date" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="UCIGETCCompletion" minOccurs="0">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="UCIGETCCertificationDate" type="xs:date" minOccurs="0"/>
+                        <xs:element name="UCIGETCCertificationAreas" minOccurs="0" maxOccurs="6"><xs:complexType>
+                            <xs:sequence minOccurs="0">
+                                <xs:element name="UCIGETCAreaID" minOccurs="0">
+                                    <xs:simpleType>
+                                        <xs:restriction
+                                                base="xs:string">
+                                            <xs:minLength
+                                                    value="1"/>
+                                            <xs:maxLength
+                                                    value="1"/>
+                                            <xs:enumeration
+                                                    value="1"/>
+                                            <xs:enumeration
+                                                    value="2"/>
+                                            <xs:enumeration
+                                                    value="3"/>
+                                            <xs:enumeration
+                                                    value="4"/>
+                                            <xs:enumeration
+                                                    value="5"/>
+                                            <xs:enumeration
+                                                    value="6"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="UCIGETCAreaCompletionIndicator"
+                                            minOccurs="0">
+                                    <xs:simpleType>
+                                        <xs:restriction
+                                                base="xs:string">
+                                            <xs:enumeration
+                                                    value="Completed"/>
+                                            <xs:enumeration
+                                                    value="NotCompleted"/>
+                                            <xs:enumeration
+                                                    value="CompletedWithPass-along"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="UCIGETCAreaCompletionDate"
+                                            type="xs:date" minOccurs="0"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element></xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,937 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2848" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-08-16.06.05.004649</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>8381</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CCTC_MATRIC</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr>CCTC Matriculation API</szProjectDescr>
+        <szSrcDBName>CS92NEW</szSrcDBName>
+        <szSrcOprId>PWEATHERBY</szSrcOprId>
+        <szSessionId>b30469d5-7c09-11ed-8b2b-77233e125b8f</szSessionId>
+        <szRunDtTm>2022-12-14-15.47.41.561605</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16777215</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>0</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease>HRMS and Campus Solutions 9.00.05.050</szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>218</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="218" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center:
+Student Matriculation API for writing student data to base tables</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nProjectCount>3</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="2568" count="3">
+            <row>
+              <eObjectType>32</eObjectType>
+              <szObjectValue_0>CCTC_SC_STDNT_MATRIC</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>74</eObjectID_0>
+              <eObjectID_1>0</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CCTC_MATRIC_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_MATRIC_PKG</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_MATRIC_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_StudentMatriculation</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="BCM">
+    <rowset name="BcmDefn" size="784" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.57.466128</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>21</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szBcName>CCTC_SC_STDNT_MATRIC</szBcName>
+        <szBcDisplayName>CCTC_SC_STDNT_MATRIC</szBcDisplayName>
+        <szBcDescr>CCTC: Student Matriculation CI</szBcDescr>
+        <szBcPanelGroup>SC_STDNT_MATRIC</szBcPanelGroup>
+        <szBcMarket>GBL</szBcMarket>
+        <szBcMenuName></szBcMenuName>
+        <szBcSearchRec>PEOPLE_SRCH</szBcSearchRec>
+        <szBcAddSearchRec>PEOPLE_SRCH</szBcAddSearchRec>
+        <szLanguageCd>ENG</szLanguageCd>
+        <nItemCount>13</nItemCount>
+        <fStandardMethods>25</fStandardMethods>
+        <hPit> HANDLE
+          <rowset name="BcItem" size="6240" count="13">
+            <row>
+              <ePropertyType>1</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>EMPLID</szBcItemName>
+              <nSeq>1</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>0</nScrollLevel>
+              <nScrollNum>0</nScrollNum>
+              <szScrollName>AA-AA-00-00</szScrollName>
+              <szRecName>PEOPLE_SRCH</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>EMPLID</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13710</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>5</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>EMPLID</szBcItemName>
+              <nSeq>2</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>0</nScrollLevel>
+              <nScrollNum>0</nScrollNum>
+              <szScrollName>AA-AA-00-02</szScrollName>
+              <szRecName>PEOPLE_SRCH</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>EMPLID</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13711</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>5</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>CAMPUS_ID</szBcItemName>
+              <nSeq>3</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>0</nScrollLevel>
+              <nScrollNum>0</nScrollNum>
+              <szScrollName>AA-AA-00-02</szScrollName>
+              <szRecName>PEOPLE_SRCH</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>CAMPUS_ID</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13712</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>5</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>NATIONAL_ID</szBcItemName>
+              <nSeq>4</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>0</nScrollLevel>
+              <nScrollNum>0</nScrollNum>
+              <szScrollName>AA-AA-00-02</szScrollName>
+              <szRecName>PEOPLE_SRCH</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>NATIONAL_ID</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13713</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>5</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>LAST_NAME_SRCH</szBcItemName>
+              <nSeq>5</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>0</nScrollLevel>
+              <nScrollNum>0</nScrollNum>
+              <szScrollName>AA-AA-00-02</szScrollName>
+              <szRecName>PEOPLE_SRCH</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>LAST_NAME_SRCH</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13714</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>5</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>FIRST_NAME_SRCH</szBcItemName>
+              <nSeq>6</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>0</nScrollLevel>
+              <nScrollNum>0</nScrollNum>
+              <szScrollName>AA-AA-00-02</szScrollName>
+              <szRecName>PEOPLE_SRCH</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>FIRST_NAME_SRCH</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13715</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>3</ePropertyType>
+              <szParentCollection>PS_ROOT</szParentCollection>
+              <szBcItemName>SC_STDNT_MATRIC</szBcItemName>
+              <nSeq>210</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName></szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13716</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>4</ePropertyType>
+              <szParentCollection>SC_STDNT_MATRIC</szParentCollection>
+              <szBcItemName>EMPLID</szBcItemName>
+              <nSeq>211</nSeq>
+              <eAccess>2</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>EMPLID</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13717</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>4</ePropertyType>
+              <szParentCollection>SC_STDNT_MATRIC</szParentCollection>
+              <szBcItemName>INSTITUTION</szBcItemName>
+              <nSeq>212</nSeq>
+              <eAccess>2</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>INSTITUTION</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13718</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>4</ePropertyType>
+              <szParentCollection>SC_STDNT_MATRIC</szParentCollection>
+              <szBcItemName>ACAD_CAREER</szBcItemName>
+              <nSeq>213</nSeq>
+              <eAccess>2</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>ACAD_CAREER</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13719</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>4</ePropertyType>
+              <szParentCollection>SC_STDNT_MATRIC</szParentCollection>
+              <szBcItemName>STRM</szBcItemName>
+              <nSeq>214</nSeq>
+              <eAccess>2</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>STRM</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13720</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>4</ePropertyType>
+              <szParentCollection>SC_STDNT_MATRIC</szParentCollection>
+              <szBcItemName>SC_MATR_ORIEN_EXMP_0</szBcItemName>
+              <nSeq>229</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>SC_MATR_ORIEN_EXMP</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13721</nSyncId>
+            </row>
+            <row>
+              <ePropertyType>4</ePropertyType>
+              <szParentCollection>SC_STDNT_MATRIC</szParentCollection>
+              <szBcItemName>SC_MATR_ORIEN_SVCS_0</szBcItemName>
+              <nSeq>232</nSeq>
+              <eAccess>1</eAccess>
+              <nScrollLevel>1</nScrollLevel>
+              <nScrollNum>9</nScrollNum>
+              <szScrollName>00-00-01-09</szScrollName>
+              <szRecName>SC_STDNT_MATRIC</szRecName>
+              <szSubRecName></szSubRecName>
+              <szFieldName>SC_MATR_ORIEN_SVCS</szFieldName>
+              <szShortComment></szShortComment>
+              <nDevicePersistence>0</nDevicePersistence>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+              <nRefCount>0</nRefCount>
+              <hRef>HANDLE</hRef>
+              <nSyncId>13722</nSyncId>
+            </row>
+          </rowset>
+        </hPit>
+        <nDescrLongLen>326</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="326" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center: provides an interface for our custom peoplecode to get/set orientation information into the student matriculation record</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <nSyncCount>0</nSyncCount>
+        <hSync>HANDLE</hSync>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.58.466292</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>156</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CCTC_MATRIC_PKG</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CCTC_MATRIC_PKG</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr>CCTC: Matriculation Package</szDescr>
+        <lDescrLongLen>370</lDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="370" count="1">
+            <row>
+              <lpszDescrLong>California Community Colleges Tech Center:
+Matriculation Package
+Provides the interfaces for directly writing matriculation data such orientation status to built-in Peoplesoft tables</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>CCTC_StudentMatriculation</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CCTC_MATRIC_PKG</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>CCTC_StudentMatriculation</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-14-15.46.56.561479</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1919</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CCTC_MATRIC_PKG</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>CCTC_StudentMatriculation</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>3</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>4472</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>152</lEntryNamesLen>
+              <nEntry>3</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>3</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="1602" count="3">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>APIOBJECT</szFieldName>
+              <szPackageRoot>ApiObject</szPackageRoot>
+              <szQualifyPath>ApiObject</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>COMPINTFC</szRecName>
+              <szFieldName>CCTC_SC_STDNT_MATRIC</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>/**
+* Sets Student data into legit Peoplesoft Tables
+* @company CCC Tech Center
+* @version CAv4.5.0
+*/
+class CCTC_StudentMatriculation
+   method CCTC_Student();
+   
+   method setOrientationStatus(&amp;bindVars As array of any) Returns array of array of any;
+   
+   
+end-class;
+
+method CCTC_Student
+   rem do nothing;
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* update a Yes/No value if student has attended orientation
+* 
+* @param &amp;bindVars[1]: sisPersonId
+* @param &amp;bindVars[2]: Term
+* @param &amp;bindVars[3]: Institution
+* @param &amp;bindVars[4]: Academic Career
+* @param &amp;bindVars[5]: Orientation Status
+* @Returns 2d array with a row/array per status in list
+*/
+method setOrientationStatus
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   rem validate parameters/arguments;
+   If &amp;bindVars.Len &lt;&gt; 5 Then
+      Error &quot;bindVars should have 5 elements when setting orientation status&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;Emplid is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;Term is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;Institution is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;Acad Career is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [5]) Then
+      Error &quot;Orientation Status is required&quot;;
+   End-If;
+   
+   Local ApiObject &amp;oMatricCI = (%Session).GetCompIntfc(CompIntfc.CCTC_SC_STDNT_MATRIC);
+   If &amp;oMatricCI = Null Then
+      Error &quot;Could not instantiate the CCTC_SC_STDNT_MATRIC Component Interface&quot;;
+   End-If;
+   
+   &amp;oMatricCI.InteractiveMode = False;
+   &amp;oMatricCI.GetHistoryItems = True;
+   &amp;oMatricCI.EditHistoryItems = False;
+   
+   rem check if enrollment request already exists by looping through this student's enrollment requests this term;
+   &amp;oMatricCI.EMPLID = &amp;bindVars [1];
+   If Not &amp;oMatricCI.Get() Then
+      Error &quot;Could not get the student's marticulation record&quot;;
+   End-If;
+   Local ApiObject &amp;matricRows = &amp;oMatricCI.SC_STDNT_MATRIC;
+   Local number &amp;rowsAffected = 0;
+   Local number &amp;J;
+   For &amp;J = 1 To &amp;matricRows.Count
+      Local ApiObject &amp;currentMatricDetail = &amp;matricRows.Item(&amp;J);
+      If &amp;currentMatricDetail.INSTITUTION = &amp;bindVars [3] And
+            &amp;currentMatricDetail.ACAD_CAREER = &amp;bindVars [4] And
+            &amp;currentMatricDetail.STRM = &amp;bindVars [2] Then
+         &amp;currentMatricDetail.SC_MATR_ORIEN_SVCS_0 = &amp;bindVars [5];
+         &amp;rowsAffected = &amp;rowsAffected + 1;
+      End-If;
+   End-For;
+   
+   If Not &amp;oMatricCI.Save() Then
+      Error &quot;Saving the matrication record (for orientation update) failed&quot;;
+   End-If;
+   
+   DoSaveNow();
+   CommitWork();
+   
+   Local array of any &amp;result_row = CreateArrayAny();
+   &amp;result_row [1] = &amp;rowsAffected;
+   Return CreateArray(&amp;result_row);
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>bBMAAAQDAgEBAAAAvAIAAAAAAABoHkMAQwBUAEMAXwBNAEEAVABSAEkAQwBfAFAASwBHAGsyQwBDAFQAQwBfAFMAdAB1AGQAZQBuAHQATQBhAHQAcgBpAGMAdQBsAGEAdABpAG8AbgAMEk8AbgBFAHgAZQBjAHUAdABlAAAAAAAAAAAA/38HAAADAAEA/wAAAAAAAAAANDIAMAAyADIALQAxADIALQAxADQALQAxADUALgA0ADYALgA1ADYALgA1ADYAMQA0ADcAOQA0MgAwADIAMgAtADEAMgAtADEANAAtADEANQAuADQANgAuADUANgAuADUANgAxADQANwA5ABRQAFcARQBBAFQASABFAFIAQgBZAAAA/3gRAAD/AQAAACTMAMwvACoAKgAKACoAIABTAGUAdABzACAAUwB0AHUAZABlAG4AdAAgAGQAYQB0AGEAIABpAG4AdABvACAAbABlAGcAaQB0ACAAUABlAG8AcABsAGUAcwBvAGYAdAAgAFQAYQBiAGwAZQBzAAoAKgAgAEAAYwBvAG0AcABhAG4AeQAgAEMAQwBDACAAVABlAGMAaAAgAEMAZQBuAHQAZQByAAoAKgAgAEAAdgBlAHIAcwBpAG8AbgAgAEMAQQB2ADQALgA1AC4AMAAKACoALwBaCjJDAEMAVABDAF8AUwB0AHUAZABlAG4AdABNAGEAdAByAGkAYwB1AGwAYQB0AGkAbwBuAGMKGEMAQwBUAEMAXwBTAHQAdQBkAGUAbgB0AAsUFU9jCihzAGUAdABPAHIAaQBlAG4AdABhAHQAaQBvAG4AUwB0AGEAdAB1AHMACwESJgBiAGkAbgBkAFYAYQByAHMANUAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFDlACmEAcgByAGEAeQBABG8AZgBACmEAcgByAGEAeQBABG8AZgBABmEAbgB5ABVPT1sVLU9jQQoYQwBDAFQAQwBfAFMAdAB1AGQAZQBuAHQALSQeAB5yAGUAbQAgAGQAbwAgAG4AbwB0AGgAaQBuAGcAOwBkFS1PJOIC/+ICAAAvACoAKgAKACoAIABUAGgAaQBzACAAZgB1AG4AYwB0AGkAbwBuACAAcAByAG8AdgBpAGQAZQBzACAAYQBuACAAaQBuAHQAZQByAGYAYQBjAGUAIAB0AG8AIAB0AGgAZQAgAEMAbwBsAGwAZQBnAGUAIABBAGQAYQBwAHQAbwByACAAdABvACAACgAqACAAdQBwAGQAYQB0AGUAIABhACAAWQBlAHMALwBOAG8AIAB2AGEAbAB1AGUAIABpAGYAIABzAHQAdQBkAGUAbgB0ACAAaABhAHMAIABhAHQAdABlAG4AZABlAGQAIABvAHIAaQBlAG4AdABhAHQAaQBvAG4ACgAqACAACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAcwBpAHMAUABlAHIAcwBvAG4ASQBkAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwAyAF0AOgAgAFQAZQByAG0ACgAqACAAQABwAGEAcgBhAG0AIAAmAGIAaQBuAGQAVgBhAHIAcwBbADMAXQA6ACAASQBuAHMAdABpAHQAdQB0AGkAbwBuAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwA0AF0AOgAgAEEAYwBhAGQAZQBtAGkAYwAgAEMAYQByAGUAZQByAAoAKgAgAEAAcABhAHIAYQBtACAAJgBiAGkAbgBkAFYAYQByAHMAWwA1AF0AOgAgAE8AcgBpAGUAbgB0AGEAdABpAG8AbgAgAFMAdABhAHQAdQBzAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgADIAZAAgAGEAcgByAGEAeQAgAHcAaQB0AGgAIABhACAAcgBvAHcALwBhAHIAcgBhAHkAIABwAGUAcgAgAHMAdABhAHQAdQBzACAAaQBuACAAbABpAHMAdAAKACoALwBjQQoocwBlAHQATwByAGkAZQBuAHQAYQB0AGkAbwBuAFMAdABhAHQAdQBzAC1tMiYAYgBpAG4AZABWAGEAcgBzACAAYQBzACAAQQByAHIAYQB5ACAAbwBmACAAQQBuAHkAbSpSAGUAdAB1AHIAbgBzACAAQQByAHIAYQB5ADIAIABvAGYAIABBAG4AeQBPJEQARHIAZQBtACAAdgBhAGwAaQBkAGEAdABlACAAcABhAHIAYQBtAGUAdABlAHIAcwAvAGEAcgBnAHUAbQBlAG4AdABzADsAHAESJgBiAGkAbgBkAFYAYQByAHMABQoGTABlAG4AEFASAAAABQAAAAAAAAAAAAAA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</peoplecode_blob>
+  </instance>

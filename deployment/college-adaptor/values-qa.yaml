@@ -1,0 +1,4 @@
+service:
+  envName: qa
+  misCode: "001"
+  serviceRouterDomain: qa.ccctechcenter.org

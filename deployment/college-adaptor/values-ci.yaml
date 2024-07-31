@@ -1,0 +1,4 @@
+service:
+  envName: ci
+  misCode: "002"
+  serviceRouterDomain: ci.ccctechcenter.org

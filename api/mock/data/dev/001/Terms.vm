@@ -1,0 +1,200 @@
+[  
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+   ## Last year - Fall term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   {
+      "misCode":"${misCode}",
+      "sisTermId":"${year_previous}FA",
+      "year":$year_previous,
+      "session":"Fall",
+      "type":"Semester",
+      "start":$year_previous_term_fall_start.getTimeInMillis(),
+      "end":$year_previous_term_fall_end.getTimeInMillis(),
+      "preRegistrationStart":$year_previous_term_fall_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_previous_term_fall_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_previous_term_fall_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_previous_term_fall_reg_end.getTimeInMillis(),
+      "addDeadline":$year_previous_term_fall_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_previous_term_fall_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_previous_term_fall_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_previous_term_fall_censusDate.getTimeInMillis(),
+      "description":"Last year's FALL term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Last year - Spring term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_previous}SP",
+      "year":$year_previous,
+      "session":"Spring",
+      "type":"Semester",
+      "start":$year_previous_term_spring_start.getTimeInMillis(),
+      "end":$year_previous_term_spring_end.getTimeInMillis(),
+      "preRegistrationStart":$year_previous_term_spring_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_previous_term_spring_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_previous_term_spring_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_previous_term_spring_reg_end.getTimeInMillis(),
+      "addDeadline":$year_previous_term_spring_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_previous_term_spring_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_previous_term_spring_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_previous_term_spring_censusDate.getTimeInMillis(),
+      "description":"Last year's SPRING term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Last year - Summer term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_previous}SU",
+      "year":$year_previous,
+      "session":"Summer",
+      "type":"Semester",
+      "start":$year_previous_term_summer_start.getTimeInMillis(),
+      "end":$year_previous_term_summer_end.getTimeInMillis(),
+      "preRegistrationStart":$year_previous_term_summer_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_previous_term_summer_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_previous_term_summer_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_previous_term_summer_reg_end.getTimeInMillis(),
+      "addDeadline":$year_previous_term_summer_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_previous_term_summer_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_previous_term_summer_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_previous_term_summer_censusDate.getTimeInMillis(),
+      "description":"Last year's SUMMER term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Current year - Fall term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_current}FA",
+      "year":$year_current,
+      "session":"Fall",
+      "type":"Semester",
+      "start":$year_current_term_fall_start.getTimeInMillis(),
+      "end":$year_current_term_fall_end.getTimeInMillis(),
+      "preRegistrationStart":$year_current_term_fall_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_current_term_fall_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_current_term_fall_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_current_term_fall_reg_end.getTimeInMillis(),
+      "addDeadline":$year_current_term_fall_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_current_term_fall_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_current_term_fall_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_current_term_fall_censusDate.getTimeInMillis(),
+      "description":"Current year's FALL term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Current year - Spring term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_current}SP",
+      "year":$year_current,
+      "session":"Spring",
+      "type":"Semester",
+      "start":$year_current_term_spring_start.getTimeInMillis(),
+      "end":$year_current_term_spring_end.getTimeInMillis(),
+      "preRegistrationStart":$year_current_term_spring_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_current_term_spring_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_current_term_spring_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_current_term_spring_reg_end.getTimeInMillis(),
+      "addDeadline":$year_current_term_spring_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_current_term_spring_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_current_term_spring_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_current_term_spring_censusDate.getTimeInMillis(),
+      "description":"Current year's SPRING term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Current year - Summer term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_current}SU",
+      "year":$year_current,
+      "session":"Summer",
+      "type":"Semester",
+      "start":$year_current_term_summer_start.getTimeInMillis(),
+      "end":$year_current_term_summer_end.getTimeInMillis(),
+      "preRegistrationStart":$year_current_term_summer_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_current_term_summer_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_current_term_summer_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_current_term_summer_reg_end.getTimeInMillis(),
+      "addDeadline":$year_current_term_summer_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_current_term_summer_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_current_term_summer_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_current_term_summer_censusDate.getTimeInMillis(),
+      "description":"Current year's SUMMER term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Next year - Fall term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_next}FA",
+      "year":$year_next,
+      "session":"Fall",
+      "type":"Semester",
+      "start":$year_next_term_fall_start.getTimeInMillis(),
+      "end":$year_next_term_fall_end.getTimeInMillis(),
+      "preRegistrationStart":$year_next_term_fall_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_next_term_fall_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_next_term_fall_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_next_term_fall_reg_end.getTimeInMillis(),
+      "addDeadline":$year_next_term_fall_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_next_term_fall_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_next_term_fall_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_next_term_fall_censusDate.getTimeInMillis(),
+      "description":"Next year's FALL term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Next year - Spring term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_next}SP",
+      "year":$year_next,
+      "session":"Spring",
+      "type":"Semester",
+      "start":$year_next_term_spring_start.getTimeInMillis(),
+      "end":$year_next_term_spring_end.getTimeInMillis(),
+      "preRegistrationStart":$year_next_term_spring_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_next_term_spring_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_next_term_spring_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_next_term_spring_reg_end.getTimeInMillis(),
+      "addDeadline":$year_next_term_spring_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_next_term_spring_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_next_term_spring_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_next_term_spring_censusDate.getTimeInMillis(),
+      "description":"Next year's SPRING term"
+   }
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ## Next year - Summer term
+   ## ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ,{
+      "misCode":"${misCode}",
+      "sisTermId":"${year_next}SU",
+      "year":$year_next,
+      "session":"Summer",
+      "type":"Semester",
+      "start":$year_next_term_summer_start.getTimeInMillis(),
+      "end":$year_next_term_summer_end.getTimeInMillis(),
+      "preRegistrationStart":$year_next_term_summer_preReg_start.getTimeInMillis(),
+      "preRegistrationEnd":$year_next_term_summer_preReg_end.getTimeInMillis(),
+      "registrationStart":$year_next_term_summer_reg_start.getTimeInMillis(),
+      "registrationEnd":$year_next_term_summer_reg_end.getTimeInMillis(),
+      "addDeadline":$year_next_term_summer_addDeadline.getTimeInMillis(),
+      "dropDeadline":$year_next_term_summer_dropDeadline.getTimeInMillis(),
+      "withdrawalDeadline":$year_next_term_summer_withdrawlDeadline.getTimeInMillis(),
+      "feeDeadline":null,
+      "censusDate":$year_next_term_summer_censusDate.getTimeInMillis(),
+      "description":"Next year's SUMMER term"
+   }
+]

@@ -1,0 +1,805 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2848" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-08-16.07.52.005044</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>8385</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CCTC_TERMS</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr>CCTC Terms API</szProjectDescr>
+        <szSrcDBName>CS92NEW</szSrcDBName>
+        <szSrcOprId>PWEATHERBY</szSrcOprId>
+        <szSessionId>caa8bb8b-7c0a-11ed-8b2b-77233e125b8f</szSessionId>
+        <szRunDtTm>2022-12-14-15.55.30.561765</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16777215</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>0</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease>HRMS and Campus Solutions 9.00.05.050</szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>382</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="382" count="1">
+            <row>
+              <hDescrLong>California Community Colleges Tech Center: Terms Project- contains the functionality neccesary to support retrieving term and session data from peoplesoft into the college adaptor integration</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nProjectCount>4</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="3424" count="4">
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_TERM_BYDT_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>30</eObjectType>
+              <szObjectValue_0>CCTC_TERM_GET</szObjectValue_0>
+              <szObjectValue_1>0</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>65</eObjectID_0>
+              <eObjectID_1>81</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CCTC_TERMS_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_TERMS_PKG</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_TERMS_PKG</szObjectValue_0>
+              <szObjectValue_1>CCTC_Term</szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>107</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-08-15.09.44.311200</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>673</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_TERM_BYDT_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC: Term by Date</szDescr>
+              <lSqlTextLen>4134</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="4134" count="1">
+                  <row>
+                    <lpszSqlText>SELECT A.STRM   , A.ACAD_YEAR   , A.TERM_CATEGORY   , A.TERM_BEGIN_DT   , A.TERM_END_DT   , A.SESSION_CODE   , D.PRE_REG_START_DT   , D.PRE_REG_END_DT   , B.ENROLL_OPEN_DT   , C.END_DT   , F.CENSUS_DT   , E.LST_DROP_DT_RET   , E.LST_WD_WO_PEN_DT   , A.DESCR   , G.TERM_TYPE   FROM %Table(TERM_TBL) A JOIN %Table(SESSION_TBL) B ON (A.INSTITUTION = B.INSTITUTION   AND A.ACAD_CAREER = B.ACAD_CAREER   AND A.STRM = B.STRM   AND A.SESSION_CODE = B.SESSION_CODE) LEFT OUTER JOIN (   SELECT C1.INSTITUTION   , C1.ACAD_CAREER   , C1.STRM   , C1.SESSION_CODE   , C1.END_DT   FROM %Table(SESS_TIME_PEROD) C1   WHERE C1.TIME_PERIOD = :4) C ON (A.INSTITUTION = C.INSTITUTION   AND A.ACAD_CAREER = C.ACAD_CAREER   AND A.STRM = C.STRM   AND A.SESSION_CODE = C.SESSION_CODE) LEFT OUTER JOIN (   SELECT D1.INSTITUTION   , D1.ACAD_CAREER   , D1.STRM   , D1.SESSION_CODE   , MIN(D1.APPT_START_DATE) AS PRE_REG_START_DT   , MAX(D1.APPT_END_DATE) AS PRE_REG_END_DT   FROM %Table(APPOINTMENT_TBL) D1   GROUP BY D1.INSTITUTION   , D1.ACAD_CAREER   , D1.STRM   , D1.SESSION_CODE) D ON (A.INSTITUTION = D.INSTITUTION   AND A.ACAD_CAREER = D.ACAD_CAREER   AND A.STRM = D.STRM   AND A.SESSION_CODE = D.SESSION_CODE) LEFT OUTER JOIN %Table(ACAD_CALSES_TBL) E ON (A.INSTITUTION = E.INSTITUTION   AND A.ACAD_CAREER = E.ACAD_CAREER   AND A.STRM = E.STRM   AND A.SESSION_CODE = E.SESSION_CODE) LEFT OUTER JOIN %Table(ACAD_CALTRM_TBL) F ON (A.INSTITUTION = F.INSTITUTION   AND A.ACAD_CAREER = F.ACAD_CAREER   AND A.STRM = F.STRM) LEFT OUTER JOIN (   SELECT G1.INSTITUTION   , G1.ACAD_CAREER   , G1.TERM_TYPE   FROM %Table(ACAD_CAR_TBL) G1   WHERE G1.EFF_STATUS = 'A'   AND G1.EFFDT = (   SELECT MAX(G_EFF.EFFDT)   FROM %Table(ACAD_CAR_TBL) G_EFF   WHERE G_EFF.INSTITUTION = G1.INSTITUTION   AND G_EFF.ACAD_CAREER = G1.ACAD_CAREER   AND G_EFF.EFFDT &lt;= %CurrentDateTimeIn) ) G ON (A.INSTITUTION = G.INSTITUTION   AND A.ACAD_CAREER = G.ACAD_CAREER)   WHERE A.INSTITUTION = :2   AND A.ACAD_CAREER = :3   AND (%DateIn(LTRIM(:1)) BETWEEN A.TERM_BEGIN_DT AND A.TERM_END_DT)   ORDER BY A.TERM_BEGIN_DT DESC</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>276</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="276" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Retrieves term data for all terms where the given date is within the term's start and end dates</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="SRM">
+    <rowset name="SrmDefn" size="432" count="1">
+      <row>
+        <szLastUpdDttm>2022-12-08-11.42.54.874235</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>639</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szSqlId>CCTC_TERM_GET</szSqlId>
+        <szSqlType>0</szSqlType>
+        <szLanguageCd>ENG</szLanguageCd>
+        <bEnableEffDt>0</bEnableEffDt>
+        <cEnableEffDt>N</cEnableEffDt>
+        <lStmtCount>1</lStmtCount>
+        <lpStmtT> POINTER
+          <rowset name="SrmStmt" size="144" count="1">
+            <row>
+              <szMarket>GBL</szMarket>
+              <eDbType>32</eDbType>
+              <cDbType> </cDbType>
+              <szEffDt>1900-01-01</szEffDt>
+              <szDescr>CCTC: Terms Retrieval</szDescr>
+              <lSqlTextLen>4058</lSqlTextLen>
+              <lpszSqlText> POINTER
+                <rowset name="char" size="4058" count="1">
+                  <row>
+                    <lpszSqlText>SELECT A.STRM   , A.ACAD_YEAR   , A.TERM_CATEGORY   , A.TERM_BEGIN_DT   , A.TERM_END_DT   , A.SESSION_CODE   , D.PRE_REG_START_DT   , D.PRE_REG_END_DT   , B.ENROLL_OPEN_DT   , C.END_DT   , F.CENSUS_DT   , E.LST_DROP_DT_RET   , E.LST_WD_WO_PEN_DT   , A.DESCR   , G.TERM_TYPE   FROM %Table(TERM_TBL) A   JOIN %Table(SESSION_TBL) B   ON (A.INSTITUTION = B.INSTITUTION   AND A.ACAD_CAREER = B.ACAD_CAREER   AND A.STRM = B.STRM   AND A.SESSION_CODE = B.SESSION_CODE)   LEFT OUTER JOIN (   SELECT C1.INSTITUTION   , C1.ACAD_CAREER   , C1.STRM   , C1.SESSION_CODE   , C1.END_DT   FROM %Table(SESS_TIME_PEROD) C1   WHERE C1.TIME_PERIOD = :4) C   ON (A.INSTITUTION = C.INSTITUTION   AND A.ACAD_CAREER = C.ACAD_CAREER  AND A.STRM = C.STRM  AND A.SESSION_CODE = C.SESSION_CODE) LEFT OUTER JOIN (   SELECT D1.INSTITUTION   , D1.ACAD_CAREER   , D1.STRM   , D1.SESSION_CODE   , MIN(D1.APPT_START_DATE) AS PRE_REG_START_DT   , MAX(D1.APPT_END_DATE) AS PRE_REG_END_DT   FROM %Table(APPOINTMENT_TBL) D1   GROUP BY D1.INSTITUTION   , D1.ACAD_CAREER   , D1.STRM   , D1.SESSION_CODE) D   ON (A.INSTITUTION = D.INSTITUTION   AND A.ACAD_CAREER = D.ACAD_CAREER  AND A.STRM = D.STRM  AND A.SESSION_CODE = D.SESSION_CODE) LEFT OUTER JOIN %Table(ACAD_CALSES_TBL) E  ON (A.INSTITUTION = E.INSTITUTION   AND A.ACAD_CAREER = E.ACAD_CAREER  AND A.STRM = E.STRM  AND A.SESSION_CODE = E.SESSION_CODE)  LEFT OUTER JOIN %Table(ACAD_CALTRM_TBL) F   ON (A.INSTITUTION = F.INSTITUTION   AND A.ACAD_CAREER = F.ACAD_CAREER  AND A.STRM = F.STRM)   LEFT OUTER JOIN (   SELECT G1.INSTITUTION   , G1.ACAD_CAREER   , G1.TERM_TYPE   FROM %Table(ACAD_CAR_TBL) G1   WHERE G1.EFF_STATUS = 'A'   AND G1.EFFDT = (   SELECT MAX(G_EFF.EFFDT)   FROM %Table(ACAD_CAR_TBL) G_EFF   WHERE G_EFF.INSTITUTION = G1.INSTITUTION   AND G_EFF.ACAD_CAREER = G1.ACAD_CAREER   AND G_EFF.EFFDT &lt;= %CurrentDateTimeIn) ) G   ON (A.INSTITUTION = G.INSTITUTION   AND A.ACAD_CAREER = G.ACAD_CAREER)  WHERE A.INSTITUTION = :2   AND A.ACAD_CAREER = :3   AND A.STRM LIKE :1   ORDER BY A.TERM_BEGIN_DT DESC</lpszSqlText>
+                  </row>
+                </rowset>
+              </lpszSqlText>
+              <lDescrLongLen>204</lDescrLongLen>
+              <lpszDescrLong> POINTER
+                <rowset name="char" size="204" count="1">
+                  <row>
+                    <lpszDescrLong>California Community Colleges Tech Center: Retrieves Term/Session Data from various built-in PS tables</lpszDescrLong>
+                  </row>
+                </rowset>
+              </lpszDescrLong>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </lpStmtT>
+        <nSqlTextCount>0</nSqlTextCount>
+        <lpSqlText>POINTER</lpSqlText>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-28-15.40.58.466328</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>156</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CCTC_TERMS_PKG</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CCTC_TERMS_PKG</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr>CCTC: Terms package</szDescr>
+        <lDescrLongLen>354</lDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="354" count="1">
+            <row>
+              <lpszDescrLong>California Community Colleges Tech Center:
+Terms and Sessions Package
+
+This package contains the classes that encapsulate the aspects around retrieving term and session data</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>1</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList> HANDLE
+          <rowset name="ApmClassList" size="464" count="1">
+            <row>
+              <ApmClassKey.szClassId>CCTC_Term</ApmClassKey.szClassId>
+              <ApmClassKey.szPackageRoot>CCTC_TERMS_PKG</ApmClassKey.szPackageRoot>
+              <ApmClassKey.szQualifyPath>:</ApmClassKey.szQualifyPath>
+              <szClassRef></szClassRef>
+              <lClassLevel>1</lClassLevel>
+              <lClassCount>1</lClassCount>
+              <hClassDefn> HANDLE
+                <rowset name="ApmClassDefn" size="576" count="1">
+                  <row>
+                    <szClassId>CCTC_Term</szClassId>
+                    <szClassRef></szClassRef>
+                    <szDescr></szDescr>
+                    <eRenameObject>0</eRenameObject>
+                    <szPrevClassId></szPrevClassId>
+                  </row>
+                </rowset>
+              </hClassDefn>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>0</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList>HANDLE</ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2022-11-30-15.15.42.056585</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1910</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CCTC_TERMS_PKG</szObjectValue_0>
+        <eObjectID_1>107</eObjectID_1>
+        <szObjectValue_1>CCTC_Term</szObjectValue_1>
+        <eObjectID_2>12</eObjectID_2>
+        <szObjectValue_2>OnExecute</szObjectValue_2>
+        <eObjectID_3>0</eObjectID_3>
+        <szObjectValue_3></szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>4</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>5625</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>118</lEntryNamesLen>
+              <nEntry>4</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>5</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="2136" count="4">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>SQL</szFieldName>
+              <szPackageRoot>SQL</szPackageRoot>
+              <szQualifyPath>SQL</szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_TERM_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+            <row>
+              <szRecName>SQL</szRecName>
+              <szFieldName>CCTC_TERM_BYDT_GET</szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+              <szAppClassMethod></szAppClassMethod>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass></szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>/**
+* Gets Term data from legit PS tables
+* @company CCC Tech Center
+* @version CAv4.5.0
+*/
+class CCTC_Term
+   method CCTC_Term();
+   
+   method getTerms(&amp;bindVars As array of any) Returns array of array of any;
+   
+   method getTermsByDate(&amp;bindVars As array of any) Returns array of array of any;
+end-class;
+
+method CCTC_Term
+   rem do nothing;
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* retrieve the matching terms from the PS term/session tables
+* 
+* @param &amp;bindVars array of keys to retrieve from the table
+* &amp;bindVars[1]: Term (blank if all desired)
+* &amp;bindVars[2]: Institution
+* &amp;bindVars[3]: Academic Career
+* &amp;bindVars[4]: Last Day to Enroll Time Period
+* @Returns first matching row (if any), empty array if not found
+*/
+method getTerms
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 4 Then
+      Error &quot;bindVars should have 4 elements when getting terms&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      &amp;bindVars [1] = &quot;%&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;last_day_to_enroll time_period is required&quot;;
+   End-If;
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_TERM_GET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK Then
+      Error String(&amp;sql.Status);
+   Else
+      Local number &amp;i = 0;
+      Local number &amp;maxRows = 25;
+      While &amp;sql.Fetch(&amp;AAny) And
+            &amp;i &lt; &amp;maxRows
+         Local number &amp;j = 0;
+         Local array of any &amp;temp = CreateArrayAny();
+         For &amp;j = 1 To &amp;AAny.Len
+            &amp;temp.Push(&amp;AAny [&amp;j]);
+         End-For;
+         &amp;result_list.Push(&amp;temp);
+         &amp;i = &amp;i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+/**
+* This function provides an interface to the College Adaptor to 
+* retrieve the terms that contain the given date from the PS term/session tables
+* 
+* @param &amp;bindVars array of keys to retrieve from the table
+* &amp;bindVars[1]: AsOfDate
+* &amp;bindVars[2]: Institution
+* &amp;bindVars[3]: Academic Career
+* &amp;bindVars[4]: Last Day to Enroll Time Period
+* @Returns first matching row (if any), empty array if not found
+*/
+method getTermsByDate
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns Array2 of Any +/
+   
+   If &amp;bindVars.Len &lt;&gt; 4 Then
+      Error &quot;bindVars should have 4 elements when getting terms&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [1]) Then
+      Error &quot;As Of Date is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [2]) Then
+      Error &quot;institution is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [3]) Then
+      Error &quot;acad_career is required&quot;;
+   End-If;
+   
+   If None(&amp;bindVars [4]) Then
+      Error &quot;last_day_to_enroll time_period is required&quot;;
+   End-If;
+   
+   Local array of any &amp;AAny = CreateArrayAny();
+   Local array of array &amp;result_list = CreateArrayRept(&amp;AAny, 0);
+   
+   Local SQL &amp;sql = GetSQL(SQL.CCTC_TERM_BYDT_GET, &amp;bindVars);
+   If &amp;sql.Status &lt;&gt; %SQLStatus_OK Then
+      Error String(&amp;sql.Status);
+   Else
+      Local number &amp;i = 0;
+      Local number &amp;maxRows = 25;
+      While &amp;sql.Fetch(&amp;AAny) And
+            &amp;i &lt; &amp;maxRows
+         Local number &amp;j = 0;
+         Local array of any &amp;temp = CreateArrayAny();
+         For &amp;j = 1 To &amp;AAny.Len
+            &amp;temp.Push(&amp;AAny [&amp;j]);
+         End-For;
+         &amp;result_list.Push(&amp;temp);
+         &amp;i = &amp;i + 1;
+      End-While;
+   End-If;
+   &amp;sql.Close();
+   
+   Return &amp;result_list;
+   
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>ghcAAAQDAgEBAAAAvAIAAAAAAABoHEMAQwBUAEMAXwBUAEUAUgBNAFMAXwBQAEsARwBrEkMAQwBUAEMAXwBUAGUAcgBtAAwSTwBuAEUAeABlAGMAdQB0AGUAAAAAAAAAAAD/dgcAAAQAAQD/AAAAAAAAAAA0MgAwADIAMgAtADEAMQAtADMAMAAtADEANQAuADEANQAuADQAMgAuADAANQA2ADUAOAA1ADQyADAAMgAyAC0AMQAxAC0AMwAwAC0AMQA1AC4AMQA1AC4ANAAyAC4AMAA1ADYANQA4ADUAFFAAVwBFAEEAVABIAEUAUgBCAFkAAAD/+RUAAP8BAAAAJLYAti8AKgAqAAoAKgAgAEcAZQB0AHMAIABUAGUAcgBtACAAZABhAHQAYQAgAGYAcgBvAG0AIABsAGUAZwBpAHQAIABQAFMAIAB0AGEAYgBsAGUAcwAKACoAIABAAGMAbwBtAHAAYQBuAHkAIABDAEMAQwAgAFQAZQBjAGgAIABDAGUAbgB0AGUAcgAKACoAIABAAHYAZQByAHMAaQBvAG4AIABDAEEAdgA0AC4ANQAuADAACgAqAC8AWgoSQwBDAFQAQwBfAFQAZQByAG0AYwoSQwBDAFQAQwBfAFQAZQByAG0ACxQVT2MKEGcAZQB0AFQAZQByAG0AcwALARImAGIAaQBuAGQAVgBhAHIAcwA1QAphAHIAcgBhAHkAQARvAGYAQAZhAG4AeQAUOUAKYQByAHIAYQB5AEAEbwBmAEAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFU9jChxnAGUAdABUAGUAcgBtAHMAQgB5AEQAYQB0AGUACwESJgBiAGkAbgBkAFYAYQByAHMANUAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFDlACmEAcgByAGEAeQBABG8AZgBACmEAcgByAGEAeQBABG8AZgBABmEAbgB5ABVbFS1PY0EKEkMAQwBUAEMAXwBUAGUAcgBtAC0kHgAecgBlAG0AIABkAG8AIABuAG8AdABoAGkAbgBnADsAZBUtTyQ4A/84AwAALwAqACoACgAqACAAVABoAGkAcwAgAGYAdQBuAGMAdABpAG8AbgAgAHAAcgBvAHYAaQBkAGUAcwAgAGEAbgAgAGkAbgB0AGUAcgBmAGEAYwBlACAAdABvACAAdABoAGUAIABDAG8AbABsAGUAZwBlACAAQQBkAGEAcAB0AG8AcgAgAHQAbwAgAAoAKgAgAHIAZQB0AHIAaQBlAHYAZQAgAHQAaABlACAAbQBhAHQAYwBoAGkAbgBnACAAdABlAHIAbQBzACAAZgByAG8AbQAgAHQAaABlACAAUABTACAAdABlAHIAbQAvAHMAZQBzAHMAaQBvAG4AIAB0AGEAYgBsAGUAcwAKACoAIAAKACoAIABAAHAAYQByAGEAbQAgACYAYgBpAG4AZABWAGEAcgBzACAAYQByAHIAYQB5ACAAbwBmACAAawBlAHkAcwAgAHQAbwAgAHIAZQB0AHIAaQBlAHYAZQAgAGYAcgBvAG0AIAB0AGgAZQAgAHQAYQBiAGwAZQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAVABlAHIAbQAgACgAYgBsAGEAbgBrACAAaQBmACAAYQBsAGwAIABkAGUAcwBpAHIAZQBkACkACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAyAF0AOgAgAEkAbgBzAHQAaQB0AHUAdABpAG8AbgAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADMAXQA6ACAAQQBjAGEAZABlAG0AaQBjACAAQwBhAHIAZQBlAHIACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwA0AF0AOgAgAEwAYQBzAHQAIABEAGEAeQAgAHQAbwAgAEUAbgByAG8AbABsACAAVABpAG0AZQAgAFAAZQByAGkAbwBkAAoAKgAgAEAAUgBlAHQAdQByAG4AcwAgAGYAaQByAHMAdAAgAG0AYQB0AGMAaABpAG4AZwAgAHIAbwB3ACAAKABpAGYAIABhAG4AeQApACwAIABlAG0AcAB0AHkAIABhAHIAcgBhAHkAIABpAGYAIABuAG8AdAAgAGYAbwB1AG4AZAAKACoALwBjQQoQZwBlAHQAVABlAHIAbQBzAC1tMiYAYgBpAG4AZABWAGEAcgBzACAAYQBzACAAQQByAHIAYQB5ACAAbwBmACAAQQBuAHkAbSpSAGUAdAB1AHIAbgBzACAAQQByAHIAYQB5ADIAIABvAGYAIABBAG4AeQBPHAESJgBiAGkAbgBkAFYAYQByAHMABQoGTABlAG4AEFASAAAABAAAAAAAAAAAAAAAAAAAHxsWZGIA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YgBpAG4AZABWAGEAcgBzACAAYQByAHIAYQB5ACAAbwBmACAAawBlAHkAcwAgAHQAbwAgAHIAZQB0AHIAaQBlAHYAZQAgAGYAcgBvAG0AIAB0AGgAZQAgAHQAYQBiAGwAZQAKACoAIAAmAGIAaQBuAGQAVgBhAHIAcwBbADEAXQA6ACAAQQBzAE8AZgBEAGEAdABlAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsAMgBdADoAIABJAG4AcwB0AGkAdAB1AHQAaQBvAG4ACgAqACAAJgBiAGkAbgBkAFYAYQByAHMAWwAzAF0AOgAgAEEAYwBhAGQAZQBtAGkAYwAgAEMAYQByAGUAZQByAAoAKgAgACYAYgBpAG4AZABWAGEAcgBzAFsANABdADoAIABMAGEAcwB0ACAARABhAHkAIAB0AG8AIABFAG4AcgBvAGwAbAAgAFQAaQBtAGUAIABQAGUAcgBpAG8AZAAKACoAIABAAFIAZQB0AHUAcgBuAHMAIABmAGkAcgBzAHQAIABtAGEAdABjAGgAaQBuAGcAIAByAG8AdwAgACgAaQBmACAAYQBuAHkAKQAsACAAZQBtAHAAdAB5ACAAYQByAHIAYQB5ACAAaQBmACAAbgBvAHQAIABmAG8AdQBuAGQACgAqAC8AY0EKHGcAZQB0AFQAZQByAG0AcwBCAHkARABhAHQAZQAtbTImAGIAaQBuAGQAVgBhAHIAcwAgAGEAcwAgAEEAcgByAGEAeQAgAG8AZgAgAEEAbgB5AG0qUgBlAHQAdQByAG4AcwAgAEEAcgByAGEAeQAyACAAbwBmACAAQQBuAHkATxwBEiYAYgBpAG4AZABWAGEAcgBzAAUKBkwAZQBuABBQEgAAAAQAAAAAAAAAAAAAAAAAAB8bFmRiAGkAbgBkAFYAYQByAHMAIABzAGgAbwB1AGwAZAAgAGgAYQB2AGUAIAA0ACAAZQBsAGUAbQBlAG4AdABzACAAdwBoAGUAbgAgAGcAZQB0AHQAaQBuAGcAIAB0AGUAcgBtAHMAFRoVTxwKCE4AbwBuAGUACwESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAQAAAAAAAAAAAAAAAAAATRQfGxYsQQBzACAATwBmACAARABhAHQAZQAgAGkAcwAgAHIAZQBxAHUAaQByAGUAZAAVGhVPHAoITgBv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</peoplecode_blob>
+  </instance>

@@ -1,0 +1,3927 @@
+<?xml version='1.0'?>
+  <!--Warning : Don't edit this file -->
+  <instance class="PJM">
+    <rowset name="PjmDefn" size="2808" count="1">
+      <row>
+        <szLastUpdDttm>2018-10-11-09.11.03.367100</szLastUpdDttm>
+        <szLastUpdOprId>WXIA</szLastUpdOprId>
+        <szObjectOwnerID></szObjectOwnerID>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>33826</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szProjectName>CCTC_EDEX</szProjectName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szProjectDescr>EdEx Transcript</szProjectDescr>
+        <szSrcDBName>CS90NEW</szSrcDBName>
+        <szSrcOprId>PWEATHERBY</szSrcOprId>
+        <szSessionId>72bdc5d2-6c35-11e9-97e9-a911d59bf22f</szSessionId>
+        <szRunDtTm>2019-05-01-10.20.40.320553</szRunDtTm>
+        <szTgtServerName></szTgtServerName>
+        <szTgtDBName></szTgtDBName>
+        <szTgtOprId></szTgtOprId>
+        <fReportFilter>16232832</fReportFilter>
+        <eTargetOrientation>0</eTargetOrientation>
+        <eCompareType>1</eCompareType>
+        <fKeepTgt>31</fKeepTgt>
+        <nCommitLimit>50</nCommitLimit>
+        <szCompRelease>HRMS and Campus Solutions 9.00.05.046</szCompRelease>
+        <szCompRelDttm></szCompRelDttm>
+        <bMaintenanceProject>0</bMaintenanceProject>
+        <bUseDbFieldNameAttrib>0</bUseDbFieldNameAttrib>
+        <szReleaseLabel></szReleaseLabel>
+        <szReleaseDttm></szReleaseDttm>
+        <nDescrLongLen>40</nDescrLongLen>
+        <hDescrLong> HANDLE
+          <rowset name="char" size="40" count="1">
+            <row>
+              <hDescrLong>WX created 3/27/2018</hDescrLong>
+            </row>
+          </rowset>
+        </hDescrLong>
+        <nProjectCount>8</nProjectCount>
+        <lpPit> POINTER
+          <rowset name="PjmPit" size="6848" count="8">
+            <row>
+              <eObjectType>10</eObjectType>
+              <szObjectValue_0>CCTC_INSTITUTION_DETAIL</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>30</eObjectID_0>
+              <eObjectID_1>25</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>10</eObjectType>
+              <szObjectValue_0>CCTC_PERSON_DATA</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>30</eObjectID_0>
+              <eObjectID_1>25</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>10</eObjectType>
+              <szObjectValue_0>CCTC_PREF_EMAIL</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>30</eObjectID_0>
+              <eObjectID_1>25</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>10</eObjectType>
+              <szObjectValue_0>CCTC_STDNT_ENRL</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>30</eObjectID_0>
+              <eObjectID_1>25</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>10</eObjectType>
+              <szObjectValue_0>CCTC_TRNS_SESSION</szObjectValue_0>
+              <szObjectValue_1></szObjectValue_1>
+              <szObjectValue_2></szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>30</eObjectID_0>
+              <eObjectID_1>25</eObjectID_1>
+              <eObjectID_2>0</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>57</eObjectType>
+              <szObjectValue_0>CCTC_API_SRVC</szObjectValue_0>
+              <szObjectValue_1>CCTC_API_SRVC</szObjectValue_1>
+              <szObjectValue_2>.</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>116</eObjectID_1>
+              <eObjectID_2>117</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_API_SRVC</szObjectValue_0>
+              <szObjectValue_1>HANDLERS</szObjectValue_1>
+              <szObjectValue_2>CCTC_PersonData</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>105</eObjectID_1>
+              <eObjectID_2>107</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>6</eSourceStatus>
+              <eTargetStatus>6</eTargetStatus>
+              <eUpgradeAction>2</eUpgradeAction>
+              <bTakeAction>0</bTakeAction>
+              <bCopyDone>0</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+            <row>
+              <eObjectType>58</eObjectType>
+              <szObjectValue_0>CCTC_API_SRVC</szObjectValue_0>
+              <szObjectValue_1>HANDLERS</szObjectValue_1>
+              <szObjectValue_2>CCTC_Transcript</szObjectValue_2>
+              <szObjectValue_3></szObjectValue_3>
+              <eObjectID_0>104</eObjectID_0>
+              <eObjectID_1>105</eObjectID_1>
+              <eObjectID_2>107</eObjectID_2>
+              <eObjectID_3>0</eObjectID_3>
+              <bExecute>0</bExecute>
+              <eSourceStatus>0</eSourceStatus>
+              <eTargetStatus>0</eTargetStatus>
+              <eUpgradeAction>0</eUpgradeAction>
+              <bTakeAction>1</bTakeAction>
+              <bCopyDone>1</bCopyDone>
+              <eRowStatus>3</eRowStatus>
+            </row>
+          </rowset>
+        </lpPit>
+        <nAdsBindingCount>0</nAdsBindingCount>
+        <pPrjAdsBinding>POINTER</pPrjAdsBinding>
+        <bCopyAllSec>1</bCopyAllSec>
+        <bCompAllSec>1</bCompAllSec>
+        <nSecCount>70</nSecCount>
+        <lpSec> POINTER
+          <rowset name="PjmSec" size="1400" count="70">
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>0</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>COMMON</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ARA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>BUL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CFR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CRO</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>CZE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DAN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>DUT</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ENG</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ESP</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FIN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>FRA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>GRK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HEB</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>HUN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ITA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>JPN</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>KOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>MAY</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>NOR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POL</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>POR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ROM</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>RUS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SER</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLK</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SLV</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>SVE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>THA</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>TUR</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>UKE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>VIE</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHS</szSectionName>
+            </row>
+            <row>
+              <eProcessType>2</eProcessType>
+              <szSectionName>ZHT</szSectionName>
+            </row>
+          </rowset>
+        </lpSec>
+        <nIncCount>0</nIncCount>
+        <lpInc>POINTER</lpInc>
+        <nDepCount>0</nDepCount>
+        <lpDep>POINTER</lpDep>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="QDM">
+    <rowset name="QdmDefn" size="1000" count="1">
+      <row>
+        <szLastUpdDttm>2018-09-10-10.48.59.116103</szLastUpdDttm>
+        <szLastUpdOprId>CCTC</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>11058</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szOprId> </szOprId>
+        <szQryName>CCTC_INSTITUTION_DETAIL</szQryName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szDescr>Institution details</szDescr>
+        <hQst> HANDLE
+          <rowset name="hQrt" size="80" count="1">
+            <row>
+              <hQrt> HANDLE
+                <rowset name="QdmRcd" size="104" count="1">
+                  <row>
+                    <nRcdNum>1</nRcdNum>
+                    <szRecName>INSTITUTION_TBL</szRecName>
+                    <szCorrName>A</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                </rowset>
+              </hQrt>
+              <hQft> HANDLE
+                <rowset name="QdmFld" size="1696" count="4">
+                  <row>
+                    <nFldNum>1</nFldNum>
+                    <szRecName>INSTITUTION_TBL</szRecName>
+                    <szFieldName>EFFDT</szFieldName>
+                    <szQryFldName>A.EFFDT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>2</nFldNum>
+                    <szRecName>INSTITUTION_TBL</szRecName>
+                    <szFieldName>INSTITUTION</szFieldName>
+                    <szQryFldName>A.INSTITUTION</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>3</nFldNum>
+                    <szRecName>INSTITUTION_TBL</szRecName>
+                    <szFieldName>DESCR</szFieldName>
+                    <szQryFldName>A.DESCR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>1</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>4</nFldNum>
+                    <szRecName>INSTITUTION_TBL</szRecName>
+                    <szFieldName>FICE_CD</szFieldName>
+                    <szQryFldName>A.FICE_CD</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>2</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                </rowset>
+              </hQft>
+              <hQct> HANDLE
+                <rowset name="QdmCrt" size="80" count="1">
+                  <row>
+                    <nCrtNum>1</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>1</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>20</eCondType>
+                    <eExprType>6</eExprType>
+                    <eCombType>3</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                </rowset>
+              </hQct>
+              <hQht>HANDLE</hQht>
+              <nSelNum>1</nSelNum>
+              <nParentSelNum>0</nParentSelNum>
+              <nRcdCount>1</nRcdCount>
+              <nFldCount>4</nFldCount>
+              <nCrtCount>1</nCrtCount>
+              <nQhtCount>0</nQhtCount>
+              <eSelectType>1</eSelectType>
+              <cQryDistinct> </cQryDistinct>
+            </row>
+          </rowset>
+        </hQst>
+        <hQet>HANDLE</hQet>
+        <hQbt>HANDLE</hQbt>
+        <hQxt>HANDLE</hQxt>
+        <nDescrLongLen>0</nDescrLongLen>
+        <nSelCount>1</nSelCount>
+        <nExpCount>0</nExpCount>
+        <nBndCount>0</nBndCount>
+        <nXsltCount>0</nXsltCount>
+        <eQryType>1</eQryType>
+        <bQryValid>0</bQryValid>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <cApproved>A</cApproved>
+        <szCreateOprId>WXIA</szCreateOprId>
+        <szCreateDtTm>2018-09-08-14.59.28.000000</szCreateDtTm>
+        <szApproveOprId></szApproveOprId>
+        <szApproveDtTm></szApproveDtTm>
+        <cExecLogging> </cExecLogging>
+        <cDisabled> </cDisabled>
+        <szFolder></szFolder>
+        <bQryJoinOptimize>0</bQryJoinOptimize>
+        <eImgType>0</eImgType>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="QDM">
+    <rowset name="QdmDefn" size="1000" count="1">
+      <row>
+        <szLastUpdDttm>2018-09-24-12.11.44.368562</szLastUpdDttm>
+        <szLastUpdOprId>WXIA</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>11064</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szOprId> </szOprId>
+        <szQryName>CCTC_PERSON_DATA</szQryName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szDescr>Person data</szDescr>
+        <hQst> HANDLE
+          <rowset name="hQrt" size="80" count="1">
+            <row>
+              <hQrt> HANDLE
+                <rowset name="QdmRcd" size="312" count="3">
+                  <row>
+                    <nRcdNum>1</nRcdNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szCorrName>A</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                  <row>
+                    <nRcdNum>2</nRcdNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szCorrName>B</szCorrName>
+                    <nJoinRcdNum>1</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>5</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                  <row>
+                    <nRcdNum>3</nRcdNum>
+                    <szRecName>PERS_NID_SA_VW</szRecName>
+                    <szCorrName>C</szCorrName>
+                    <nJoinRcdNum>2</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>5</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                </rowset>
+              </hQrt>
+              <hQft> HANDLE
+                <rowset name="QdmFld" size="9752" count="23">
+                  <row>
+                    <nFldNum>1</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>EMPLID</szFieldName>
+                    <szQryFldName>A.EMPLID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>2</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>2</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>FIRST_NAME</szFieldName>
+                    <szQryFldName>A.FIRST_NAME</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>2</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>3</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>LAST_NAME</szFieldName>
+                    <szQryFldName>A.LAST_NAME</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>3</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>4</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>SEX</szFieldName>
+                    <szQryFldName>A.SEX</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>6</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>5</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>BIRTHDATE</szFieldName>
+                    <szQryFldName>A.BIRTHDATE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>7</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>6</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>NAME_SUFFIX</szFieldName>
+                    <szQryFldName>A.NAME_SUFFIX</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>2</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>7</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>MIDDLE_NAME</szFieldName>
+                    <szQryFldName>A.MIDDLE_NAME</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>4</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>8</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>BIRTHPLACE</szFieldName>
+                    <szQryFldName>A.BIRTHPLACE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>8</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>9</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>BIRTHSTATE</szFieldName>
+                    <szQryFldName>A.BIRTHSTATE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>9</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>10</nFldNum>
+                    <szRecName>PERS_DATA_SA_VW</szRecName>
+                    <szFieldName>HIGHEST_EDUC_LVL</szFieldName>
+                    <szQryFldName>A.HIGHEST_EDUC_LVL</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>11</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>EMPLID</szFieldName>
+                    <szQryFldName>B.EMPLID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>12</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>EFFDT</szFieldName>
+                    <szQryFldName>B.EFFDT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>13</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>ADDRESS1</szFieldName>
+                    <szQryFldName>B.ADDRESS1</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>10</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>14</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>ADDRESS2</szFieldName>
+                    <szQryFldName>B.ADDRESS2</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>11</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>15</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>ADDRESS3</szFieldName>
+                    <szQryFldName>B.ADDRESS3</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>12</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>16</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>CITY</szFieldName>
+                    <szQryFldName>B.CITY</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>13</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>17</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>STATE</szFieldName>
+                    <szQryFldName>B.STATE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>14</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>18</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>POSTAL</szFieldName>
+                    <szQryFldName>B.POSTAL</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>15</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>19</nFldNum>
+                    <szRecName>ADDRESSES</szRecName>
+                    <szFieldName>ADDRESS_TYPE</szFieldName>
+                    <szQryFldName>B.ADDRESS_TYPE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>20</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP3_26</szQryFldName>
+                    <szHeading> substr(C.NATIONAL_ID, -4)</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>3</nFldExpNum>
+                    <nColumnNum>1</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>21</nFldNum>
+                    <szRecName>PERS_NID_SA_VW</szRecName>
+                    <szFieldName>EMPLID</szFieldName>
+                    <szQryFldName>C.EMPLID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>3</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>22</nFldNum>
+                    <szRecName>PERS_NID_SA_VW</szRecName>
+                    <szFieldName>NATIONAL_ID</szFieldName>
+                    <szQryFldName>C.NATIONAL_ID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>3</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>23</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP4_179</szQryFldName>
+                    <szHeading> case when (upper(replace(A.NA</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>4</nFldExpNum>
+                    <nColumnNum>5</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                </rowset>
+              </hQft>
+              <hQct> HANDLE
+                <rowset name="QdmCrt" size="400" count="5">
+                  <row>
+                    <nCrtNum>1</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>1</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>11</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>3</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>2</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>2</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>12</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>20</eCondType>
+                    <eExprType>6</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>2</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>3</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>19</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>2</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>1</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>2</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>4</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>11</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>21</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>3</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>5</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>1</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>1</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>8</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                </rowset>
+              </hQct>
+              <hQht>HANDLE</hQht>
+              <nSelNum>1</nSelNum>
+              <nParentSelNum>0</nParentSelNum>
+              <nRcdCount>3</nRcdCount>
+              <nFldCount>23</nFldCount>
+              <nCrtCount>5</nCrtCount>
+              <nQhtCount>0</nQhtCount>
+              <eSelectType>1</eSelectType>
+              <cQryDistinct> </cQryDistinct>
+            </row>
+          </rowset>
+        </hQst>
+        <hQet> HANDLE
+          <rowset name="QdmExp" size="160" count="4">
+            <row>
+              <nExpNum>1</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="4" count="1">
+                  <row>
+                    <hExpressionText>:1</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>4</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>2</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="8" count="1">
+                  <row>
+                    <hExpressionText>HOME</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>8</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>3</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="38" count="1">
+                  <row>
+                    <hExpressionText> substr(:%1.22, -4)</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>4</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>38</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>4</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="326" count="1">
+                  <row>
+                    <hExpressionText> case when (upper(replace(:%1.6, '.', '')) in ('JR', 'SR', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VIII', 'IX', 'X')) then upper(replace(:%1.6, '.', '')) else null end</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>4</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>326</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+          </rowset>
+        </hQet>
+        <hQbt> HANDLE
+          <rowset name="QdmBnd" size="816" count="1">
+            <row>
+              <nBndNum>1</nBndNum>
+              <szFieldName>EMPLID</szFieldName>
+              <szBndName>BIND1</szBndName>
+              <szHeading>Empl ID</szHeading>
+              <szEditTable></szEditTable>
+              <fUseEdit>0</fUseEdit>
+              <nLength>11</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <eFieldType>0</eFieldType>
+              <eHdgType>4</eHdgType>
+              <eFormat>0</eFormat>
+              <cQryReqPrompt>¿</cQryReqPrompt>
+              <szBndDefault>¿</szBndDefault>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hQbt>
+        <hQxt>HANDLE</hQxt>
+        <nDescrLongLen>0</nDescrLongLen>
+        <nSelCount>1</nSelCount>
+        <nExpCount>4</nExpCount>
+        <nBndCount>1</nBndCount>
+        <nXsltCount>0</nXsltCount>
+        <eQryType>1</eQryType>
+        <bQryValid>0</bQryValid>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <cApproved>A</cApproved>
+        <szCreateOprId>WXIA</szCreateOprId>
+        <szCreateDtTm>2018-03-27-08.16.21.000000</szCreateDtTm>
+        <szApproveOprId></szApproveOprId>
+        <szApproveDtTm></szApproveDtTm>
+        <cExecLogging> </cExecLogging>
+        <cDisabled> </cDisabled>
+        <szFolder></szFolder>
+        <bQryJoinOptimize>0</bQryJoinOptimize>
+        <eImgType>0</eImgType>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="QDM">
+    <rowset name="QdmDefn" size="1000" count="1">
+      <row>
+        <szLastUpdDttm>2018-09-24-12.11.44.368597</szLastUpdDttm>
+        <szLastUpdOprId>WXIA</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>11064</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szOprId> </szOprId>
+        <szQryName>CCTC_PREF_EMAIL</szQryName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szDescr>Get preferred email</szDescr>
+        <hQst> HANDLE
+          <rowset name="hQrt" size="80" count="1">
+            <row>
+              <hQrt> HANDLE
+                <rowset name="QdmRcd" size="104" count="1">
+                  <row>
+                    <nRcdNum>1</nRcdNum>
+                    <szRecName>EMAIL_PREF_VW</szRecName>
+                    <szCorrName>A</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                </rowset>
+              </hQrt>
+              <hQft> HANDLE
+                <rowset name="QdmFld" size="1696" count="4">
+                  <row>
+                    <nFldNum>1</nFldNum>
+                    <szRecName>EMAIL_PREF_VW</szRecName>
+                    <szFieldName>CONTACT_ID</szFieldName>
+                    <szQryFldName>A.CONTACT_ID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>2</nFldNum>
+                    <szRecName>EMAIL_PREF_VW</szRecName>
+                    <szFieldName>E_ADDR_TYPE</szFieldName>
+                    <szQryFldName>A.E_ADDR_TYPE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>3</nFldNum>
+                    <szRecName>EMAIL_PREF_VW</szRecName>
+                    <szFieldName>EMAIL_ADDR</szFieldName>
+                    <szQryFldName>A.EMAIL_ADDR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>1</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>4</nFldNum>
+                    <szRecName>EMAIL_PREF_VW</szRecName>
+                    <szFieldName>PREF_EMAIL_FLAG</szFieldName>
+                    <szQryFldName>A.PREF_EMAIL_FLAG</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                </rowset>
+              </hQft>
+              <hQct> HANDLE
+                <rowset name="QdmCrt" size="160" count="2">
+                  <row>
+                    <nCrtNum>1</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>4</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>1</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>1</eExprType>
+                    <eCombType>3</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>2</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>1</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>2</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>8</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                </rowset>
+              </hQct>
+              <hQht>HANDLE</hQht>
+              <nSelNum>1</nSelNum>
+              <nParentSelNum>0</nParentSelNum>
+              <nRcdCount>1</nRcdCount>
+              <nFldCount>4</nFldCount>
+              <nCrtCount>2</nCrtCount>
+              <nQhtCount>0</nQhtCount>
+              <eSelectType>1</eSelectType>
+              <cQryDistinct> </cQryDistinct>
+            </row>
+          </rowset>
+        </hQst>
+        <hQet> HANDLE
+          <rowset name="QdmExp" size="80" count="2">
+            <row>
+              <nExpNum>1</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="2" count="1">
+                  <row>
+                    <hExpressionText>Y</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>2</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>2</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="4" count="1">
+                  <row>
+                    <hExpressionText>:1</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>4</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+          </rowset>
+        </hQet>
+        <hQbt> HANDLE
+          <rowset name="QdmBnd" size="816" count="1">
+            <row>
+              <nBndNum>1</nBndNum>
+              <szFieldName>CONTACT_ID</szFieldName>
+              <szBndName>BIND1</szBndName>
+              <szHeading>Contact ID</szHeading>
+              <szEditTable></szEditTable>
+              <fUseEdit>0</fUseEdit>
+              <nLength>15</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <eFieldType>0</eFieldType>
+              <eHdgType>4</eHdgType>
+              <eFormat>0</eFormat>
+              <cQryReqPrompt>¿</cQryReqPrompt>
+              <szBndDefault></szBndDefault>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hQbt>
+        <hQxt>HANDLE</hQxt>
+        <nDescrLongLen>0</nDescrLongLen>
+        <nSelCount>1</nSelCount>
+        <nExpCount>2</nExpCount>
+        <nBndCount>1</nBndCount>
+        <nXsltCount>0</nXsltCount>
+        <eQryType>1</eQryType>
+        <bQryValid>0</bQryValid>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <cApproved>A</cApproved>
+        <szCreateOprId>WXIA</szCreateOprId>
+        <szCreateDtTm>2017-11-07-09.46.32.000000</szCreateDtTm>
+        <szApproveOprId></szApproveOprId>
+        <szApproveDtTm></szApproveDtTm>
+        <cExecLogging> </cExecLogging>
+        <cDisabled> </cDisabled>
+        <szFolder></szFolder>
+        <bQryJoinOptimize>0</bQryJoinOptimize>
+        <eImgType>0</eImgType>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="QDM">
+    <rowset name="QdmDefn" size="1000" count="1">
+      <row>
+        <szLastUpdDttm>2018-10-10-12.54.51.503511</szLastUpdDttm>
+        <szLastUpdOprId>WXIA</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>11078</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szOprId> </szOprId>
+        <szQryName>CCTC_STDNT_ENRL</szQryName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szDescr>Student enrollment</szDescr>
+        <hQst> HANDLE
+          <rowset name="hQrt" size="80" count="1">
+            <row>
+              <hQrt> HANDLE
+                <rowset name="QdmRcd" size="208" count="2">
+                  <row>
+                    <nRcdNum>1</nRcdNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szCorrName>A</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                  <row>
+                    <nRcdNum>2</nRcdNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szCorrName>B</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                </rowset>
+              </hQrt>
+              <hQft> HANDLE
+                <rowset name="QdmFld" size="11872" count="28">
+                  <row>
+                    <nFldNum>1</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>EMPLID</szFieldName>
+                    <szQryFldName>A.EMPLID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>2</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>STRM</szFieldName>
+                    <szQryFldName>A.STRM</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>3</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>CLASS_NBR</szFieldName>
+                    <szQryFldName>A.CLASS_NBR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>4</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>EMPLID</szFieldName>
+                    <szQryFldName>B.EMPLID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>5</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>ACAD_CAREER</szFieldName>
+                    <szQryFldName>A.ACAD_CAREER</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>6</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>ACAD_CAREER</szFieldName>
+                    <szQryFldName>B.ACAD_CAREER</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>7</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>INSTITUTION</szFieldName>
+                    <szQryFldName>A.INSTITUTION</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>8</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>INSTITUTION</szFieldName>
+                    <szQryFldName>B.INSTITUTION</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>9</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>STRM</szFieldName>
+                    <szQryFldName>B.STRM</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>10</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>CLASS_NBR</szFieldName>
+                    <szQryFldName>B.CLASS_NBR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>11</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>SUBJECT</szFieldName>
+                    <szQryFldName>B.SUBJECT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>9</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>12</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>CATALOG_NBR</szFieldName>
+                    <szQryFldName>B.CATALOG_NBR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>10</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>13</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>DESCR</szFieldName>
+                    <szQryFldName>B.DESCR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>11</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>14</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>CRSE_CAREER</szFieldName>
+                    <szQryFldName>A.CRSE_CAREER</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>1</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>15</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>UNT_TAKEN</szFieldName>
+                    <szQryFldName>A.UNT_TAKEN</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>4</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>16</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>GRADING_BASIS_ENRL</szFieldName>
+                    <szQryFldName>A.GRADING_BASIS_ENRL</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>17</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>REPEAT_CODE</szFieldName>
+                    <szQryFldName>A.REPEAT_CODE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>18</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>EARN_CREDIT</szFieldName>
+                    <szQryFldName>A.EARN_CREDIT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>19</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>INCLUDE_IN_GPA</szFieldName>
+                    <szQryFldName>A.INCLUDE_IN_GPA</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>8</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>20</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>CRSE_GRADE_OFF</szFieldName>
+                    <szQryFldName>A.CRSE_GRADE_OFF</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>6</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>21</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>UNT_EARNED</szFieldName>
+                    <szQryFldName>A.UNT_EARNED</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>5</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>22</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>ENRL_ADD_DT</szFieldName>
+                    <szQryFldName>A.ENRL_ADD_DT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>23</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>ENRL_DROP_DT</szFieldName>
+                    <szQryFldName>A.ENRL_DROP_DT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>24</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>START_DT</szFieldName>
+                    <szQryFldName>B.START_DT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>25</nFldNum>
+                    <szRecName>CLASS_TBL</szRecName>
+                    <szFieldName>END_DT</szFieldName>
+                    <szQryFldName>B.END_DT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>26</nFldNum>
+                    <szRecName>STDNT_ENRL</szRecName>
+                    <szFieldName>GRADE_POINTS</szFieldName>
+                    <szQryFldName>A.GRADE_POINTS</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>7</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>27</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP4_14</szQryFldName>
+                    <szHeading> UNDERGRADUATE</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>4</nFldExpNum>
+                    <nColumnNum>2</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>28</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP5_14</szQryFldName>
+                    <szHeading> COLLEGE_LEVEL</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>5</nFldExpNum>
+                    <nColumnNum>3</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                </rowset>
+              </hQft>
+              <hQct> HANDLE
+                <rowset name="QdmCrt" size="480" count="6">
+                  <row>
+                    <nCrtNum>1</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>1</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>2</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>8</eExprType>
+                    <eCombType>3</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>2</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>2</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>3</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>8</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>3</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>7</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>1</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>1</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>4</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>5</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>6</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>5</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>2</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>9</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>6</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>3</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>10</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                </rowset>
+              </hQct>
+              <hQht>HANDLE</hQht>
+              <nSelNum>1</nSelNum>
+              <nParentSelNum>0</nParentSelNum>
+              <nRcdCount>2</nRcdCount>
+              <nFldCount>28</nFldCount>
+              <nCrtCount>6</nCrtCount>
+              <nQhtCount>0</nQhtCount>
+              <eSelectType>1</eSelectType>
+              <cQryDistinct> </cQryDistinct>
+            </row>
+          </rowset>
+        </hQst>
+        <hQet> HANDLE
+          <rowset name="QdmExp" size="200" count="5">
+            <row>
+              <nExpNum>1</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="10" count="1">
+                  <row>
+                    <hExpressionText>MCCCD</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>10</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>2</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="4" count="1">
+                  <row>
+                    <hExpressionText>:1</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>4</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>3</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="4" count="1">
+                  <row>
+                    <hExpressionText>:2</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>4</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>4</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="32" count="1">
+                  <row>
+                    <hExpressionText> 'UNDERGRADUATE'</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>20</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>32</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>5</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="32" count="1">
+                  <row>
+                    <hExpressionText> 'COLLEGE_LEVEL'</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>20</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>32</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+          </rowset>
+        </hQet>
+        <hQbt> HANDLE
+          <rowset name="QdmBnd" size="1632" count="2">
+            <row>
+              <nBndNum>1</nBndNum>
+              <szFieldName>EMPLID</szFieldName>
+              <szBndName>BIND1</szBndName>
+              <szHeading>Empl ID</szHeading>
+              <szEditTable>PEOPLE_SRCH</szEditTable>
+              <fUseEdit>16384</fUseEdit>
+              <nLength>11</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <eFieldType>0</eFieldType>
+              <eHdgType>4</eHdgType>
+              <eFormat>0</eFormat>
+              <cQryReqPrompt>¿</cQryReqPrompt>
+              <szBndDefault>$</szBndDefault>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+            <row>
+              <nBndNum>2</nBndNum>
+              <szFieldName>STRM</szFieldName>
+              <szBndName>BIND2</szBndName>
+              <szHeading>Term</szHeading>
+              <szEditTable>TERM_TBL</szEditTable>
+              <fUseEdit>16384</fUseEdit>
+              <nLength>4</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <eFieldType>0</eFieldType>
+              <eHdgType>4</eHdgType>
+              <eFormat>8</eFormat>
+              <cQryReqPrompt>¿</cQryReqPrompt>
+              <szBndDefault>¿</szBndDefault>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hQbt>
+        <hQxt>HANDLE</hQxt>
+        <nDescrLongLen>0</nDescrLongLen>
+        <nSelCount>1</nSelCount>
+        <nExpCount>5</nExpCount>
+        <nBndCount>2</nBndCount>
+        <nXsltCount>0</nXsltCount>
+        <eQryType>1</eQryType>
+        <bQryValid>0</bQryValid>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <cApproved>A</cApproved>
+        <szCreateOprId>WXIA</szCreateOprId>
+        <szCreateDtTm>2018-09-17-09.46.24.000000</szCreateDtTm>
+        <szApproveOprId></szApproveOprId>
+        <szApproveDtTm></szApproveDtTm>
+        <cExecLogging> </cExecLogging>
+        <cDisabled> </cDisabled>
+        <szFolder></szFolder>
+        <bQryJoinOptimize>0</bQryJoinOptimize>
+        <eImgType>0</eImgType>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="QDM">
+    <rowset name="QdmDefn" size="1000" count="1">
+      <row>
+        <szLastUpdDttm>2018-10-03-08.58.58.698234</szLastUpdDttm>
+        <szLastUpdOprId>WXIA</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>11070</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szOprId> </szOprId>
+        <szQryName>CCTC_TRNS_SESSION</szQryName>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szDescr>Transcript session</szDescr>
+        <hQst> HANDLE
+          <rowset name="hQrt" size="80" count="1">
+            <row>
+              <hQrt> HANDLE
+                <rowset name="QdmRcd" size="208" count="2">
+                  <row>
+                    <nRcdNum>1</nRcdNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szCorrName>A</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                  <row>
+                    <nRcdNum>2</nRcdNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szCorrName>B</szCorrName>
+                    <nJoinRcdNum>0</nJoinRcdNum>
+                    <nJoinFldNum>0</nJoinFldNum>
+                    <eJoinType>1</eJoinType>
+                    <szPrunable></szPrunable>
+                  </row>
+                </rowset>
+              </hQrt>
+              <hQft> HANDLE
+                <rowset name="QdmFld" size="8904" count="21">
+                  <row>
+                    <nFldNum>1</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>EMPLID</szFieldName>
+                    <szQryFldName>A.EMPLID</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>2</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>STRM</szFieldName>
+                    <szQryFldName>A.STRM</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>1</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>3</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>ACAD_CAREER</szFieldName>
+                    <szQryFldName>A.ACAD_CAREER</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>4</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>INSTITUTION</szFieldName>
+                    <szQryFldName>A.INSTITUTION</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>5</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>ACAD_CAREER</szFieldName>
+                    <szQryFldName>B.ACAD_CAREER</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>6</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>INSTITUTION</szFieldName>
+                    <szQryFldName>B.INSTITUTION</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>7</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>STRM</szFieldName>
+                    <szQryFldName>B.STRM</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>8</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>DESCR</szFieldName>
+                    <szQryFldName>B.DESCR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>5</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>9</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>TERM_BEGIN_DT</szFieldName>
+                    <szQryFldName>B.TERM_BEGIN_DT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>3</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>10</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>TERM_END_DT</szFieldName>
+                    <szQryFldName>B.TERM_END_DT</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>4</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>11</nFldNum>
+                    <szRecName>TERM_TBL</szRecName>
+                    <szFieldName>TERM_CATEGORY</szFieldName>
+                    <szQryFldName>B.TERM_CATEGORY</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>2</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>12</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>TERM_TYPE</szFieldName>
+                    <szQryFldName>A.TERM_TYPE</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>2</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>13</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>ACAD_YEAR</szFieldName>
+                    <szQryFldName>A.ACAD_YEAR</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>2</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>14</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP2_40</szQryFldName>
+                    <szHeading> (A.ACAD_YEAR - 1) || '-' || A</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>1</nFldExpNum>
+                    <nColumnNum>6</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>15</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>TOT_GRADE_POINTS</szFieldName>
+                    <szQryFldName>A.TOT_GRADE_POINTS</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>9</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>16</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>CUM_GPA</szFieldName>
+                    <szQryFldName>A.CUM_GPA</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>2</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>17</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP3_41</szQryFldName>
+                    <szHeading>case A.CUM_GPA when 0 then 0</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>2</nFldExpNum>
+                    <nColumnNum>10</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>18</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>TOT_PASSD_GPA</szFieldName>
+                    <szQryFldName>A.TOT_PASSD_GPA</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>19</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>TOT_PASSD_NOGPA</szFieldName>
+                    <szQryFldName>A.TOT_PASSD_NOGPA</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>0</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>1</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>1</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>20</nFldNum>
+                    <szRecName></szRecName>
+                    <szFieldName></szFieldName>
+                    <szQryFldName>EXP4_37</szQryFldName>
+                    <szHeading>  A.TOT_PASSD_GPA + A.TOT_PASS</szHeading>
+                    <nFldRcdNum>0</nFldRcdNum>
+                    <nFldExpNum>3</nFldExpNum>
+                    <nColumnNum>8</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>2</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                  <row>
+                    <nFldNum>21</nFldNum>
+                    <szRecName>STDNT_CAR_TERM</szRecName>
+                    <szFieldName>TOT_TAKEN_GPA</szFieldName>
+                    <szQryFldName>A.TOT_TAKEN_GPA</szQryFldName>
+                    <szHeading></szHeading>
+                    <nFldRcdNum>1</nFldRcdNum>
+                    <nFldExpNum>0</nFldExpNum>
+                    <nColumnNum>7</nColumnNum>
+                    <nGroupByNum>0</nGroupByNum>
+                    <nOrderByNum>0</nOrderByNum>
+                    <nSubTtlNum>0</nSubTtlNum>
+                    <nUseCount>0</nUseCount>
+                    <nXlatFldNum>0</nXlatFldNum>
+                    <nXlatExpNum>0</nXlatExpNum>
+                    <nRecFieldNum>0</nRecFieldNum>
+                    <eHdgType>3</eHdgType>
+                    <eTtlType>1</eTtlType>
+                    <eXlatType>1</eXlatType>
+                    <eXlatExprType>6</eXlatExprType>
+                    <cOrderByDir> </cOrderByDir>
+                    <cAggregateFunc> </cAggregateFunc>
+                    <nLangCount>0</nLangCount>
+                    <hLang>HANDLE</hLang>
+                    <nDependCount>0</nDependCount>
+                    <hDepend>HANDLE</hDepend>
+                  </row>
+                </rowset>
+              </hQft>
+              <hQct> HANDLE
+                <rowset name="QdmCrt" size="320" count="4">
+                  <row>
+                    <nCrtNum>1</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>1</nLCrtFldNum>
+                    <nR1CrtSelNum>0</nR1CrtSelNum>
+                    <nR1CrtFldNum>0</nR1CrtFldNum>
+                    <nR1CrtExpNum>4</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>8</eExprType>
+                    <eCombType>3</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>2</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>3</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>5</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>3</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>4</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>6</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                  <row>
+                    <nCrtNum>4</nCrtNum>
+                    <nLParenLvl>0</nLParenLvl>
+                    <nLCrtSelNum>1</nLCrtSelNum>
+                    <nLCrtFldNum>2</nLCrtFldNum>
+                    <nR1CrtSelNum>1</nR1CrtSelNum>
+                    <nR1CrtFldNum>7</nR1CrtFldNum>
+                    <nR1CrtExpNum>0</nR1CrtExpNum>
+                    <nR2CrtSelNum>0</nR2CrtSelNum>
+                    <nR2CrtFldNum>0</nR2CrtFldNum>
+                    <nR2CrtExpNum>0</nR2CrtExpNum>
+                    <nRParenLvl>0</nRParenLvl>
+                    <eCondType>2</eCondType>
+                    <eExprType>2</eExprType>
+                    <eCombType>1</eCombType>
+                    <cNegation> </cNegation>
+                    <nOJSelNum>0</nOJSelNum>
+                  </row>
+                </rowset>
+              </hQct>
+              <hQht>HANDLE</hQht>
+              <nSelNum>1</nSelNum>
+              <nParentSelNum>0</nParentSelNum>
+              <nRcdCount>2</nRcdCount>
+              <nFldCount>21</nFldCount>
+              <nCrtCount>4</nCrtCount>
+              <nQhtCount>0</nQhtCount>
+              <eSelectType>1</eSelectType>
+              <cQryDistinct> </cQryDistinct>
+            </row>
+          </rowset>
+        </hQst>
+        <hQet> HANDLE
+          <rowset name="QdmExp" size="160" count="4">
+            <row>
+              <nExpNum>1</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="60" count="1">
+                  <row>
+                    <hExpressionText> (:%1.13 - 1) || '-' || :%1.13</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>10</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>60</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+            <row>
+              <nExpNum>2</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="118" count="1">
+                  <row>
+                    <hExpressionText>case :%1.16 when 0 then 0 else round(:%1.15/ :%1.16, 1) end</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>11</nLength>
+              <nDecimalPos>1</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>118</nExpressionTextLen>
+              <eFieldType>2</eFieldType>
+            </row>
+            <row>
+              <nExpNum>3</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="34" count="1">
+                  <row>
+                    <hExpressionText>  :%1.18 + :%1.19</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>13</nLength>
+              <nDecimalPos>3</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>34</nExpressionTextLen>
+              <eFieldType>2</eFieldType>
+            </row>
+            <row>
+              <nExpNum>4</nExpNum>
+              <hExpressionText> HANDLE
+                <rowset name="char" size="4" count="1">
+                  <row>
+                    <hExpressionText>:1</hExpressionText>
+                  </row>
+                </rowset>
+              </hExpressionText>
+              <nLength>0</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <nExpressionTextLen>4</nExpressionTextLen>
+              <eFieldType>0</eFieldType>
+            </row>
+          </rowset>
+        </hQet>
+        <hQbt> HANDLE
+          <rowset name="QdmBnd" size="816" count="1">
+            <row>
+              <nBndNum>1</nBndNum>
+              <szFieldName>EMPLID</szFieldName>
+              <szBndName>BIND1</szBndName>
+              <szHeading>Empl ID</szHeading>
+              <szEditTable>PEOPLE_SRCH</szEditTable>
+              <fUseEdit>16384</fUseEdit>
+              <nLength>11</nLength>
+              <nDecimalPos>0</nDecimalPos>
+              <nUseCount>1</nUseCount>
+              <eFieldType>0</eFieldType>
+              <eHdgType>4</eHdgType>
+              <eFormat>0</eFormat>
+              <cQryReqPrompt>¿</cQryReqPrompt>
+              <szBndDefault>/</szBndDefault>
+              <nLangCount>0</nLangCount>
+              <hLang>HANDLE</hLang>
+            </row>
+          </rowset>
+        </hQbt>
+        <hQxt>HANDLE</hQxt>
+        <nDescrLongLen>0</nDescrLongLen>
+        <nSelCount>1</nSelCount>
+        <nExpCount>4</nExpCount>
+        <nBndCount>1</nBndCount>
+        <nXsltCount>0</nXsltCount>
+        <eQryType>1</eQryType>
+        <bQryValid>0</bQryValid>
+        <hDescrLong>HANDLE</hDescrLong>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+        <cApproved>A</cApproved>
+        <szCreateOprId>WXIA</szCreateOprId>
+        <szCreateDtTm>2018-09-25-09.49.29.000000</szCreateDtTm>
+        <szApproveOprId></szApproveOprId>
+        <szApproveDtTm></szApproveDtTm>
+        <cExecLogging> </cExecLogging>
+        <cDisabled> </cDisabled>
+        <szFolder></szFolder>
+        <bQryJoinOptimize>0</bQryJoinOptimize>
+        <eImgType>0</eImgType>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="APM">
+    <rowset name="ApmDefn" size="968" count="1">
+      <row>
+        <szLastUpdDttm>2019-01-09-11.31.00.747614</szLastUpdDttm>
+        <szLastUpdOprId>PWEATHERBY</szLastUpdOprId>
+        <szObjectOwnerId></szObjectOwnerId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>102</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <szPackageId>CCTC_API_SRVC</szPackageId>
+        <szLanguageCd>ENG</szLanguageCd>
+        <szPackageRoot>CCTC_API_SRVC</szPackageRoot>
+        <szQualifyPath>.</szQualifyPath>
+        <lPackageLevel>0</lPackageLevel>
+        <szPackageRef></szPackageRef>
+        <szDescr>CCTC API Service</szDescr>
+        <lDescrLongLen>92</lDescrLongLen>
+        <lpszDescrLong> POINTER
+          <rowset name="char" size="92" count="1">
+            <row>
+              <lpszDescrLong>CCTC App Class handler
+WX created 10/16/2017</lpszDescrLong>
+            </row>
+          </rowset>
+        </lpszDescrLong>
+        <eRenameObject>0</eRenameObject>
+        <szPrevPackageId></szPrevPackageId>
+        <ApmDefnList.lClassCount>0</ApmDefnList.lClassCount>
+        <ApmDefnList.hDefnClassList>HANDLE</ApmDefnList.hDefnClassList>
+        <ApmDefnList.lPackageCount>2</ApmDefnList.lPackageCount>
+        <ApmDefnList.hDefnPackageList> HANDLE
+          <rowset name="ApmPackageList" size="976" count="2">
+            <row>
+              <ApmDefnKey.szPackageId>HANDLERS</ApmDefnKey.szPackageId>
+              <ApmDefnKey.szPackageRoot>CCTC_API_SRVC</ApmDefnKey.szPackageRoot>
+              <ApmDefnKey.szQualifyPath>:</ApmDefnKey.szQualifyPath>
+              <szPackageRef></szPackageRef>
+              <lPackageLevel>1</lPackageLevel>
+            </row>
+            <row>
+              <ApmDefnKey.szPackageId>Util</ApmDefnKey.szPackageId>
+              <ApmDefnKey.szPackageRoot>CCTC_API_SRVC</ApmDefnKey.szPackageRoot>
+              <ApmDefnKey.szQualifyPath>:</ApmDefnKey.szQualifyPath>
+              <szPackageRef></szPackageRef>
+              <lPackageLevel>1</lPackageLevel>
+            </row>
+          </rowset>
+        </ApmDefnList.hDefnPackageList>
+        <nLangCount>0</nLangCount>
+        <hLang>HANDLE</hLang>
+      </row>
+    </rowset>
+  </instance>
+  <instance class="PCM">
+    <rowset name="PcmProg" size="2240" count="1">
+      <row>
+        <szLastUpdDttm>2018-10-10-12.48.47.508432</szLastUpdDttm>
+        <szLastUpdOprId>WXIA</szLastUpdOprId>
+        <nUseCount>1</nUseCount>
+        <bUseUpdate>1</bUseUpdate>
+        <lVersion>1135</lVersion>
+        <lSwapVersion>0</lSwapVersion>
+        <nSwapNum>0</nSwapNum>
+        <eObjectID_0>104</eObjectID_0>
+        <szObjectValue_0>CCTC_API_SRVC</szObjectValue_0>
+        <eObjectID_1>105</eObjectID_1>
+        <szObjectValue_1>HANDLERS</szObjectValue_1>
+        <eObjectID_2>107</eObjectID_2>
+        <szObjectValue_2>CCTC_Transcript</szObjectValue_2>
+        <eObjectID_3>12</eObjectID_3>
+        <szObjectValue_3>OnExecute</szObjectValue_3>
+        <eObjectID_4>0</eObjectID_4>
+        <szObjectValue_4></szObjectValue_4>
+        <eObjectID_5>0</eObjectID_5>
+        <szObjectValue_5></szObjectValue_5>
+        <eObjectID_6>0</eObjectID_6>
+        <szObjectValue_6></szObjectValue_6>
+        <nNameCount>3</nNameCount>
+        <lpProgSource> POINTER
+          <rowset name="PcmProgSource" size="64" count="1">
+            <row>
+              <lSourceLen>3203</lSourceLen>
+              <lpSource>custom field</lpSource>
+              <lEntryNamesLen>214</lEntryNamesLen>
+              <nEntry>3</nEntry>
+              <lpEntryTab>custom field</lpEntryTab>
+              <nParams>3</nParams>
+              <lpParams>custom field</lpParams>
+              <nPCVersion>133</nPCVersion>
+            </row>
+          </rowset>
+        </lpProgSource>
+        <nProgSource>1</nProgSource>
+        <lpPnt> POINTER
+          <rowset name="PcmPnt" size="1236" count="3">
+            <row>
+              <szRecName></szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot></szPackageRoot>
+              <szQualifyPath></szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName></szFieldName>
+              <szPackageRoot>CCTC_API_SRVC</szPackageRoot>
+              <szQualifyPath>HANDLERS</szQualifyPath>
+            </row>
+            <row>
+              <szRecName>PACKAGE</szRecName>
+              <szFieldName>QUERYREQUEST</szFieldName>
+              <szPackageRoot>CCTC_API_SRVC</szPackageRoot>
+              <szQualifyPath>Util</szQualifyPath>
+            </row>
+          </rowset>
+        </lpPnt>
+        <lpProgCode>custom field</lpProgCode>
+        <nProgCode>0</nProgCode>
+        <eRunLocation>0</eRunLocation>
+        <szLicenseCode></szLicenseCode>
+        <lpHashTable>POINTER</lpHashTable>
+        <eProgFlag>0</eProgFlag>
+        <szExtendsClass>CCTC_API_SRVC:HANDLERS:CCTCRequestHandler</szExtendsClass>
+        <szCompiledRelease></szCompiledRelease>
+      </row>
+    </rowset>
+    <peoplecode_text>/* 
+* CCC Tech Center 
+* WXia created 04/15/2017 
+*/
+
+import CCTC_API_SRVC:HANDLERS:*;
+import CCTC_API_SRVC:Util:*;
+
+class CCTC_Transcript extends CCTC_API_SRVC:HANDLERS:CCTCRequestHandler
+   method CCTC_Transcript();
+   method getResult(&amp;bindVars As array of any) Returns string;
+   
+end-class;
+
+method CCTC_Transcript
+   %Super = %This;
+end-method;
+
+method getResult
+   /+ &amp;bindVars as Array of Any +/
+   /+ Returns String +/
+   /+ Extends/implements CCTC_API_SRVC:HANDLERS:CCTCRequestHandler.getResult +/
+   Local string &amp;op = &amp;bindVars.Shift();
+   
+   Local string &amp;result = &quot;&quot;;
+   Local string &amp;delimit = &quot;&gt;&quot;;
+   Local CCTC_API_SRVC:Util:queryRequest &amp;query_request, &amp;query_request0;
+   Local array of string &amp;resultList, &amp;resultList0;
+   Local string &amp;sisCrseId;
+   Local string &amp;sisTermId;
+   Local number &amp;j;
+   
+   Evaluate &amp;op
+   When &quot;degree&quot;
+      &amp;query_request = create CCTC_API_SRVC:Util:queryRequest(&quot;CCTC_ACAD_DEGREE&quot;, &amp;bindVars);
+      &amp;result = &amp;query_request.getResult();
+      Break;
+   When &quot;summary&quot;
+      &amp;query_request = create CCTC_API_SRVC:Util:queryRequest(&quot;CCTC_TRNS_SUMMARY&quot;, &amp;bindVars);
+      &amp;result = &amp;query_request.getResult();
+      Break;
+   When &quot;school&quot;
+      &amp;query_request = create CCTC_API_SRVC:Util:queryRequest(&quot;CCTC_INSTITUTION_DETAIL&quot;, &amp;bindVars);
+      &amp;result = &amp;query_request.getResult();
+      Break;
+   When &quot;session&quot;
+      &amp;query_request = create CCTC_API_SRVC:Util:queryRequest(&quot;CCTC_TRNS_SESSION&quot;, &amp;bindVars);
+      &amp;resultList = &amp;query_request.getResultList();
+      
+      /* term courses */
+      &amp;j = 1;
+      While (&amp;j &lt;= &amp;resultList.Len)
+         &amp;bindVars [2] = &amp;resultList [&amp;j];
+         &amp;query_request0 = create CCTC_API_SRVC:Util:queryRequest(&quot;CCTC_STDNT_ENRL&quot;, &amp;bindVars);
+         &amp;resultList0 = &amp;query_request0.getResultList();
+         Local string &amp;term_crse = &amp;resultList0.Join(&amp;delimit, &quot;&quot;, &quot;&quot;);
+         
+         &amp;resultList.Replace(&amp;j, 1, &amp;resultList [&amp;j], &amp;term_crse);
+         &amp;j = &amp;j + 11;
+      End-While;
+      
+      &amp;result = &amp;query_request.getResultFromList(&amp;resultList);
+      
+      Break;
+   End-Evaluate;
+   
+   Return &amp;result;
+end-method;
+
+</peoplecode_text>
+    <peoplecode_blob>Sw4AAAQDAgEBAAAAvAIAAAAAAABoGkMAQwBUAEMAXwBBAFAASQBfAFMAUgBWAEMAaRBIAEEATgBEAEwARQBSAFMAax5DAEMAVABDAF8AVAByAGEAbgBzAGMAcgBpAHAAdAAMEk8AbgBFAHgAZQBjAHUAdABlAAAAAAAAAP9vBAAAAwABAP8AAAAAAAAAADQyADAAMQA4AC0AMQAwAC0AMQAwAC0AMQAyAC4ANAA4AC4ANAA3AC4ANQAwADgANAAzADIANDIAMAAxADgALQAxADAALQAxADAALQAxADIALgA0ADgALgA0ADcALgA1ADAAOAA0ADMAMgAIVwBYAEkAQQAAAP+DDAAA/wEAAAAkaABoLwAqACAACgAqACAAQwBDAEMAIABUAGUAYwBoACAAQwBlAG4AdABlAHIAIAAKACoAIABXAFgAaQBhACAAYwByAGUAYQB0AGUAZAAgADAANAAvADEANQAvADIAMAAxADcAIAAKACoALwBPWAoaQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwBXChBIAEEATgBEAEwARQBSAFMAV1kVWAoaQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwBXCghVAHQAaQBsAFdZFS1PWgoeQwBDAFQAQwBfAFQAcgBhAG4AcwBjAHIAaQBwAHQAXAoaQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwBXChBIAEEATgBEAEwARQBSAFMAVwokQwBDAFQAQwBSAGUAcQB1AGUAcwB0AEgAYQBuAGQAbABlAHIAYwoeQwBDAFQAQwBfAFQAcgBhAG4AcwBjAHIAaQBwAHQACxQVYwoSZwBlAHQAUgBlAHMAdQBsAHQACwESJgBiAGkAbgBkAFYAYQByAHMANUAKYQByAHIAYQB5AEAEbwBmAEAGYQBuAHkAFDlADHMAdAByAGkAbgBnABVPWxUtT2NBCh5DAEMAVABDAF8AVAByAGEAbgBzAGMAcgBpAHAAdAAtEgwlAFMAdQBwAGUAcgAGEgolAFQAaABpAHMAFWQVLU9jQQoSZwBlAHQAUgBlAHMAdQBsAHQALW0yJgBiAGkAbgBkAFYAYQByAHMAIABhAHMAIABBAHIAcgBhAHkAIABvAGYAIABBAG4AeQBtHFIAZQB0AHUAcgBuAHMAIABTAHQAcgBpAG4AZwBtjEUAeAB0AGUAbgBkAHMALwBpAG0AcABsAGUAbQBlAG4AdABzACAAQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwA6AEgAQQBOAEQATABFAFIAUwA6AEMAQwBUAEMAUgBlAHEAdQBlAHMAdABIAGEAbgBkAGwAZQByAC4AZwBlAHQAUgBlAHMAdQBsAHQAREAMcwB0AHIAaQBuAGcAAQYmAG8AcAAGARImAGIAaQBuAGQAVgBhAHIAcwAFCgpTAGgAaQBmAHQACxQVT0RADHMAdAByAGkAbgBnAAEOJgByAGUAcwB1AGwAdAAGFgAVREAMcwB0AHIAaQBuAGcAARAmAGQAZQBsAGkAbQBpAHQABhYCPgAVRAoaQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwBXCghVAHQAaQBsAFcKGHEAdQBlAHIAeQBSAGUAcQB1AGUAcwB0AAEcJgBxAHUAZQByAHkAXwByAGUAcQB1AGUAcwB0AAMBHiYAcQB1AGUAcgB5AF8AcgBlAHEAdQBlAHMAdAAwABVEQAphAHIAcgBhAHkAQARvAGYAQAxzAHQAcgBpAG4AZwABFiYAcgBlAHMAdQBsAHQATABpAHMAdAADARgmAHIAZQBzAHUAbAB0AEwAaQBzAHQAMAAVREAMcwB0AHIAaQBuAGcAARQmAHMAaQBzAEMAcgBzAGUASQBkABVEQAxzAHQAcgBpAG4AZwABFCYAcwBpAHMAVABlAHIAbQBJAGQAFURADG4AdQBtAGIAZQByAAEEJgBqABVPPAEGJgBvAHAAPRYMZABlAGcAcgBlAGUALQEcJgBxAHUAZQByAHkAXwByAGUAcQB1AGUAcwB0AAZpChpDAEMAVABDAF8AQQBQAEkAXwBTAFIAVgBDAFcKCFUAdABpAGwAVwoYcQB1AGUAcgB5AFIAZQBxAHUAZQBzAHQACxYgQwBDAFQAQwBfAEEAQwBBAEQAXwBEAEUARwBSAEUARQADARImAGIAaQBuAGQAVgBhAHIAcwAUFQEOJgByAGUAcwB1AGwAdAAGARwmAHEAdQBlAHIAeQBfAHIAZQBxAHUAZQBzAHQABQoSZwBlAHQAUgBlAHMAdQBsAHQACxQVLhU9Fg5zAHUAbQBtAGEAcgB5AC0BHCYAcQB1AGUAcgB5AF8AcgBlAHEAdQBlAHMAdAAGaQoaQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwBXCghVAHQAaQBsAFcKGHEAdQBlAHIAeQBSAGUAcQB1AGUAcwB0AAsWIkMAQwBUAEMAXwBUAFIATgBTAF8AUwBVAE0ATQBBAFIAWQADARImAGIAaQBuAGQAVgBhAHIAcwAUFQEOJgByAGUAcwB1AGwAdAAGARwmAHEAdQBlAHIAeQBfAHIAZQBxAHUAZQBzAHQABQoSZwBlAHQAUgBlAHMAdQBsAHQACxQVLhU9FgxzAGMAaABvAG8AbAAtARwmAHEAdQBlAHIAeQBfAHIAZQBxAHUAZQBzAHQABmkKGkMAQwBUAEMAXwBBAFAASQBfAFMAUgBWAEMAVwoIVQB0AGkAbABXChhxAHUAZQByAHkAUgBlAHEAdQBlAHMAdAALFi5DAEMAVABDAF8ASQBOAFMAVABJAFQAVQBUAEkATwBOAF8ARABFAFQAQQBJAEwAAwESJgBiAGkAbgBkAFYAYQByAHMAFBUBDiYAcgBlAHMAdQBsAHQABgEcJgBxAHUAZQByAHkAXwByAGUAcQB1AGUAcwB0AAUKEmcAZQB0AFIAZQBzAHUAbAB0AAsUFS4VPRYOcwBlAHMAcwBpAG8AbgAtARwmAHEAdQBlAHIAeQBfAHIAZQBxAHUAZQBzAHQABmkKGkMAQwBUAEMAXwBBAFAASQBfAFMAUgBWAEMAVwoIVQB0AGkAbABXChhxAHUAZQByAHkAUgBlAHEAdQBlAHMAdAALFiJDAEMAVABDAF8AVABSAE4AUwBfAFMARQBTAFMASQBPAE4AAwESJgBiAGkAbgBkAFYAYQByAHMAFBUBFiYAcgBlAHMAdQBsAHQATABpAHMAdAAGARwmAHEAdQBlAHIAeQBfAHIAZQBxAHUAZQBzAHQABQoaZwBlAHQAUgBlAHMAdQBsAHQATABpAHMAdAALFBVPJCQAJC8AKgAgAHQAZQByAG0AIABjAG8AdQByAHMAZQBzACAAKgAvAAEEJgBqAAZQEgAAAAEAAAAAAAAAAAAAAAAAABUlCwEEJgBqAAwBFiYAcgBlAHMAdQBsAHQATABpAHMAdAAFCgZMAGUAbgAULQESJgBiAGkAbgBkAFYAYQByAHMATFASAAAAAgAAAAAAAAAAAAAAAAAATQYBFiYAcgBlAHMAdQBsAHQATABpAHMAdABMAQQmAGoATRUBHiYAcQB1AGUAcgB5AF8AcgBlAHEAdQBlAHMAdAAwAAZpChpDAEMAVABDAF8AQQBQAEkAXwBTAFIAVgBDAFcKCFUAdABpAGwAVwoYcQB1AGUAcgB5AFIAZQBxAHUAZQBzAHQACxYeQwBDAFQAQwBfAFMAVABEAE4AVABfAEUATgBSAEwAAwESJgBiAGkAbgBkAFYAYQByAHMAFBUBGCYAcgBlAHMAdQBsAHQATABpAHMAdAAwAAYBHiYAcQB1AGUAcgB5AF8AcgBlAHEAdQBlAHMAdAAwAAUKGmcAZQB0AFIAZQBzAHUAbAB0AEwAaQBzAHQACxQVREAMcwB0AHIAaQBuAGcAARQmAHQAZQByAG0AXwBjAHIAcwBlAAYBGCYAcgBlAHMAdQBsAHQATABpAHMAdAAwAAUKCEoAbwBpAG4ACwEQJgBkAGUAbABpAG0AaQB0AAMWAAMWABQVTwEWJgByAGUAcwB1AGwAdABMAGkAcwB0AAUKDlIAZQBwAGwAYQBjAGUACwEEJgBqAANQEgAAAAEAAAAAAAAAAAAAAAAAAAMBFiYAcgBlAHMAdQBsAHQATABpAHMAdABMAQQmAGoATQMBFCYAdABlAHIAbQBfAGMAcgBzAGUAFBUBBCYAagAGAQQmAGoAE1ASAAAACwAAAAAAAAAAAAAAAAAAFSYVTwEOJgByAGUAcwB1AGwAdAAGARwmAHEAdQBlAHIAeQBfAHIAZQBxAHUAZQBzAHQABQoiZwBlAHQAUgBlAHMAdQBsAHQARgByAG8AbQBMAGkAcwB0AAsBFiYAcgBlAHMAdQBsAHQATABpAHMAdAAUFU8uFT8VTzgBDiYAcgBlAHMAdQBsAHQAFWQVLQfWA/8BAAAAAP8AAEAA/0EBCABMQwBDAFQAQwBfAEEAUABJAF8AUwBSAFYAQwA6AEgAQQBOAEQATABFAFIAUwA6AEMAQwBUAEMAXwBUAHIAYQBuAHMAYwByAGkAcAB0AAAABx5DAEMAVABDAF8AVAByAGEAbgBzAGMAcgBpAHAAdAABAQESZwBlAHQAUgBlAHMAdQBsAHQAUkMAQwBUAEMAXwBBAFAASQBfAFMAUgBWAEMAOgBIAEEATgBEAEwARQBSAFMAOgBDAEMAVABDAFIAZQBxAHUAZQBzAHQASABhAG4AZABsAGUAcgAD/wEAAAAH/wQAEAAHhQAADlAAQQBDAEsAQQBHAEUAAA5QAEEAQwBLAEEARwBFABhRAFUARQBSAFkAUgBFAFEAVQBFAFMAVAA=</peoplecode_blob>
+  </instance>

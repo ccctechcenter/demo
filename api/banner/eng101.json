@@ -1,0 +1,8 @@
+{
+  "sisCourseId": "ENG101",
+  "subject": "ENG",
+  "number": "101",
+  "title": "English 101 - College English",
+  "description": "This is the required English course for college",
+  "maximumUnits": "3"
+}
